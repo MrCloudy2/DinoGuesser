@@ -272,6 +272,20 @@ body {
 .btn-play:hover  { opacity: .9; transform: translateY(-1px); }
 .btn-play:active { transform: translateY(0); opacity: 1; }
 
+.lobby-github {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  margin-top: .9rem;
+  font-size: .72rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  letter-spacing: .04em;
+  opacity: .55;
+  transition: opacity .15s;
+}
+.lobby-github:hover { opacity: 1; }
+
 /* ── Game layout ─────────────────────────────────────────────────────────── */
 #app {
   max-width: 560px;
