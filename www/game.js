@@ -349,9 +349,8 @@ function renderImage() {
 
   const src = imgView === 'fossil' ? (imgFossil || imgArt) : (imgArt || imgFossil);
 
-  el('dino-img')   .style.display = (showImg && !!src) ? 'block' : 'none';
-  el('ph-no-image').style.display = (showImg && !src)  ? 'flex'  : 'none';
-  el('ph-hidden')  .style.display = (!showImg)         ? 'flex'  : 'none';
+  el('dino-img')   .style.display = (!!src) ? 'block' : 'none';
+  el('ph-no-image').style.display = (!src)  ? 'flex'  : 'none';
 
   const toggle = el('img-toggle');
   toggle.style.display = (showImg && hasBoth) ? 'flex' : 'none';
