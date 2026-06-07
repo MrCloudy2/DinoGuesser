@@ -1,0 +1,4108 @@
+{
+  "Aardonyx": {
+    "art_filename": "Aardonyx_TD.png",
+    "fossil_filename": "Aardonyx_skull.png"
+  },
+  "Abdarainurus": {
+    "fossil_filename": "Abdarainurus.jpg"
+  },
+  "Abditosaurus": {
+    "art_filename": "Abditosaurus_kuehnei.png"
+  },
+  "Abrictosaurus": {
+    "art_filename": "Abrictosaurus_dinosaur.png",
+    "fossil_filename": "Forelimb_of_Abrictosaurus.jpg"
+  },
+  "Abrosaurus": {
+    "art_filename": "Abrosaurus_head.jpg",
+    "fossil_filename": "Abrosaurus_skull.jpg"
+  },
+  "Abydosaurus": {
+    "art_filename": "Abydosaurus_NT.jpg"
+  },
+  "Acantholipan": {
+    "art_filename": "Acantholipan_LM.png"
+  },
+  "Acheroraptor": {
+    "art_filename": "Acheroraptor_reconstruction.jpg",
+    "fossil_filename": "Acheroraptor_skull_reconstruction.png"
+  },
+  "Achillobator": {
+    "art_filename": "Achillobator_Skeleton_Reconstruction.jpg",
+    "fossil_filename": "Achillobator_Pelvis.jpg"
+  },
+  "Acristavus": {
+    "art_filename": "Acristavus_gagslarsoni.png",
+    "fossil_filename": "Acristavus_Skull.png"
+  },
+  "Acrocanthosaurus": {
+    "art_filename": "Acrocanthosaurus_atokensis.jpg",
+    "fossil_filename": "Acrocanthosaurus_skull.png"
+  },
+  "Acrotholus": {
+    "art_filename": "Acrotholus_NT.jpg",
+    "fossil_filename": "Acrotholus.jpg"
+  },
+  "Adamantisaurus": {
+    "art_filename": "Adamantisaurus_by_Ademar_Pereira.JPG"
+  },
+  "Adasaurus": {
+    "art_filename": "Adasaurus_Restoration.jpg",
+    "fossil_filename": "Adasaurus_Skull.png"
+  },
+  "Adelolophus": {
+    "art_filename": "Life_reconstruction_of_Adelolophus_hutchisoni.png",
+    "fossil_filename": "Adelolophus_holotype_multiple_views.png"
+  },
+  "Adeopapposaurus": {
+    "art_filename": "Adeopapposaurus_mognai.jpg",
+    "fossil_filename": "ADEOPAPPOSAURUS_ESQUELETO.jpg"
+  },
+  "Adratiklit": {
+    "art_filename": "Adratiklit_boulahfa.png",
+    "fossil_filename": "Adratiklit_holotype.png"
+  },
+  "Adynomosaurus": {
+    "art_filename": "Life_reconstruction_of_Adynomosaurus_arcanus.png"
+  },
+  "Aegyptosaurus": {
+    "art_filename": "Aegyptosaurus_LM.png",
+    "fossil_filename": "Aegyptosaurus-holotype.jpg"
+  },
+  "Aeolosaurus": {
+    "fossil_filename": "Aeolosaurus.jpg"
+  },
+  "Aepisaurus": {
+    "fossil_filename": "Aepisaurus_elephantinus.JPG"
+  },
+  "Aepyornithomimus": {
+    "art_filename": "Aepyornithomimus.jpg",
+    "fossil_filename": "Phalanges_of_Aepyornithomimus.jpg"
+  },
+  "Aerosteon": {
+    "art_filename": "Aerosteon_BW.jpg",
+    "fossil_filename": "Aerosteon_riocoloradensis.jpg"
+  },
+  "Afromimus": {
+    "art_filename": "Afromimus_LM_(gray).png"
+  },
+  "Afrovenator": {
+    "art_filename": "Afrovenator_reconstruction.png",
+    "fossil_filename": "Afrovenator_skeleton.jpg"
+  },
+  "Agilisaurus": {
+    "art_filename": "Agilisaurus_life_restoration.jpg",
+    "fossil_filename": "Agilisaurus_louderbacki.jpg"
+  },
+  "Agnosphitys": {
+    "art_filename": "Agnosphitys_cromhallensis2_copia.jpg"
+  },
+  "Agujaceratops": {
+    "art_filename": "Agujaceratops_life_restoration.jpg",
+    "fossil_filename": "Agujaceratops_skull.jpg"
+  },
+  "Agustinia": {
+    "art_filename": "Agustinia_BW.jpg"
+  },
+  "Ahshislepelta": {
+    "art_filename": "Ahshislepelta_LM.png"
+  },
+  "Ahshislesaurus": {
+    "art_filename": "Ahshislesaurus_wimani.png",
+    "fossil_filename": "Ahshislesaurus_Skeletal_Referred.png"
+  },
+  "Ahvaytum": {
+    "art_filename": "Ahvaytum_bahndooiveche.png"
+  },
+  "Ajnabia": {
+    "art_filename": "Life_reconstruction_of_Ajnabia_odysseus.png",
+    "fossil_filename": "Ajnabia_odysseus_maxilla_by_Nick_Longrich.jpg"
+  },
+  "Akainacephalus": {
+    "art_filename": "Akainacephalus_johnsoni_Wikipedia_Juandertal.jpg",
+    "fossil_filename": "Akainacephalus_reconstructions.png"
+  },
+  "Alamosaurus": {
+    "art_filename": "Alamosaurus-sanjuanensis.jpg",
+    "fossil_filename": "Alamosaurus-mount-in-Perot-museum.jpg"
+  },
+  "Alaskacephale": {
+    "art_filename": "Alaskacephale_gangloffi_copia.jpg"
+  },
+  "Albalophosaurus": {
+    "art_filename": "Albalophosaurus_paqui_LMR.png"
+  },
+  "Albertaceratops": {
+    "art_filename": "Albertaceratops_BW.jpg",
+    "fossil_filename": "Philip_J._Currie_Albertaceratops.jpg"
+  },
+  "Albertavenator": {
+    "fossil_filename": "Albertavenator.png"
+  },
+  "Albertonykus": {
+    "art_filename": "Albertonykus_borealis.jpg"
+  },
+  "Alcovasaurus": {
+    "art_filename": "Alcovasaurus_longispinus.png",
+    "fossil_filename": "Alcovasaurus_longispinus_Skeletal.png"
+  },
+  "Alectrosaurus": {
+    "art_filename": "Gigantoraptor_and_Alectrosaurus.jpg",
+    "fossil_filename": "Alectrosaurus_Skeleton_Reconstruction.jpg"
+  },
+  "Aletopelta": {
+    "art_filename": "Aletopelta_NT.jpg",
+    "fossil_filename": "Aletopelta.jpg"
+  },
+  "Algoasaurus": {
+    "fossil_filename": "Algoasaurus.jpg"
+  },
+  "Alioramus": {
+    "fossil_filename": "Texas_Alioramus.jpg"
+  },
+  "Alpkarakush": {
+    "art_filename": "Alpkarakush_kyrgyzicus.png"
+  },
+  "Altirhinus": {
+    "art_filename": "Altirhinus_01.JPG",
+    "fossil_filename": "Altirhinus_kurzanovi.JPG"
+  },
+  "Altispinax": {
+    "art_filename": "Altispinax_dunkeri_by_Paleogeek.jpg",
+    "fossil_filename": "Cfr_Altispinax_dunkeri.JPG"
+  },
+  "Alvarezsaurus": {
+    "art_filename": "Alvarezsaurus_calvoi.jpg",
+    "fossil_filename": "Alvarezsaurus.jpg"
+  },
+  "Alxasaurus": {
+    "art_filename": "Alxasaurus_TD.png",
+    "fossil_filename": "Alxasaurus_FukuiJH.jpg"
+  },
+  "Amanzia": {
+    "fossil_filename": "Amanzia_reconstruction_(cropped).png"
+  },
+  "Amargasaurus": {
+    "art_filename": "Amargasaurus_Reconstruction_Fred_Wierum.png",
+    "fossil_filename": "Amargasaurus_in_Prague_National_Museum.jpg"
+  },
+  "Amargatitanis": {
+    "art_filename": "Amargatitanis_LM.png"
+  },
+  "Ambopteryx": {
+    "art_filename": "Ambopteryx_restoration.png",
+    "fossil_filename": "Ambopteryx_longibrachium_holotype_(cropped).jpg"
+  },
+  "Ampelognathus": {
+    "art_filename": "Ampelognathus_TD.png",
+    "fossil_filename": "Ampelognathus_holotype.jpg"
+  },
+  "Ampelosaurus": {
+    "art_filename": "AmpelosaurusDB.jpg",
+    "fossil_filename": "Ampelosaurus_mount_4.JPG"
+  },
+  "Amtocephale": {
+    "art_filename": "Amtocephale_LM.png"
+  },
+  "Amygdalodon": {
+    "art_filename": "Amygdalodon_LM.png",
+    "fossil_filename": "Type_material_of_Amygdalodon_patagonicus_Cabrera._1947.png"
+  },
+  "Anabisetia": {
+    "art_filename": "Anabisetia_saldiviai_copia.jpg",
+    "fossil_filename": "Anabisetia.jpg"
+  },
+  "Analong": {
+    "fossil_filename": "Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg"
+  },
+  "Anasazisaurus": {
+    "art_filename": "Anasazisaurus_horneri.png",
+    "fossil_filename": "Anasazisaurus_by_Nick_Longrich.jpg"
+  },
+  "Anchiornis": {
+    "art_filename": "Anchiornis_huxleyi_skel_hartman_2017.png",
+    "fossil_filename": "Anchiornis-Beijing_Museum_of_Natural_History.jpg"
+  },
+  "Anchisaurus": {
+    "art_filename": "Anchisaurus_NT.jpg",
+    "fossil_filename": "Large_marsh_anchisaurus.jpg"
+  },
+  "Andesaurus": {
+    "art_filename": "Andesaurus_LM.png"
+  },
+  "Angolatitan": {
+    "fossil_filename": "Angolatitan_NMNH.jpg"
+  },
+  "Angulomastacator": {
+    "art_filename": "Life_reconstruction_of_Angulomastacator_daviesi.png",
+    "fossil_filename": "Angulomastacator_skull_reconstruction.jpg"
+  },
+  "Anhuilong": {
+    "art_filename": "Anhuilong_LM.png",
+    "fossil_filename": "Anhuilong_diboensis_Ulna.jpg"
+  },
+  "Aniksosaurus": {
+    "fossil_filename": "Aniksosaurus.png"
+  },
+  "Animantarx": {
+    "art_filename": "Animantarx_ramaljonesi_life_reconstruction.png",
+    "fossil_filename": "Animantarx_price_2.jpg"
+  },
+  "Ankylosaurus": {
+    "fossil_filename": "Ankylosaurus.jpg"
+  },
+  "Anodontosaurus": {
+    "art_filename": "Anodontosaurus_LM.png",
+    "fossil_filename": "lossy-page1-250px-Anodontosaurus_lambei_ROM_832.TIF.jpg"
+  },
+  "Anomalipes": {
+    "fossil_filename": "Anomalipes_pes.jpg"
+  },
+  "Anserimimus": {
+    "fossil_filename": "Anserimimusbcn4.jpg"
+  },
+  "Antarctopelta": {
+    "fossil_filename": "Comparison_of_teeth_and_dentary_of_Stegouros_elengassen_and_Antarctopelta_oliveroi.jpg"
+  },
+  "Anteavis": {
+    "art_filename": "Anteavis_crurilongus.png"
+  },
+  "Antetonitrus": {
+    "art_filename": "Antetonitrus_reconstruction.jpg",
+    "fossil_filename": "Antetonitrus_ingenipes.jpg"
+  },
+  "Antrodemus": {
+    "fossil_filename": "Antrodemus.jpg"
+  },
+  "Aorun": {
+    "art_filename": "Aorun.png",
+    "fossil_filename": "Aorun_skull.jpg"
+  },
+  "Apatoraptor": {
+    "art_filename": "Apatoraptor_NT_small.jpg"
+  },
+  "Appalachiosaurus": {
+    "art_filename": "Appalachiosaurus_montgomeriensis.jpg",
+    "fossil_filename": "Tellus_Appalachiosaurus.jpg"
+  },
+  "Aquilarhinus": {
+    "art_filename": "Aquilarhinus_palimentus.png"
+  },
+  "Aquilops": {
+    "art_filename": "Aquilops.png",
+    "fossil_filename": "Aquilops_americanus.png"
+  },
+  "Aratasaurus": {
+    "art_filename": "Aratasaurus_museunacionali.jpg",
+    "fossil_filename": "Aratasaurus.jpg"
+  },
+  "Archaeoceratops": {
+    "art_filename": "Archaeoceratops_BW.jpg",
+    "fossil_filename": "Archaeoceratops_TambaJH.jpg"
+  },
+  "Archaeocursor": {
+    "art_filename": "Archaeocursor_asiaticus.png",
+    "fossil_filename": "Archaeocursor_(holotype).png"
+  },
+  "Archaeodontosaurus": {
+    "fossil_filename": "Archaeodontosaurus_dent_fond.jpg"
+  },
+  "Archaeornithoides": {
+    "art_filename": "Archaeornithoides.jpg",
+    "fossil_filename": "Archaeornithoides_skull.png"
+  },
+  "Archaeornithomimus": {
+    "fossil_filename": "ArchaeornithomimusAsiaticus-PaleozoologicalMuseumOfChina-May23-08.jpg"
+  },
+  "Arcovenator": {
+    "art_filename": "Arcovenator.jpg",
+    "fossil_filename": "Arcovenator_escotae.jpg"
+  },
+  "Ardetosaurus": {
+    "art_filename": "Ardetosaurus_viator.png",
+    "fossil_filename": "Ardetosaurus_viator_(skeletal_reconstruction).png"
+  },
+  "Arenysaurus": {
+    "art_filename": "Life_reconstruction_of_Arenysaurus_ardevoli.png",
+    "fossil_filename": "Arenysaurus.png"
+  },
+  "Argentinosaurus": {
+    "art_filename": "Argentinosaurus_BW.jpg",
+    "fossil_filename": "Argentinosaurus_dorsal_LA_County_Museum_3.jpg"
+  },
+  "Argyrosaurus": {
+    "art_filename": "Argyrosaurus_superbus.jpg",
+    "fossil_filename": "Argyrosaurus_superbus_holotype.jpg"
+  },
+  "Aristosaurus": {
+    "fossil_filename": "Aristosaurus_covering_slab.jpg"
+  },
+  "Aristosuchus": {
+    "fossil_filename": "Aristosuchus.jpg"
+  },
+  "Arkansaurus": {
+    "art_filename": "Arkansaurus_NT.jpg"
+  },
+  "Arrhinoceratops": {
+    "art_filename": "Arrhinoceratops_TD.png",
+    "fossil_filename": "Arrhinoceratops_head_bw.jpg"
+  },
+  "Arstanosaurus": {
+    "art_filename": "Arstanosaurus_reconstruction.png"
+  },
+  "Asiatyrannus": {
+    "fossil_filename": "Asiatyrannus_(holotype).png"
+  },
+  "Astigmasaura": {
+    "art_filename": "Astigmasaura_genuflexa.png"
+  },
+  "Asylosaurus": {
+    "art_filename": "Asylosaurus_NT.jpg"
+  },
+  "Athenar": {
+    "art_filename": "Athenar_bermani.png"
+  },
+  "Atlantosaurus": {
+    "art_filename": "Flammarion_atlantosaurus.jpg",
+    "fossil_filename": "Atlantosaurus_montanus.jpg"
+  },
+  "Atlasaurus": {
+    "art_filename": "Atlasaurus.jpg",
+    "fossil_filename": "Atlasaurus_imelakei.jpg"
+  },
+  "Atlascopcosaurus": {
+    "fossil_filename": "Atlascopcosaurus_maxillae.png"
+  },
+  "Atrociraptor": {
+    "art_filename": "Atrociraptor.jpg",
+    "fossil_filename": "Atrociraptor_TMP_95.166.1.jpg"
+  },
+  "Atsinganosaurus": {
+    "fossil_filename": "Atsinganosaurus.jpg"
+  },
+  "Augustynolophus": {
+    "fossil_filename": "Augustynolophus_LACM.jpg"
+  },
+  "Auroraceratops": {
+    "art_filename": "Auroraceratops_TD.png",
+    "fossil_filename": "Discovery_Site_Simulation_of_Auroraceratops_rugosus.JPG"
+  },
+  "Aurornis": {
+    "art_filename": "Aurornis.jpg"
+  },
+  "Australodocus": {
+    "art_filename": "Australodocus_LM.png",
+    "fossil_filename": "Australodocus.jpeg"
+  },
+  "Australovenator": {
+    "art_filename": "Australovenator.jpg",
+    "fossil_filename": "Banjo_Australovenator.jpg"
+  },
+  "Austroposeidon": {
+    "art_filename": "Austroposeidon_LM.jpg",
+    "fossil_filename": "Dorsal_vertebra_of_Austroposeidon.PNG"
+  },
+  "Austroraptor": {
+    "art_filename": "Austroraptor_cabazai_size_chart.png",
+    "fossil_filename": "Austroraptor.jpg"
+  },
+  "Austrosaurus": {
+    "art_filename": "Austrosaurus_McKillopi.png",
+    "fossil_filename": "Austrosaurus_vertebrae.jpg"
+  },
+  "Avaceratops": {
+    "art_filename": "Avaceratops_BW.jpg",
+    "fossil_filename": "Avaceratops_squamosal.png"
+  },
+  "Aviatyrannis": {
+    "art_filename": "Aviatyrannis_estimated_size_01.png",
+    "fossil_filename": "Aviatyrannis_remains_01.png"
+  },
+  "Avimimus": {
+    "art_filename": "Avimimus_mmartyniuk_wiki.png",
+    "fossil_filename": "Avimimus_skeleton.jpg"
+  },
+  "Baalsaurus": {
+    "fossil_filename": "Baalsaurus_and_bonitasaura_jaws.jpg"
+  },
+  "Bactrosaurus": {
+    "fossil_filename": "Bactrosaurus.JPG"
+  },
+  "Bagaceratops": {
+    "art_filename": "Bagaceratops_Restoration.png",
+    "fossil_filename": "Bagaceratops_specimen_MPC-D_100_551B.png"
+  },
+  "Bagaraatan": {
+    "art_filename": "Bagaraatan_size_diagram.png",
+    "fossil_filename": "Bagaraatan_outline.jpg"
+  },
+  "Bagualia": {
+    "art_filename": "Bagualia_alba.jpg",
+    "fossil_filename": "MEF_Bagualia.jpg"
+  },
+  "Bagualosaurus": {
+    "art_filename": "Bagualosaurus_NT.jpg",
+    "fossil_filename": "Bagualosaurus_agudoensis.png"
+  },
+  "Baiyinosaurus": {
+    "art_filename": "Baiyinosaurus_baojiensis.png",
+    "fossil_filename": "Baiyinosaurus_(type_locality).png"
+  },
+  "Bajadasaurus": {
+    "fossil_filename": "Bajadasaurus_skull.png"
+  },
+  "Bambiraptor": {
+    "fossil_filename": "Dans_l'ombre_des_dinosaures_-_Bambiraptor_jeune_-_04.jpg"
+  },
+  "Banji": {
+    "art_filename": "Banji_long.jpg",
+    "fossil_filename": "Banji_skull.png"
+  },
+  "Bannykus": {
+    "art_filename": "Bannykus.png",
+    "fossil_filename": "Bannykus_holotype_showing_the_yellowish_conglomerate_enclosed_by_the_partial_gastralia_ribcage.jpg"
+  },
+  "Baotianmansaurus": {
+    "fossil_filename": "Baotianmansaurus_henanensis.jpg"
+  },
+  "Barapasaurus": {
+    "art_filename": "Barapasaurus_DB.jpg",
+    "fossil_filename": "Barapasaurus_skeletal_mount.png"
+  },
+  "Barilium": {
+    "fossil_filename": "Barilium_vertebra.jpg"
+  },
+  "Barrosasaurus": {
+    "fossil_filename": "Barrosasaurus.png"
+  },
+  "Bashanosaurus": {
+    "art_filename": "Bashanosaurus_primitivus.png"
+  },
+  "Beibeilong": {
+    "art_filename": "Beibeilong_size.png",
+    "fossil_filename": "Skeleton_of_Beibeilong_sinensis_(HGM_41HIII1219).jpg"
+  },
+  "Beishanlong": {
+    "art_filename": "Beishanlong_grandis.jpg",
+    "fossil_filename": "Skeleton_of_Beishanlong_grandis.JPG"
+  },
+  "Bellusaurus": {
+    "art_filename": "Bellusaurus-v1.jpg",
+    "fossil_filename": "Esqueleto_de_Bellusaurus.jpg"
+  },
+  "Berberosaurus": {
+    "art_filename": "Berberosaurus_life_restoration_2019.jpg"
+  },
+  "Berthasaura": {
+    "fossil_filename": "Berthasaura_leopoldinae_3d_Reconstruction_Alex_Pritchard_Dinosauria_-_Dinosaur_Fossil_Replicas.jpg"
+  },
+  "Betasuchus": {
+    "art_filename": "Betasuchus_by_jonagold2000-d9vf4gw.png",
+    "fossil_filename": "Betasuchus_bredai.jpg"
+  },
+  "Bicentenaria": {
+    "fossil_filename": "Bicentenaria_argentina.jpg"
+  },
+  "Bienosaurus": {
+    "fossil_filename": "Bienosaurus_dentary.jpg"
+  },
+  "Bistahieversor": {
+    "art_filename": "Bistahieversor_sealeyi_life_restoration.jpg",
+    "fossil_filename": "Bistahieversor.jpg"
+  },
+  "Bisticeratops": {
+    "art_filename": "Bisticeratops_Life_Reconstruction.png",
+    "fossil_filename": "Bisticeratops.png"
+  },
+  "Blasisaurus": {
+    "art_filename": "Life_reconstruction_of_Blasisaurus_canudoi.png",
+    "fossil_filename": "Blasisaurus_skull_reconstruction.jpg"
+  },
+  "Bolong": {
+    "art_filename": "Bolong_TD.png"
+  },
+  "Bonapartenykus": {
+    "art_filename": "Bonapartenykus_(life_restoration).png"
+  },
+  "Bonapartesaurus": {
+    "art_filename": "Bonapartesaurus_rionegrensis.png"
+  },
+  "Bonitasaura": {
+    "art_filename": "Bonitasaura_salgadoi_Skeletal.png",
+    "fossil_filename": "Bonitasaura_salgadoi_Skeletal.png"
+  },
+  "Borealopelta": {
+    "art_filename": "Borealopelta_NT.jpg",
+    "fossil_filename": "Borealopelta_Royal_Tyrrell_4.jpg"
+  },
+  "Boreonykus": {
+    "art_filename": "Boreonykus.png",
+    "fossil_filename": "Boreonykus_LM.jpg"
+  },
+  "Borogovia": {
+    "fossil_filename": "Borogovia.jpg"
+  },
+  "Bothriospondylus": {
+    "fossil_filename": "Bothriospondylus.jpg"
+  },
+  "Brachyceratops": {
+    "art_filename": "Brachyceratops_BW.jpg",
+    "fossil_filename": "Brachyceratops_montanensis.jpg"
+  },
+  "Brachytrachelopan": {
+    "art_filename": "Brachytrachelopan_BW2.jpg",
+    "fossil_filename": "Brachytrachelopan.jpg"
+  },
+  "Bravoceratops": {
+    "art_filename": "Bravoceratops_NT_small.jpg",
+    "fossil_filename": "Bravoceratops_skeletal.png"
+  },
+  "Breviceratops": {
+    "art_filename": "Breviceratops_Restoration.png",
+    "fossil_filename": "Breviceratops_holotype_line.png"
+  },
+  "Brighstoneus": {
+    "art_filename": "Brighstoneus_v2.png"
+  },
+  "Brontomerus": {
+    "art_filename": "Brontomerus_Utahraptor.jpeg",
+    "fossil_filename": "Brontomerus_all-material.jpg"
+  },
+  "Brontotholus": {
+    "art_filename": "Brontotholus_harmoni.png"
+  },
+  "Buitreraptor": {
+    "art_filename": "Buitreraptor_NT.jpg",
+    "fossil_filename": "BuitreraptorROM.JPG"
+  },
+  "Burianosaurus": {
+    "art_filename": "Burianosaurus_Augustai_OC_Harfa_Praha.jpg",
+    "fossil_filename": "Burianosaurus.jpg"
+  },
+  "Buriolestes": {
+    "art_filename": "Buriolestes_schultzi_size_comparison.png",
+    "fossil_filename": "Buriolestes_skull_color_coded.png"
+  },
+  "Bustingorrytitan": {
+    "art_filename": "Bustingorrytitan_TD.png",
+    "fossil_filename": "Bustingorrytitan_(pelvic_and_hindlimb_bones).jpg"
+  },
+  "Caenagnathasia": {
+    "art_filename": "Caenagnathasia.jpg",
+    "fossil_filename": "Caenagnathasia_martinsoni.jpg"
+  },
+  "Caenagnathus": {
+    "art_filename": "Caenagnathus.png",
+    "fossil_filename": "Caenagnathus_mandible.jpg"
+  },
+  "Caieiria": {
+    "fossil_filename": "Caieiria_allocaudata_2.jpg"
+  },
+  "Caihong": {
+    "art_filename": "Caihong_juji_life_restoration_3.jpg",
+    "fossil_filename": "Caihong_feathers.jpg"
+  },
+  "Caletodraco": {
+    "art_filename": "Caletodraco_cottardi.png"
+  },
+  "Campananeyen": {
+    "art_filename": "Campananeyen_fragilissimus.png"
+  },
+  "Camptosaurus": {
+    "art_filename": "Camptosaurus.jpg",
+    "fossil_filename": "Camptosaurus_dispar_skeleton.jpg"
+  },
+  "Campylodoniscus": {
+    "fossil_filename": "Campylodoniscus_ameghinoi_Skull_Mk_I_Me.jpg"
+  },
+  "Canardia": {
+    "art_filename": "Life_reconstruction_of_Canardia_garonnensis.png",
+    "fossil_filename": "Canardia_skull_reconstruction.jpg"
+  },
+  "Cardiodon": {
+    "fossil_filename": "Cardiodon.jpg"
+  },
+  "Cariocecus (dinosaur)": {
+    "art_filename": "Cariocecus_bocagei.png"
+  },
+  "Carnotaurus": {
+    "art_filename": "Carnotaurus_Reconstruction_(2022).png",
+    "fossil_filename": "Carnotaurus_reconstruction_Headden.jpg"
+  },
+  "Caseosaurus": {
+    "fossil_filename": "Caseosaurus_ilium.jpg"
+  },
+  "Cathartesaura": {
+    "fossil_filename": "Cathartesaura_posterior_cervical.png"
+  },
+  "Caudipteryx": {
+    "fossil_filename": "Caudipteryx_zoui_-_Untere_Kreide_-_Liaoning-China.jpg"
+  },
+  "Cedarpelta": {
+    "fossil_filename": "Cedarpelta.jpg"
+  },
+  "Cedrorestes": {
+    "fossil_filename": "Left_ilium_of_Cedrorestes.png"
+  },
+  "Cerasinops": {
+    "art_filename": "Cerasinops_BW.jpg",
+    "fossil_filename": "Cerasinops.jpg"
+  },
+  "Ceratosuchops": {
+    "art_filename": "Ceratosuchops_inferodios_by_PaleoGeek.png",
+    "fossil_filename": "Ceratosuchops_holotype.webp.png"
+  },
+  "Cetiosauriscus": {
+    "art_filename": "Cetiosauriscus_composite_skeletal.png",
+    "fossil_filename": "Cetiosauriscus_composite_skeletal.png"
+  },
+  "Cetiosaurus": {
+    "fossil_filename": "Cetiosaurus_in_Leicester.jpg"
+  },
+  "Chadititan": {
+    "art_filename": "Chadititan_calvoi.png",
+    "fossil_filename": "Chadititan_calvoi_(femora).png"
+  },
+  "Chakisaurus": {
+    "art_filename": "Chakisaurus_LMR.png"
+  },
+  "Changchunsaurus": {
+    "art_filename": "Changchunsaurus_reconstruction.png"
+  },
+  "Changmiania": {
+    "fossil_filename": "Changmiania_liaoningensis.png"
+  },
+  "Changyuraptor": {
+    "art_filename": "Changyuraptor.png"
+  },
+  "Chaoyangsaurus": {
+    "art_filename": "Chaoyangsaurus_BW.jpg",
+    "fossil_filename": "Chaoyangsaurus.png"
+  },
+  "Charonosaurus": {
+    "art_filename": "Life_reconstruction_of_Charonosaurus_jiayinensis.png",
+    "fossil_filename": "Charonosaurus_jiayinensis.001_-_MSNBrussel.jpg"
+  },
+  "Chebsaurus": {
+    "art_filename": "Chebsaurus.jpg"
+  },
+  "Chenanisaurus": {
+    "art_filename": "Chenanisaurus_barbaricus.jpg",
+    "fossil_filename": "Chenanisaurus_barbaricus_jaw_by_Nick_Longrich.jpg"
+  },
+  "Chialingosaurus": {
+    "art_filename": "Chialingosaurus_BW.jpg",
+    "fossil_filename": "Chialingosaurus-Paleozoological_Museum_of_China.jpg"
+  },
+  "Chienkosaurus": {
+    "fossil_filename": "Chienkosaurus_ulna.jpg"
+  },
+  "Chilantaisaurus": {
+    "art_filename": "Chilantaisaurus.jpg",
+    "fossil_filename": "Chilantaisaurus_tashuikouensis_skeleton.jpg"
+  },
+  "Chilesaurus": {
+    "art_filename": "Chilesaurus_skeleton.png",
+    "fossil_filename": "Chilesaurus_skeleton.png"
+  },
+  "Chindesaurus": {
+    "art_filename": "Chindesaurus_bryansmalli.png",
+    "fossil_filename": "Chindesaurus_skeleton.png"
+  },
+  "Chirostenotes": {
+    "art_filename": "Chirostenotes_limbs.jpg",
+    "fossil_filename": "Chirostenotes_pergracilis_hand.jpg"
+  },
+  "Choyrodon": {
+    "fossil_filename": "Choyrodon_skull.jpg"
+  },
+  "Chromogisaurus": {
+    "fossil_filename": "Chromogisaurus_skeleton.png"
+  },
+  "Chuandongocoelurus": {
+    "art_filename": "Chuandongocoelurus_life_restoration.jpg",
+    "fossil_filename": "Chuandongocoelurus_Skeletal.jpg"
+  },
+  "Chuanjiesaurus": {
+    "fossil_filename": "Chuanjiesaurus_fossil_in_China_Science_and_Technology_Museum.jpg"
+  },
+  "Chubutisaurus": {
+    "art_filename": "Chubutisaurus.jpg",
+    "fossil_filename": "Chubutisaurus_vertebra.jpg"
+  },
+  "Chucarosaurus": {
+    "art_filename": "Chucarosaurus_TD.png"
+  },
+  "Cienciargentina": {
+    "art_filename": "Cienciargentina_sanchezi.png"
+  },
+  "Cionodon": {
+    "fossil_filename": "Cionodon_arctatus.jpg"
+  },
+  "Citipati": {
+    "fossil_filename": "Citipati_IGM_100_1004.jpg"
+  },
+  "Claosaurus": {
+    "fossil_filename": "Claosaurus.png"
+  },
+  "Coahuilaceratops": {
+    "art_filename": "Life_reconstruction_of_Coahuilaceratops_(cropped).png",
+    "fossil_filename": "Coahuilaceratops_magnacuerna_skull.jpg"
+  },
+  "Coahuilasaurus": {
+    "art_filename": "Life_reconstruction_and_size_comparison_of_Coahuilasaurus_lipani.png",
+    "fossil_filename": "Coahuilasaurus_(skull_reconstruction).png"
+  },
+  "Coeluroides": {
+    "fossil_filename": "Coeluroides_largus.jpg"
+  },
+  "Colepiocephale": {
+    "art_filename": "Colepiocephale_lambei.png",
+    "fossil_filename": "Colepiocephale_skull.jpg"
+  },
+  "Coloradisaurus": {
+    "fossil_filename": "Coloradisaurus_skull_reconstruction.png"
+  },
+  "Compsognathus": {
+    "art_filename": "Compsognathus_BW.jpg",
+    "fossil_filename": "Compsognathus_longipes.jpg"
+  },
+  "Compsosuchus": {
+    "fossil_filename": "Compsosuchus_solus.jpg"
+  },
+  "Comptonatus": {
+    "art_filename": "Comptonatus_chasei.png"
+  },
+  "Concavenator": {
+    "art_filename": "Concavenator_corcovatus_thermo.jpg",
+    "fossil_filename": "Concavenator_in_Japan.jpg"
+  },
+  "Conchoraptor": {
+    "art_filename": "Conchoraptor_Restoration.png",
+    "fossil_filename": "Conchoraptor_in_nest.jpg"
+  },
+  "Condorraptor": {
+    "art_filename": "Condorraptor.jpg",
+    "fossil_filename": "Condorraptor_Currumili_Skeleton.jpg"
+  },
+  "Convolosaurus": {
+    "fossil_filename": "Convolosaurus_in_Perot_Museum.png"
+  },
+  "Coronosaurus": {
+    "art_filename": "Coronosaurus_NT_small.jpg",
+    "fossil_filename": "Coronosaurus_brinkmani.jpg"
+  },
+  "Corythosaurus": {
+    "art_filename": "Life_reconstruction_of_Corythosaurus_casuarius.png",
+    "fossil_filename": "Carnegie_Corythosaurus.jpg"
+  },
+  "Cratoavis": {
+    "art_filename": "Cratoavis_by_themingau_dezpfxm.png"
+  },
+  "Crittendenceratops": {
+    "art_filename": "Crittendenceratops_size.jpg"
+  },
+  "Cruxicheiros": {
+    "fossil_filename": "Cruxicheiros_newmanorum.jpg"
+  },
+  "Cryolophosaurus": {
+    "art_filename": "Cryolophosaurus_reconstruction_(flipped).jpg",
+    "fossil_filename": "Cryolophosaurus_skeletal_mount.jpg"
+  },
+  "Cryptosaurus": {
+    "fossil_filename": "Cryptosaurus.jpg"
+  },
+  "Daanosaurus": {
+    "art_filename": "Bellusaurus-v1.jpg"
+  },
+  "Daemonosaurus": {
+    "art_filename": "Daemonosaurus_chauliodus.jpg",
+    "fossil_filename": "Daemonosaurus_skull_cast_displayed_at_Ruth_Hall_Museum_of_Paleontology_(Ghost_Ranch).jpg"
+  },
+  "Dahalokely": {
+    "art_filename": "Dahalokely_restoration.jpg",
+    "fossil_filename": "Dahalokely.png"
+  },
+  "Dakotadon": {
+    "fossil_filename": "Dakotadon_SDSM_8656_skull.png"
+  },
+  "Dakotaraptor": {
+    "art_filename": "Dakotaraptor_wiki.jpg",
+    "fossil_filename": "Dakotaraptor.jpg"
+  },
+  "Daliansaurus": {
+    "art_filename": "Daliansaurus_reconstruction.png"
+  },
+  "Dasosaurus": {
+    "art_filename": "Dasosaurus_TD.png"
+  },
+  "Daspletosaurus": {
+    "art_filename": "Daspletosaurus_sp._(CMC_VP15826)_skeletal.png",
+    "fossil_filename": "FMNH_Daspletosaurus.jpg"
+  },
+  "Datai": {
+    "art_filename": "Datai_TD.png",
+    "fossil_filename": "Datai_(type_skulls).jpg"
+  },
+  "Datousaurus": {
+    "fossil_filename": "Datousaurus.jpg"
+  },
+  "Daurlong": {
+    "art_filename": "Daurlong_paleoart.png",
+    "fossil_filename": "Daurlong_skeletal_reconstruction.jpg"
+  },
+  "Daxiatitan": {
+    "fossil_filename": "Daxiatitan.jpg"
+  },
+  "Deinocheirus": {
+    "art_filename": "Hypothetical_Deinocheirus.jpg",
+    "fossil_filename": "Deinocheirus_mount.jpg"
+  },
+  "Deinonychus": {
+    "art_filename": "Deinonychus_Restoration.png",
+    "fossil_filename": "Deinonychus_antirrhopus_-_AMNH_-_DSC06297.JPG"
+  },
+  "Demandasaurus": {
+    "art_filename": "Demandasaurus_NT.jpg",
+    "fossil_filename": "Demandasaurus.jpg"
+  },
+  "Diabloceratops": {
+    "art_filename": "Diabloceratops_TD.png",
+    "fossil_filename": "Diabloceratops.jpg"
+  },
+  "Diclonius": {
+    "fossil_filename": "Diclonius_mirabilis_Cope.png"
+  },
+  "Dicraeosaurus": {
+    "art_filename": "Dicraeosaurus_hansemanni22.jpg",
+    "fossil_filename": "Dicraeosaurus_Berlin.jpg"
+  },
+  "Didanodon": {
+    "fossil_filename": "Trachodon_altidens_GSC_1092.png"
+  },
+  "Dilophosaurus": {
+    "fossil_filename": "DilophosaurusROM1.JPG"
+  },
+  "Dineobellator": {
+    "art_filename": "Dineobellator_notohesperus_NT.jpg",
+    "fossil_filename": "Dineobellator_skeleton.png"
+  },
+  "Dinheirosaurus": {
+    "fossil_filename": "Dinheirosaurus_holotype.png"
+  },
+  "Diplotomodon": {
+    "fossil_filename": "Diplotomodon.jpg"
+  },
+  "Diuqin": {
+    "art_filename": "Diuqin_TD.png",
+    "fossil_filename": "Diuqin_type_locality.png"
+  },
+  "Dolichosuchus": {
+    "fossil_filename": "Dolichosuchus_fibula.jpg"
+  },
+  "Dongbeititan": {
+    "art_filename": "Dongbeititan.png"
+  },
+  "Dongyangosaurus": {
+    "fossil_filename": "Dongyangosaurus_fossil.jpg"
+  },
+  "Dornraptor": {
+    "art_filename": "Dornraptor_normani.png",
+    "fossil_filename": "Dornraptor_specimens.png"
+  },
+  "Draconyx": {
+    "art_filename": "Draconyx.png"
+  },
+  "Dracopelta": {
+    "art_filename": "Mymoorapelta_maysi.jpg",
+    "fossil_filename": "Gargoyleosaurus.png"
+  },
+  "Dracoraptor": {
+    "art_filename": "Dracoraptor_National_Museum_Cardiff_Amgueddfa_Cenedlaethol_Caerdydd.jpg",
+    "fossil_filename": "Dracoraptor.PNG"
+  },
+  "Dracovenator": {
+    "art_filename": "Dracovenator_regenti.jpg",
+    "fossil_filename": "Dracovenator_fossils.png"
+  },
+  "Dreadnoughtus": {
+    "art_filename": "Dreadnoughtus_NT_small.jpg",
+    "fossil_filename": "Dreadnoughtus_Published_Reconstruction_(Version_2).jpg"
+  },
+  "Dromaeosauroides": {
+    "art_filename": "Dromaeosauroides.jpg",
+    "fossil_filename": "Dromaeosauroides_tooth_cast.jpg"
+  },
+  "Dromicosaurus": {
+    "fossil_filename": "Dromicosaurus_type_vanHoepen_1920_1.jpg"
+  },
+  "Drusilasaura": {
+    "art_filename": "Drusilasaura.png"
+  },
+  "Dryosaurus": {
+    "art_filename": "DryosaurusNV.jpg",
+    "fossil_filename": "Beneski_Museum_of_Natural_History_Dryosaurus_altus.jpg"
+  },
+  "Dryptosauroides": {
+    "fossil_filename": "Dryptosauroides_vertebrae.png"
+  },
+  "Dryptosaurus": {
+    "art_filename": "Dryptosaurus_Feathered_Reconstruction.jpg",
+    "fossil_filename": "NJSM_Dryptosaurus.jpg"
+  },
+  "Duonychus": {
+    "art_filename": "Duonychus_tsogtbaatari.png",
+    "fossil_filename": "Duonychus_tsogtbaatari_in_2019_01.jpg"
+  },
+  "Duriatitan": {
+    "fossil_filename": "Duriatitan.png"
+  },
+  "Duriavenator": {
+    "fossil_filename": "Duriavenator_reconstructed_skull.png"
+  },
+  "Dyoplosaurus": {
+    "fossil_filename": "lossy-page1-250px-Dyoplosaurus.tif.jpg"
+  },
+  "Dyslocosaurus": {
+    "fossil_filename": "Dyslocosaurus_polyonychius.jpg"
+  },
+  "Dystrophaeus": {
+    "fossil_filename": "Dystrophaeus_viaemalae_holotype_ulna.png"
+  },
+  "Dzharacursor": {
+    "art_filename": "Dzharacursor_bissektensis.png"
+  },
+  "Dzharaonyx": {
+    "fossil_filename": "Dzharaonyx_caudal_vertebrae.png"
+  },
+  "Dzharatitanis": {
+    "fossil_filename": "Dzharatitanis_Holotype_Vertebra.png"
+  },
+  "Echinodon": {
+    "art_filename": "Nuthetes_and_Echinodon.jpg",
+    "fossil_filename": "Echinodon_becklesii.jpg"
+  },
+  "Ekrixinatosaurus": {
+    "art_filename": "Ekrixinatosaurus_novasi_scale_diagram.png",
+    "fossil_filename": "Ekrixinatosaurus_novasi_skull_diagram.png"
+  },
+  "Elaltitan": {
+    "art_filename": "Elaltitan_lilloi_Skeletal_Mk_II_Gunnar_Bivens.jpg",
+    "fossil_filename": "Elaltitan_lilloi_Skeletal_Mk_II_Gunnar_Bivens.jpg"
+  },
+  "Elemgasem": {
+    "art_filename": "Elemgasem_nubilus.jpg"
+  },
+  "Emausaurus": {
+    "art_filename": "Emausaurus_Hagen_Theropod.jpg",
+    "fossil_filename": "Emausaurus_dentary.png"
+  },
+  "Embasaurus": {
+    "fossil_filename": "Embasaurus_minax.jpg"
+  },
+  "Emiliasaura": {
+    "art_filename": "Emiliasaura_alessandrii.png"
+  },
+  "Enigmacursor": {
+    "art_filename": "Skeletal_and_life_reconstruction_of_Enigmacursor.jpg"
+  },
+  "Eoabelisaurus": {
+    "art_filename": "Eoabelisaurus_life_restoration.jpg",
+    "fossil_filename": "MEF_Eoabelisaurus.jpg"
+  },
+  "Eocarcharia": {
+    "fossil_filename": "Eocarcharia_(referred_teeth).png"
+  },
+  "Eocursor": {
+    "art_filename": "Eocursor_BW.jpg",
+    "fossil_filename": "Eocursor_(skeletal_reconstruction).png"
+  },
+  "Eodromaeus": {
+    "art_filename": "Eodromaeus_murphi_(2).jpg",
+    "fossil_filename": "Eodromaeus_skeletal.png"
+  },
+  "Eolambia": {
+    "art_filename": "Eolambia_restoration.png",
+    "fossil_filename": "Eolambia.png"
+  },
+  "Eoneophron": {
+    "art_filename": "Eoneophron_infernalis.png",
+    "fossil_filename": "Eoneophron_holotype_left_femur.png"
+  },
+  "Eoraptor": {
+    "art_filename": "Eoraptor_NT_small.jpg",
+    "fossil_filename": "Eoraptor_fossil.jpg"
+  },
+  "Eotrachodon": {
+    "art_filename": "Eotrachodon_NT_small.jpg",
+    "fossil_filename": "Eotrachodon_maxilla.png"
+  },
+  "Eotriceratops": {
+    "art_filename": "Eotriceratops_TD.png",
+    "fossil_filename": "Eotriceratops.jpg"
+  },
+  "Eotyrannus": {
+    "art_filename": "Eotyrannus_2_NT.jpg",
+    "fossil_filename": "Skeletal_reconstruction_of_Eotyrannus.png"
+  },
+  "Epachthosaurus": {
+    "fossil_filename": "Epachthosaurus_skeleton_mount.jpg"
+  },
+  "Epichirostenotes": {
+    "fossil_filename": "Epichirostenotes.jpg"
+  },
+  "Equijubus": {
+    "fossil_filename": "Equijubus_normani_skeleton.jpg"
+  },
+  "Erectopus": {
+    "fossil_filename": "Erectopus.jpg"
+  },
+  "Erketu": {
+    "fossil_filename": "Erketu_ellisoni_skeletal.png"
+  },
+  "Erliansaurus": {
+    "art_filename": "Erliansaurus_bellamanus.jpg",
+    "fossil_filename": "Erliansaurus_mount.jpg"
+  },
+  "Eshanosaurus": {
+    "fossil_filename": "Eshanosaurus_IVPP_V11579.png"
+  },
+  "Eucercosaurus": {
+    "fossil_filename": "Eucercosaurus_vertebrae.png"
+  },
+  "Eucnemesaurus": {
+    "fossil_filename": "Eucnemesaurus_pes.png"
+  },
+  "Euhelopus": {
+    "art_filename": "EuhelopusDB2.jpg",
+    "fossil_filename": "Euhelopus_skull.jpg"
+  },
+  "Euoplocephalus": {
+    "art_filename": "Euoplocephalus_BW.jpg",
+    "fossil_filename": "Euoplocephalus_armour.png"
+  },
+  "Europasaurus": {
+    "art_filename": "Europasaurus_holgeri_scene_modified.jpg",
+    "fossil_filename": "Europasaurus_holgeri.jpg"
+  },
+  "Europatitan": {
+    "art_filename": "Europatitan.jpg",
+    "fossil_filename": "Europatitan_eastwoodi_Skeletal.png"
+  },
+  "Europelta": {
+    "art_filename": "Europelta.jpg",
+    "fossil_filename": "Europelta_carbonensis_Dinopolis_Teruel_2.jpg"
+  },
+  "Euskelosaurus": {
+    "fossil_filename": "Femur_of_Euskelosaurus.jpg"
+  },
+  "Eustreptospondylus": {
+    "art_filename": "Eustreptospondylus_oxoniensis_skeleton.png",
+    "fossil_filename": "Eustreptospondylus.jpg"
+  },
+  "Fabrosaurus": {
+    "fossil_filename": "Fabrosaurus_australis_mandible.jpg"
+  },
+  "Falcarius": {
+    "fossil_filename": "Falcarius.jpg"
+  },
+  "Ferenceratops": {
+    "art_filename": "Ferenceratops_shqiperorum.png",
+    "fossil_filename": "Ferenceratops_dentary.jpg"
+  },
+  "Ferrisaurus": {
+    "fossil_filename": "Ferrisaurus_holotype_skeletal_diagram.png"
+  },
+  "Fona": {
+    "art_filename": "Fona_herzogae.png",
+    "fossil_filename": "Fona_holotype.jpg"
+  },
+  "Foraminacephale": {
+    "art_filename": "Foraminacephale.png"
+  },
+  "Foskeia": {
+    "art_filename": "Foskeia_pelendonum.png",
+    "fossil_filename": "Snout_elements_of_Foskeia_pelendonum.png"
+  },
+  "Fosterovenator": {
+    "fossil_filename": "Fosterovenator.png"
+  },
+  "Fruitadens": {
+    "art_filename": "Fruitadens.jpg",
+    "fossil_filename": "lossy-page1-190px-Fruitadens_haagarorum.tif.jpg"
+  },
+  "Fujianvenator": {
+    "fossil_filename": "Anchiornis_huxleyi_skel_hartman_2017.png"
+  },
+  "Fukuiraptor": {
+    "art_filename": "Fukuiraptor_scale_diagram.png",
+    "fossil_filename": "Fukuiraptor_FPDMJH.jpg"
+  },
+  "Fukuisaurus": {
+    "fossil_filename": "Fukuisaurus_skeletal_mount.jpg"
+  },
+  "Fukuivenator": {
+    "fossil_filename": "Fukuivenator_skeleton_and_stratigraphy.jpg"
+  },
+  "Fulgurotherium": {
+    "fossil_filename": "Holotype_of_Fulgurotherium_australe.jpg"
+  },
+  "Furcatoceratops": {
+    "art_filename": "Furcatoceratops_TD.png",
+    "fossil_filename": "Furcatoceratops2.jpg"
+  },
+  "Futalognkosaurus": {
+    "art_filename": "Futalognkosaurus_BW.jpg",
+    "fossil_filename": "Futalognkosaurus_Royal_Ontario_Museum.jpg"
+  },
+  "Fylax": {
+    "fossil_filename": "Fylax_dentary.png"
+  },
+  "Galeamopus": {
+    "art_filename": "Galeamopus.jpg",
+    "fossil_filename": "Galeamopus_pabsti_skeleton.jpg"
+  },
+  "Galleonosaurus": {
+    "fossil_filename": "Galleonosaurus_specimens.jpg"
+  },
+  "Gandititan": {
+    "art_filename": "Gandititan_TD.png"
+  },
+  "Gannansaurus": {
+    "art_filename": "Gannansaurus.png",
+    "fossil_filename": "Gannansaurus.png"
+  },
+  "Ganzhousaurus": {
+    "art_filename": "Ganzhousaurus.jpg"
+  },
+  "Gargoyleosaurus": {
+    "fossil_filename": "Gargoyleosaurus.png"
+  },
+  "Garudimimus": {
+    "art_filename": "Garudimimus_Skeleton_Reconstruction.png",
+    "fossil_filename": "Garudimimus_skeleton.jpg"
+  },
+  "Garumbatitan": {
+    "art_filename": "Garumbatitan_TD.png"
+  },
+  "Gasosaurus": {
+    "art_filename": "Gasosaurus_constructus_scale_diagram.png",
+    "fossil_filename": "Gasosaurus_fossil_Bishop_Museum.png"
+  },
+  "Gasparinisaura": {
+    "art_filename": "Gasparinisaura_BW.jpg",
+    "fossil_filename": "Gasparinisaura_Cincosaltensis_A74351020250105.jpg"
+  },
+  "Gastonia (dinosaur)": {
+    "art_filename": "Gastonia_mount_BYU_4.jpg",
+    "fossil_filename": "The_Childrens_Museum_of_Indianapolis_-_Cast_skull_of_Gastonia_-_detail.jpg"
+  },
+  "Geminiraptor": {
+    "art_filename": "Geminiraptor_NT.jpg",
+    "fossil_filename": "Geminiraptor.png"
+  },
+  "Genyodectes": {
+    "art_filename": "Genyodectes_restoration_(cropped).png",
+    "fossil_filename": "Genyodectes_saurus_jaws.jpg"
+  },
+  "Geranosaurus": {
+    "fossil_filename": "Geranosaurus.png"
+  },
+  "Gideonmantellia": {
+    "art_filename": "Gideonmantellia.jpg"
+  },
+  "Giganotosaurus": {
+    "fossil_filename": "Giganotosaurus_at_Fernbank.jpg"
+  },
+  "Gigantoraptor": {
+    "art_filename": "Gigantoraptor_-_Baoding.jpg",
+    "fossil_filename": "Gigantoraptor_claw.jpg"
+  },
+  "Gigantosaurus": {
+    "fossil_filename": "Gigantosaurus_megalonyx_syntype.png"
+  },
+  "Gigantspinosaurus": {
+    "art_filename": "Gigantspinosaurus_sichuanensis.png",
+    "fossil_filename": "Gigantspinosaurus_skeletal.png"
+  },
+  "Gilmoreosaurus": {
+    "fossil_filename": "Hadrosauroids_maxillar_foramina_(Gilmoreosaurus).jpg"
+  },
+  "Glacialisaurus": {
+    "fossil_filename": "Glacialisaurus_holotype_PR_1823.jpg"
+  },
+  "Gnathovorax": {
+    "art_filename": "Gnathovorax_cabreirai_J..jpg",
+    "fossil_filename": "Gnathovorax_locale.png"
+  },
+  "Gobihadros": {
+    "art_filename": "Gobihadros_ZPAL_MgD-III_3_life_reconstruction.png",
+    "fossil_filename": "Gobihadros_skeleton.png"
+  },
+  "Gobiraptor": {
+    "art_filename": "Gobiraptor.png",
+    "fossil_filename": "Gobiraptor_cranial_elements.PNG"
+  },
+  "Gobivenator": {
+    "art_filename": "Gobivenator_NT.jpg"
+  },
+  "Gojirasaurus": {
+    "art_filename": "Gojirasaurus_BW.jpg",
+    "fossil_filename": "Gojirasaurus_scale_and_skeletal.png"
+  },
+  "Gongbusaurus": {
+    "fossil_filename": "Gongbusaurus_wucaiwanensis.png"
+  },
+  "Gongpoquansaurus": {
+    "fossil_filename": "Dinosaur_Skeleton_(10096874525).jpg"
+  },
+  "Gonkoken": {
+    "art_filename": "Gonkoken_nanoi.png",
+    "fossil_filename": "Gonkoken.jpg"
+  },
+  "Goyocephale": {
+    "art_filename": "Goyocephale_restoration.jpg",
+    "fossil_filename": "Goyocephale_lattimorei.jpg"
+  },
+  "Graciliceratops": {
+    "art_filename": "Graciliceratops_BW.jpg",
+    "fossil_filename": "Graciliceratops_Skeleton_Reconstruction.jpg"
+  },
+  "Graciliraptor": {
+    "art_filename": "Graciliraptor.jpg",
+    "fossil_filename": "Graciliraptor_lujiatunensis.jpg"
+  },
+  "Gresslyosaurus": {
+    "fossil_filename": "Gresslyosaurus_ingens.jpg"
+  },
+  "Gryphoceratops": {
+    "art_filename": "Gryphoceratops_morrisoni.png"
+  },
+  "Gryponyx": {
+    "fossil_filename": "Annals_of_the_South_African_Museum._Annale_van_die_Suid-Afrikaanse_Museum_(18234532989).jpg"
+  },
+  "Guanlong": {
+    "art_filename": "Guanlong_wucaii_by_durbed.jpg",
+    "fossil_filename": "Guanlong_-_Baoding.jpg"
+  },
+  "Guemesia": {
+    "art_filename": "Guemesia_ochoai.jpg"
+  },
+  "Hadrosaurus": {
+    "art_filename": "Hadrosaurus_foulkii_restoration.png",
+    "fossil_filename": "Hadrosaurus_mount.jpg"
+  },
+  "Haestasaurus": {
+    "fossil_filename": "Haestasaurus.PNG"
+  },
+  "Hagryphus": {
+    "fossil_filename": "Hagryphus_giganteus_trunk_detail_salt_lake_city.jpg"
+  },
+  "Halszkaraptor": {
+    "art_filename": "Halszkaraptor_escuilliei_skeletal.png",
+    "fossil_filename": "Halszkaraptor_escuilliei_skull.jpg"
+  },
+  "Hamititan": {
+    "fossil_filename": "Hamititan_skeletal.jpg"
+  },
+  "Haolong": {
+    "art_filename": "Haolong_dongi.png"
+  },
+  "Haplocanthosaurus": {
+    "art_filename": "Haplocanthosaurus.jpg",
+    "fossil_filename": "Haplocanthosaurus_in_Cleveland_Museum_of_Natural_History.jpg"
+  },
+  "Haplocheirus": {
+    "art_filename": "Haplocheirus_SIZE_01.jpg",
+    "fossil_filename": "Haplocheirus_Skull_(cropped).jpg"
+  },
+  "Harenadraco": {
+    "art_filename": "Harenadraco_prima.png"
+  },
+  "Harpymimus": {
+    "art_filename": "Harpymimus_steveoc.jpg",
+    "fossil_filename": "Harpymimus_okladnikovi_headden.jpg"
+  },
+  "Helioceratops": {
+    "art_filename": "Helioceratops.jpg"
+  },
+  "Heptasteornis": {
+    "fossil_filename": "Heptasteornis_tibiotarsus.jpg"
+  },
+  "Hesperonychus": {
+    "fossil_filename": "Hesperonychus_elizabethae_pelvis_by_Nick_Longrich.jpg"
+  },
+  "Hesperonyx": {
+    "art_filename": "Hesperonyx_martinhotomasorum.png"
+  },
+  "Hesperornithoides": {
+    "fossil_filename": "Hesperornithoides_skeletal_reconstruction.png"
+  },
+  "Hesperosaurus": {
+    "art_filename": "Hesperosaurus_mjosi.png",
+    "fossil_filename": "Hesperosaurus_Holotype_FukuiJH.jpg"
+  },
+  "Hexinlusaurus": {
+    "art_filename": "Hexinlusaurus.jpg",
+    "fossil_filename": "Zigong_Dinosaur_Museum_Hexinlusaurus.jpg"
+  },
+  "Heyuannia": {
+    "art_filename": "Heyuannia_and_eggs_nest.jpg",
+    "fossil_filename": "Heyuannia.jpg"
+  },
+  "Hierosaurus": {
+    "fossil_filename": "Hierosaurus.jpg"
+  },
+  "Hippodraco": {
+    "art_filename": "Hippodraco_restoration.png",
+    "fossil_filename": "Hippodraco_skeletal.png"
+  },
+  "Histriasaurus": {
+    "fossil_filename": "Histriasaurus_vertebra.png"
+  },
+  "Hoplitosaurus": {
+    "fossil_filename": "Hoplitosaurus_spined_plate.jpg"
+  },
+  "Horshamosaurus": {
+    "art_filename": "Horshamosaurus.png"
+  },
+  "Hortalotarsus": {
+    "fossil_filename": "Seeley-1894-Hortalotarsus-foreleg.png"
+  },
+  "Huabeisaurus": {
+    "art_filename": "Huabeisaurus_allocotus.jpg",
+    "fossil_filename": "Huabeisaurus.jpg"
+  },
+  "Huadanosaurus": {
+    "art_filename": "Huadanosaurus_sinensis.png",
+    "fossil_filename": "Huadanosaurus_(skull_and_neck_reconstruction).png"
+  },
+  "Hualianceratops": {
+    "art_filename": "Hualianceratops_wucaiwanensis2.png",
+    "fossil_filename": "Hualianceratops_maxilla_and_jugal.PNG"
+  },
+  "Huanansaurus": {
+    "art_filename": "Huanansaurus_restoration.jpg",
+    "fossil_filename": "Huanansaurus_ganzhouensis_(HGM41HIII-0443)_holotype_skull_01.jpg"
+  },
+  "Huangshanlong": {
+    "fossil_filename": "Huangshanlong_mount.jpg"
+  },
+  "Huashanosaurus": {
+    "art_filename": "Huashanosaurus_qini.png"
+  },
+  "Huaxiazhoulong": {
+    "art_filename": "Huaxiazhoulong_shouwen.png"
+  },
+  "Huayangosaurus": {
+    "art_filename": "Huayangosaurus_BW.jpg",
+    "fossil_filename": "Huayangosaurus_taibaii_20050707_07.jpg"
+  },
+  "Huayracursor": {
+    "art_filename": "Huayracursor_jaguensis.png",
+    "fossil_filename": "3D_Skeletal_reconstruction_of_Huayracursor_jaguensis.jpg"
+  },
+  "Hudiesaurus": {
+    "fossil_filename": "Hudiesaurus_laminae.jpg"
+  },
+  "Huehuecanauhtlus": {
+    "art_filename": "Huehuecanauhtlus_tiquichensis_copia.jpg",
+    "fossil_filename": "Huehuecanauhtlus_IGM_6253_Pathologies.png"
+  },
+  "Hulsanpes": {
+    "art_filename": "Hulsanpes_Skeleton_Reconstruction.png",
+    "fossil_filename": "Hulsanpes_braincase_wall.png"
+  },
+  "Hungarosaurus": {
+    "fossil_filename": "Hungarosaurus.jpg"
+  },
+  "Hypacrosaurus": {
+    "art_filename": "Life_reconstruction_of_Hypacrosaurus_altispinus.png",
+    "fossil_filename": "Hypacrosaurus_Royal_Tyrrell.jpg"
+  },
+  "Hypnovenator": {
+    "art_filename": "Hypnovenator_matsubaraetoheorum.png",
+    "fossil_filename": "Hypnovenator_matsubaraetoheorum_fossils_and_reconstructed_skeleton.webp.png"
+  },
+  "Hypselosaurus": {
+    "art_filename": "Hypselosaurus_NT_small.jpg",
+    "fossil_filename": "Hypselosaurus.png"
+  },
+  "Hypselospinus": {
+    "art_filename": "Hypselospinus_NT.jpg",
+    "fossil_filename": "Hypselospinus_bone_NHM.jpg"
+  },
+  "Iani": {
+    "art_filename": "Iani_TD.png",
+    "fossil_filename": "Iani_Skeletal.png"
+  },
+  "Ibirania": {
+    "art_filename": "Ibirania_parva.png"
+  },
+  "Igai": {
+    "art_filename": "Igai_semkhu.png"
+  },
+  "Iguanacolossus": {
+    "art_filename": "Life_restoration_of_Iguanacolossus.jpg",
+    "fossil_filename": "Reconstruction_of_Iguanacolossus.jpg"
+  },
+  "Iliosuchus": {
+    "fossil_filename": "Iliosuchus_holotype_ilium.png"
+  },
+  "Imperobator": {
+    "art_filename": "Imperobator_TD.png",
+    "fossil_filename": "Holotype_of_Imperobator_antarcticus.jpg"
+  },
+  "Inawentu": {
+    "art_filename": "Inawentu_oslatus.png",
+    "fossil_filename": "Inawentu_oslatus_Skeletal.png"
+  },
+  "Incisivosaurus": {
+    "art_filename": "Incisivosaurus_NT_small.jpg",
+    "fossil_filename": "Incisivosaurus_gauthieri.jpg"
+  },
+  "Indosuchus": {
+    "art_filename": "Indosuchus.jpg",
+    "fossil_filename": "Indosuchus_premaxilla.png"
+  },
+  "Ingentia": {
+    "art_filename": "Ingentia_size_diagram.jpg"
+  },
+  "Invictarx": {
+    "fossil_filename": "Invictarx_zephyri_holotype_PeerJ_e5435_fig_4.png"
+  },
+  "Irisosaurus": {
+    "art_filename": "Irisosaurus_life_restoration.jpg",
+    "fossil_filename": "Irisosaurus_skeletal.jpg"
+  },
+  "Isaberrysaura": {
+    "art_filename": "Isaberrysaura_mollensis.png",
+    "fossil_filename": "Isaberrysaura_mollensis_skull.jpg"
+  },
+  "Isanosaurus": {
+    "fossil_filename": "Isanosaurus_attavipachi_femur.JPG"
+  },
+  "Isasicursor": {
+    "art_filename": "Isasicursor_reconstruction.png",
+    "fossil_filename": "Isasicursor_skeletal.png"
+  },
+  "Ischioceratops": {
+    "art_filename": "Ischioceratops.jpg",
+    "fossil_filename": "Ischioceratops.PNG"
+  },
+  "Issi": {
+    "art_filename": "Issi_saaneq.png",
+    "fossil_filename": "Issiskull.png"
+  },
+  "Istiorachis": {
+    "art_filename": "Istiorachis_(life_restoration).jpg",
+    "fossil_filename": "Istiorachis_(reconstructed_skeleton).jpg"
+  },
+  "Itemirus": {
+    "art_filename": "Itemirus.png",
+    "fossil_filename": "Itemirus_medullaris.jpg"
+  },
+  "Jaculinykus": {
+    "art_filename": "Jaculinykus_yaruui.png",
+    "fossil_filename": "Jaculinykus_holotype.png"
+  },
+  "Jakapil": {
+    "art_filename": "Jakapil_TD.png",
+    "fossil_filename": "Jakapil_skeletal.webp.png"
+  },
+  "Jaklapallisaurus": {
+    "art_filename": "Upper_Maleri_Formation_dinosaurs_(Maleriraptor_and_Jaklapallisaurus).jpg"
+  },
+  "Janenschia": {
+    "fossil_filename": "Janenschia.jpg"
+  },
+  "Jeholosaurus": {
+    "fossil_filename": "Jeholosaurus_skeleton.jpg"
+  },
+  "Jeyawati": {
+    "art_filename": "Jeyawati_NT.jpg"
+  },
+  "Jiangjunosaurus": {
+    "art_filename": "Jiangjunosaurus_junggarensis.png"
+  },
+  "Jiangshanosaurus": {
+    "fossil_filename": "Jiangshanosaurus_lixianensis_zmnh006.JPG"
+  },
+  "Jiangxisaurus": {
+    "art_filename": "Jiangxisaurus.jpg"
+  },
+  "Jiangxititan": {
+    "art_filename": "Jiangxititan_UDL.png"
+  },
+  "Jianianhualong": {
+    "fossil_filename": "Jianianhualong_tengi_holotype_fossil.jpg"
+  },
+  "Jinchuanloong": {
+    "art_filename": "Jinchuanloong_niedu.png"
+  },
+  "Jinfengopteryx": {
+    "art_filename": "Jinfengopteryx_wiki.jpg",
+    "fossil_filename": "Jinfengopteryx_elegans.jpg"
+  },
+  "Jingiella": {
+    "art_filename": "Jingiella_dongxingensis.png"
+  },
+  "Jintasaurus": {
+    "fossil_filename": "Skeletons_of_Lanzhousaurus_magnidens_and_Jintasaurus_meniscus.JPG"
+  },
+  "Jinyunpelta": {
+    "art_filename": "Jinyunpelta_NT.jpg",
+    "fossil_filename": "Jinyunpelta_tail_club.jpg"
+  },
+  "Jinzhousaurus": {
+    "fossil_filename": "Jinzhousaurus_yangi.JPG"
+  },
+  "Joaquinraptor": {
+    "art_filename": "Joaquinraptor_casali.png",
+    "fossil_filename": "Mandible_of_Joaquinraptor_casali.jpg"
+  },
+  "Jobaria": {
+    "art_filename": "Jobaria_tiguidensis_steveoc.jpg",
+    "fossil_filename": "Jobaria_in_the_Australian_Museum.jpg"
+  },
+  "Judiceratops": {
+    "art_filename": "Judiceratops_NT_small.jpg",
+    "fossil_filename": "Judiceratops_parietal_fragment.png"
+  },
+  "Juratyrant": {
+    "art_filename": "Juratyrant_signed.jpg",
+    "fossil_filename": "Juratyrant_known_elements_skeletal.png"
+  },
+  "Juravenator": {
+    "fossil_filename": "Juravenator.jpg"
+  },
+  "Kaatedocus": {
+    "art_filename": "Kaatedocus_siberi.jpg",
+    "fossil_filename": "Kaatedocus_in_Brussels.jpg"
+  },
+  "Kakuru": {
+    "fossil_filename": "Kakuru_phalanx.png"
+  },
+  "Kamuysaurus": {
+    "art_filename": "Kamuysaurus_japonicus.png",
+    "fossil_filename": "Holotype_skeleton_of_Kamuysaurus.jpg"
+  },
+  "Kansaignathus": {
+    "art_filename": "Kansaignathus.jpg"
+  },
+  "Karongasaurus": {
+    "fossil_filename": "Karongasaurus_mandible.png"
+  },
+  "Katepensaurus": {
+    "fossil_filename": "Katepensaurus_dorsal_vertebrae.jpg"
+  },
+  "Kelmayisaurus": {
+    "fossil_filename": "Kelmayisaurus.jpg"
+  },
+  "Kelumapusaura": {
+    "art_filename": "Kelumapusaura_machi.png"
+  },
+  "Kentrosaurus": {
+    "art_filename": "Kentrosaurus_aethiopicus.png",
+    "fossil_filename": "Kentrosaurusberlin.jpg"
+  },
+  "Kerberosaurus": {
+    "art_filename": "Kerberosaurus_manakini.png"
+  },
+  "Khaan": {
+    "art_filename": "Khaan_mckennai_profile1.jpg",
+    "fossil_filename": "Khaan_skeletal_Headden.jpg"
+  },
+  "Khankhuuluu": {
+    "art_filename": "Khankhuuluu_mongoliensis.png"
+  },
+  "Kholumolumo": {
+    "fossil_filename": "Kholumolumo_pes.png"
+  },
+  "Kileskus": {
+    "art_filename": "Kileskus.png",
+    "fossil_filename": "KileskusSkull.png"
+  },
+  "Kinnareemimus": {
+    "art_filename": "Kinnareemimus_pack.png"
+  },
+  "Kiyacursor": {
+    "art_filename": "Kiyacursor_PM-2.png",
+    "fossil_filename": "Kiyacursor.jpg"
+  },
+  "Klamelisaurus": {
+    "art_filename": "Klamelisaurus-scene-v1.jpg",
+    "fossil_filename": "Klamelisaurus.jpg"
+  },
+  "Koleken": {
+    "art_filename": "Koleken_inakayali.png",
+    "fossil_filename": "Holotype_of_Koleken_inakayali.jpg"
+  },
+  "Koparion": {
+    "art_filename": "Koparion_NT.jpg",
+    "fossil_filename": "Tooth_of_Koparion.png"
+  },
+  "Koreaceratops": {
+    "art_filename": "Koreaceratops.png",
+    "fossil_filename": "Koreaceratops_hwaseongensis_replica.jpg"
+  },
+  "Koreanosaurus": {
+    "art_filename": "Koreanosaurus.png",
+    "fossil_filename": "Skeletal_diagram_of_Koreanosaurus_boseongensis.jpg"
+  },
+  "Koshisaurus": {
+    "art_filename": "Koshisaurus_NT_small.jpg"
+  },
+  "Kosmoceratops": {
+    "art_filename": "Kosmoceratops_NT_small.jpg",
+    "fossil_filename": "Kosmoceratops_richardsoni.png"
+  },
+  "Kotasaurus": {
+    "fossil_filename": "160-million-year-old_mounted_dinosaur_skeleton.jpg"
+  },
+  "Koutalisaurus": {
+    "fossil_filename": "Koutalisaurus.jpg"
+  },
+  "Kryptops": {
+    "art_filename": "Kryptops_life_restoration.jpg",
+    "fossil_filename": "Kryptops_skeletal_diagram.jpg"
+  },
+  "Kulceratops": {
+    "art_filename": "Kulceratops.jpg",
+    "fossil_filename": "Kulceratops_CCMGE_No._495-12457.png"
+  },
+  "Kulindadromeus": {
+    "art_filename": "Kulindadromeus_NT_small.jpg",
+    "fossil_filename": "Kulindadromeus_elements.jpg"
+  },
+  "Kunbarrasaurus": {
+    "art_filename": "Kunbarrasaurus_life-sized_bronze_sculptures.jpg",
+    "fossil_filename": "Kunbarrasaurus_skull.png"
+  },
+  "Labocania": {
+    "art_filename": "Labocania_color.jpg",
+    "fossil_filename": "Labocania_anomala_tooth_copy.jpg"
+  },
+  "Laiyangosaurus": {
+    "art_filename": "Laiyangosaurus_youngi.png",
+    "fossil_filename": "Laiyangosaurus_skull_resonstruction.jpg"
+  },
+  "Lajasvenator": {
+    "art_filename": "Lajasvenator_ascheriae_Wikipedia_Juandertal.jpg"
+  },
+  "Lametasaurus": {
+    "fossil_filename": "Lametasaurus_indicus_tibia.jpg"
+  },
+  "Lamplughsaura": {
+    "art_filename": "Lamplughsaura_BW.jpg"
+  },
+  "Lanzhousaurus": {
+    "art_filename": "Lanzhousaurus_TD.png",
+    "fossil_filename": "Skeleton_of_Lanzhousaurus_magnidens.jpg"
+  },
+  "Laplatasaurus": {
+    "fossil_filename": "Laplatasaurus_Tibia-Fibula.png"
+  },
+  "Lapparentosaurus": {
+    "fossil_filename": "Lapparentosaurus_femur.png"
+  },
+  "Laquintasaura": {
+    "art_filename": "Laquintasaura_(skeletal_reconstruction).png",
+    "fossil_filename": "Laquintasaura_(skeletal_reconstruction).png"
+  },
+  "Latirhinus": {
+    "art_filename": "Life_reconstruction_of_Latirhinus_uitstlani.png"
+  },
+  "Lavocatisaurus": {
+    "art_filename": "Lavocatisaurus_Dibujo_Gabriel_Lio.jpg",
+    "fossil_filename": "Lavocatisaurus_agrioensis.jpg"
+  },
+  "Leaellynasaura": {
+    "art_filename": "Leaellynasaura_BW.jpg",
+    "fossil_filename": "Leaellynasaura_fossils.jpg"
+  },
+  "Ledumahadi": {
+    "art_filename": "Ledumahadi_NT.jpg"
+  },
+  "Leinkupal": {
+    "fossil_filename": "Mid_caudal_vertebrae_of_Leinkupal.png"
+  },
+  "Leonerasaurus": {
+    "art_filename": "Leonerasaurus_NT.jpg",
+    "fossil_filename": "Leonerasaurus.jpg"
+  },
+  "Leshansaurus": {
+    "art_filename": "Leshansaurus_size.jpg",
+    "fossil_filename": "Leshansaurus_reconstructed_skull.png"
+  },
+  "Lesothosaurus": {
+    "art_filename": "Lesothosaurus_NT.jpg",
+    "fossil_filename": "Lesothosaurus_skull_diagram.png"
+  },
+  "Lessemsaurus": {
+    "fossil_filename": "Lessemsaurus_mount.jpg"
+  },
+  "Lexovisaurus": {
+    "art_filename": "Eustreptospondylus_attacking_Lexovisaurus.jpg",
+    "fossil_filename": "Lexovisaurus_pelvis.png"
+  },
+  "Leyesaurus": {
+    "fossil_filename": "Leyesaurus_skull_in_lateral_view.png"
+  },
+  "Liaoceratops": {
+    "art_filename": "Liaoceratops_BW.jpg",
+    "fossil_filename": "Liaoceratops_skull.jpg"
+  },
+  "Liaoningosaurus": {
+    "art_filename": "Liaoningosaurus.jpg",
+    "fossil_filename": "Liaoningosaurus-Beijing_Museum_of_Natural_History.jpg"
+  },
+  "Liaoningvenator": {
+    "art_filename": "Liaoningvenator.png",
+    "fossil_filename": "Liaoningvenator.png"
+  },
+  "Liliensternus": {
+    "art_filename": "Liliensternus_NT.jpg",
+    "fossil_filename": "Liliensternus_liliensterni.JPG"
+  },
+  "Limaysaurus": {
+    "fossil_filename": "Limaysaurus_skeleton.jpg"
+  },
+  "Limusaurus": {
+    "art_filename": "Limusaurus_inextricabilis.jpg",
+    "fossil_filename": "Limusaurus_inextricabilis_skeleton.jpg"
+  },
+  "Lingwulong": {
+    "art_filename": "Lingwulong_size_diagram.jpg",
+    "fossil_filename": "Skeletal_reconstruction_and_exemplar_skeletal_remains_of_Lingwulong_shenqi.jpg"
+  },
+  "Lingyuanosaurus": {
+    "fossil_filename": "Lingyuanosaurus_manual_unguals.png"
+  },
+  "Linhenykus": {
+    "art_filename": "Linhenykus_NT.jpg",
+    "fossil_filename": "Linhenykus.jpg"
+  },
+  "Linhevenator": {
+    "fossil_filename": "Linhevenator_limb.png"
+  },
+  "Lirainosaurus": {
+    "fossil_filename": "Lirainosaurus.jpg"
+  },
+  "Lishulong": {
+    "art_filename": "Lishulong_wangi.png"
+  },
+  "Lohuecotitan": {
+    "art_filename": "Lohuecotitan_model_-_Castilla-La_Mancha_Paleontological_Museum_03.jpg"
+  },
+  "Lokiceratops": {
+    "art_filename": "Lokiceratops_rangiformis.png",
+    "fossil_filename": "Lokiceratops_(mounted_skull).jpg"
+  },
+  "Lophorhothon": {
+    "fossil_filename": "Lophorhothon_atopus.jpg"
+  },
+  "Loricatosaurus": {
+    "art_filename": "Loricatosaurus_priscus.png"
+  },
+  "Lourinhanosaurus": {
+    "fossil_filename": "Lourinhanosaurus_antunesi.jpg"
+  },
+  "Lourinhasaurus": {
+    "art_filename": "Lourinhasaurus_alenquerensis.png"
+  },
+  "Luanchuanraptor": {
+    "art_filename": "Luanchuanraptor.jpg",
+    "fossil_filename": "Luanchuanraptor_skeleton_mount.jpg"
+  },
+  "Lucianovenator": {
+    "art_filename": "Lucianovenator_restoration.jpg"
+  },
+  "Lurdusaurus": {
+    "art_filename": "Lurdusaurus1_flipped.jpg",
+    "fossil_filename": "Lurdusaurus_arenatus.jpg"
+  },
+  "Lusovenator": {
+    "fossil_filename": "SHN.019.jpg"
+  },
+  "Lycorhinus": {
+    "fossil_filename": "Lycorhinus_skull_diagram.jpg"
+  },
+  "Lythronax": {
+    "fossil_filename": "Lythronax_argestes_cast_HD.jpg"
+  },
+  "Machairasaurus": {
+    "art_filename": "Machairasaurus.jpg",
+    "fossil_filename": "Machairasaurus_leptorhynchos_by_Nick_Longrich.png"
+  },
+  "Machairoceratops": {
+    "art_filename": "Machairoceratops_TD.png",
+    "fossil_filename": "Machairoceratops.PNG"
+  },
+  "Macrocollum": {
+    "art_filename": "Macrocollum.jpg",
+    "fossil_filename": "Macrocollum_pronto.png"
+  },
+  "Macrogryphosaurus": {
+    "art_filename": "Macrogryphosaurus_life_reconstruction.png"
+  },
+  "Magnapaulia": {
+    "art_filename": "Magnapaulia_laticaudus.jpg",
+    "fossil_filename": "Magnapaulia_skeleton.jpg"
+  },
+  "Magnosaurus": {
+    "art_filename": "Magnosaurus.jpg",
+    "fossil_filename": "Magnosaurus_OUMNH_J._12143.png"
+  },
+  "Magyarosaurus": {
+    "fossil_filename": "Magyarosaurus_sp_-_scapula.jpg"
+  },
+  "Maiasaura": {
+    "art_filename": "Maiasaura_BW.jpg",
+    "fossil_filename": "Maiasaura_skeleton.jpg"
+  },
+  "Maip": {
+    "art_filename": "Maip_macrothorax_reconstruction.jpg",
+    "fossil_filename": "Maip_macrothorax.png"
+  },
+  "Malawisaurus": {
+    "art_filename": "Malawisaurus-head.jpg"
+  },
+  "Malefica": {
+    "art_filename": "Malefica_TD.png"
+  },
+  "Maleriraptor": {
+    "art_filename": "Maleriraptor_kuttyi.png"
+  },
+  "Mamenchisaurus": {
+    "art_filename": "Mamenchisaurus_youngi_steveoc_86.jpg",
+    "fossil_filename": "Zigong_Dinosaur_Museum_Mamenchisaurus_hochuanensis.jpg"
+  },
+  "Mandschurosaurus": {
+    "fossil_filename": "Mandschurosaurus_Amurensis..2H1A0401WI.jpg"
+  },
+  "Manidens": {
+    "art_filename": "Manidens.png",
+    "fossil_filename": "Manidens_skull.jpg"
+  },
+  "Manipulonyx": {
+    "art_filename": "Manipulonyx_reshetovi.png"
+  },
+  "Mansourasaurus": {
+    "art_filename": "Mansourasaurus_NT.jpg"
+  },
+  "Mantellisaurus": {
+    "art_filename": "Mantellisaurus_atherfieldensis_Steveoc.jpg",
+    "fossil_filename": "Hul_-_Mantellisaurus_atherfieldensis_-_2.jpg"
+  },
+  "Maraapunisaurus": {
+    "fossil_filename": "Maraapunisaurus_fragillimus.jpg"
+  },
+  "Marmarospondylus": {
+    "art_filename": "Marmarospondylus.png"
+  },
+  "Marshosaurus": {
+    "art_filename": "Marshosaurus_restoration.jpg",
+    "fossil_filename": "Marshosaurus_bicentissimus_skull_cast_-_Natural_History_Museum_of_Utah_-_DSC07218.JPG"
+  },
+  "Martharaptor": {
+    "fossil_filename": "Martharaptor_hand_bones.png"
+  },
+  "Masiakasaurus": {
+    "art_filename": "Masiakasaurus_knopfleri.jpg",
+    "fossil_filename": "Masiakasaurus.JPG"
+  },
+  "Massospondylus": {
+    "fossil_filename": "Massospondylus_type_material_seeley_1995.png"
+  },
+  "Matheronodon": {
+    "fossil_filename": "Matheronodon_3.jpg"
+  },
+  "Maxakalisaurus": {
+    "fossil_filename": "MaxakalisaurusTopai_Rec.jpg"
+  },
+  "Medusaceratops": {
+    "art_filename": "Medusaceratops_(cropped).jpg",
+    "fossil_filename": "Medusaceratops_side.jpg"
+  },
+  "Megapnosaurus": {
+    "art_filename": "Megapnosaurus_TD.png"
+  },
+  "Megaraptor": {
+    "art_filename": "Megaraptor_bust.png",
+    "fossil_filename": "Megaraptor_mount.jpg"
+  },
+  "Melanorosaurus": {
+    "art_filename": "Melanorosaurus_life_restoration_2018.jpg",
+    "fossil_filename": "Melanorosaurus_femur.png"
+  },
+  "Menefeeceratops": {
+    "art_filename": "Menefeeceratops_TD.png",
+    "fossil_filename": "Menefeeceratops_holotype_squamosal.png"
+  },
+  "Meraxes": {
+    "fossil_filename": "Meraxes_gigas_skull_reconstruction.png"
+  },
+  "Mercuriceratops": {
+    "art_filename": "Mercuriceratops_NT_small.jpg"
+  },
+  "Meroktenos": {
+    "fossil_filename": "Ilium_of_Meroktenos.png"
+  },
+  "Metriacanthosaurus": {
+    "art_filename": "Metriacanthosaurus.jpg",
+    "fossil_filename": "Metriacanthosaurus_holotype.png"
+  },
+  "Mexidracon": {
+    "art_filename": "Mexidracon_longimanus.png"
+  },
+  "Microceratus": {
+    "art_filename": "Microceratops.jpg"
+  },
+  "Microcoelus": {
+    "fossil_filename": "Microcoelus.jpg"
+  },
+  "Micropachycephalosaurus": {
+    "art_filename": "Micropachycephalosaurus.jpg",
+    "fossil_filename": "Micropachycephalosaurus_ilium.jpg"
+  },
+  "Microvenator": {
+    "art_filename": "Microvenator.jpg",
+    "fossil_filename": "Microvenator_celer.jpg"
+  },
+  "Mierasaurus": {
+    "fossil_filename": "Mierasaurus_Skull.png"
+  },
+  "Migmanychion": {
+    "art_filename": "Migmanychion_TD.png"
+  },
+  "Minimocursor": {
+    "art_filename": "Minimocursor_fuzzy.png",
+    "fossil_filename": "Minimocursor_Skeletal.jpg"
+  },
+  "Minqaria": {
+    "art_filename": "Minqaria_bata.png",
+    "fossil_filename": "Minqaria_skull_reconstruction.jpg"
+  },
+  "Mirischia": {
+    "art_filename": "Mirischia_asymmetrica_by_Ademar_Pereira.JPG"
+  },
+  "Mnyamawamtuka": {
+    "art_filename": "Mnyamawamtuka_moyowamkia.jpg"
+  },
+  "Moabosaurus": {
+    "art_filename": "Moabosaurus_size_comparison.png"
+  },
+  "Mongolosaurus": {
+    "fossil_filename": "Mongolosaurus_haplodon.jpg"
+  },
+  "Monolophosaurus": {
+    "art_filename": "Monolophosaurus_jiangi_jmallon.jpg",
+    "fossil_filename": "Monolophosaurus_jiangi.jpg"
+  },
+  "Mononykus": {
+    "art_filename": "Mononykus_Restoration.png",
+    "fossil_filename": "Mononykus_AMNH.jpg"
+  },
+  "Montanoceratops": {
+    "art_filename": "Montanoceratops_BW.jpg",
+    "fossil_filename": "Montanoceratops_skeleton.jpg"
+  },
+  "Morelladon": {
+    "fossil_filename": "Morelladon_dorsal_vertebrae.PNG"
+  },
+  "Morinosaurus": {
+    "fossil_filename": "Morinosaurus.png"
+  },
+  "Morrosaurus": {
+    "art_filename": "Morrosaurus.jpg"
+  },
+  "Mosaiceratops": {
+    "art_filename": "Mosaiceratops_LM.jpg",
+    "fossil_filename": "Cranial_remains_of_Mosaiceratops.jpg"
+  },
+  "Murusraptor": {
+    "art_filename": "Murusraptor_NT_small.jpg",
+    "fossil_filename": "Murusraptor.PNG"
+  },
+  "Musankwa": {
+    "art_filename": "Musankwa_sanyatiensis.png",
+    "fossil_filename": "Musankwa_holotype_(NHMZ_2521).png"
+  },
+  "Mussaurus": {
+    "art_filename": "Mussaurus_patagonicus.jpg",
+    "fossil_filename": "Mussaurus_patagonikus_DSC_2904.jpg"
+  },
+  "Muttaburrasaurus": {
+    "art_filename": "Muttaburrasaurus_NT.jpg",
+    "fossil_filename": "Muttaburrasaurus_mount.jpg"
+  },
+  "Mymoorapelta": {
+    "art_filename": "Mymoorapelta_maysi.png",
+    "fossil_filename": "Mymoorapelta_maysi.jpg"
+  },
+  "Naashoibitosaurus": {
+    "art_filename": "Naashoibitosaurus_ostromi.png",
+    "fossil_filename": "Naashoibitosaurus.jpg"
+  },
+  "Nankangia": {
+    "art_filename": "Nankangia_Restoration.jpg",
+    "fossil_filename": "Scapulocoracoids_of_Nankangia.png"
+  },
+  "Nanotyrannus": {
+    "art_filename": "Nanotyrannus_lethaeus.png",
+    "fossil_filename": "Nanotyrannus_lancensis_skull.jpg"
+  },
+  "Nanyangosaurus": {
+    "art_filename": "Nanyangosaurus_dinosaur.png",
+    "fossil_filename": "Xixia_Dinosaur_Park-_Nanyangosaurus_zhugeii.jpg"
+  },
+  "Narindasaurus": {
+    "fossil_filename": "Lapparentosaurus_madagascariensis_left_pubis.jpg"
+  },
+  "Nasutoceratops": {
+    "fossil_filename": "NasutoceratopsArizona.jpg"
+  },
+  "Natovenator": {
+    "art_filename": "Natovenator_hunting_fish.png",
+    "fossil_filename": "Natovenator_skeletal_(holotype).png"
+  },
+  "Navajoceratops": {
+    "fossil_filename": "Navajoceratops.png"
+  },
+  "Velociraptor": {
+    "art_filename": "Velociraptor_size.png",
+    "fossil_filename": "Velociraptor_skeleton_white_background.jpg"
+  },
+  "Raptorex": {
+    "art_filename": "Raptorex_NT.jpg",
+    "fossil_filename": "Raptorex_vs_Psittacosaurus.jpg"
+  },
+  "Rhinorex": {
+    "art_filename": "Rhinorex_condrupus.png",
+    "fossil_filename": "Rhinorex_condrupus_skull.jpg"
+  },
+  "Abelisaurus": {
+    "art_filename": "Abelisaurus_comahuensis_jmallon.jpg",
+    "fossil_filename": "Abelisaurus_skull.jpg"
+  },
+  "Acanthopholis": {
+    "art_filename": "Acanthopholis_copia.jpg",
+    "fossil_filename": "Acanthopholis_dermal_scutes.JPG"
+  },
+  "Achelousaurus": {
+    "art_filename": "Achelousaurus_dinosaur.png",
+    "fossil_filename": "Achelousaurus_holotype_(1).jpg"
+  },
+  "Achillesaurus": {
+    "art_filename": "Achillesaurus.jpg"
+  },
+  "Agathaumas": {
+    "art_filename": "Agathaumas.jpg",
+    "fossil_filename": "Agathaumas_sylvestris.jpg"
+  },
+  "Agrosaurus": {
+    "fossil_filename": "Thecodontosaurus_antiquus_skeleton.png"
+  },
+  "Ajkaceratops": {
+    "art_filename": "Ajkaceratops_holotipo.jpg",
+    "fossil_filename": "Ajkaceratops.jpg"
+  },
+  "Albertosaurus": {
+    "art_filename": "Albertosaurus_NT_small.jpg",
+    "fossil_filename": "Albertosaurus_Royal_Tyrrell_2.jpg"
+  },
+  "Allosaurus": {
+    "art_filename": "Allosaurus4.jpg",
+    "fossil_filename": "AMNH_Allosaurus.jpg"
+  },
+  "Alwalkeria": {
+    "art_filename": "Alwalkeria_maleriensis.jpg",
+    "fossil_filename": "Alwalkeria.png"
+  },
+  "Amphicoelias": {
+    "art_filename": "Amphicoelias17DB2.jpg",
+    "fossil_filename": "Amphicoelias_Holotype_Vertebra.jpg"
+  },
+  "Amurosaurus": {
+    "art_filename": "Life_reconstruction_of_Amurosaurus_riabinini.png",
+    "fossil_filename": "Amurosaurus_skeletal.jpg"
+  },
+  "Anchiceratops": {
+    "art_filename": "Anchiceratops_dinosaur.png",
+    "fossil_filename": "Anchiceratops_Royal_Tyrrell.jpg"
+  },
+  "Anoplosaurus": {
+    "fossil_filename": "Anoplosaurus_PLATE_XXXI.png"
+  },
+  "Aralosaurus": {
+    "art_filename": "Life_reconstruction_of_Aralosaurus_tuberiferus.png"
+  },
+  "Asfaltovenator": {
+    "art_filename": "Asfaltovenator_vialidadi.png",
+    "fossil_filename": "Asfaltovenatorskeletal.png"
+  },
+  "Astrodon": {
+    "art_filename": "Astrodon_johnstoni.jpg"
+  },
+  "Atacamatitan": {
+    "art_filename": "Atacamatitan_LM.png",
+    "fossil_filename": "Atacamatitan_Skeleton_Reconstruction.jpg"
+  },
+  "Aucasaurus": {
+    "art_filename": "Aucasaurus_garridoi_by_Paleocolour.jpg",
+    "fossil_filename": "Aucasaurus.jpg"
+  },
+  "Australotitan": {
+    "art_filename": "Australotitan_cooperensis.png",
+    "fossil_filename": "Australotitan_holotype.png"
+  },
+  "Bahariasaurus": {
+    "fossil_filename": "Bahariasaurus_plate.png"
+  },
+  "Bainoceratops": {
+    "art_filename": "Bainoceratops_reconstruction.png"
+  },
+  "Barosaurus": {
+    "art_filename": "Barosaurus_lentus1.jpg",
+    "fossil_filename": "Barosaurus_mount_1.jpg"
+  },
+  "Barsboldia": {
+    "art_filename": "Barsboldia_sicinskii_(2).jpg"
+  },
+  "Baryonyx": {
+    "fossil_filename": "Baryonyx_walkeri_mount_NMNS.jpg"
+  },
+  "Beipiaosaurus": {
+    "art_filename": "Beipiaosaurus_Restoration.png",
+    "fossil_filename": "Beipiaosaurus_skeletal_Headden.jpg"
+  },
+  "Brachiosaurus": {
+    "art_filename": "Brachiosaurus_composite_Matthew_1915.jpg",
+    "fossil_filename": "Brachiosaurus_composite_Matthew_1915.jpg"
+  },
+  "Brachylophosaurus": {
+    "fossil_filename": "Leonardo_mummified_brachylophosaurus.jpg"
+  },
+  "Brontosaurus": {
+    "art_filename": "Brontosaurus_infographic.jpg",
+    "fossil_filename": "Brontosaurus_excelsus_remount_in_the_Peabody_Museum.jpg"
+  },
+  "Byronosaurus": {
+    "art_filename": "Byronosaurus.jpg",
+    "fossil_filename": "Byronosaurus_jaffei_headden.jpg"
+  },
+  "Calamosaurus": {
+    "fossil_filename": "Calamosaurus_vertebra.jpg"
+  },
+  "Camarasaurus": {
+    "fossil_filename": "Lull1930-skeleton-of-camarasaurus-lentus-recently-mounted-at-yale-fig1.jpg"
+  },
+  "Camarillasaurus": {
+    "art_filename": "Camarillasaurus_restoration.jpg"
+  },
+  "Camelotia": {
+    "fossil_filename": "Camelotia_borealis_femur.jpg"
+  },
+  "Camposaurus": {
+    "art_filename": "Camposaurus_arizonensis.png",
+    "fossil_filename": "Camposaurus_holotype_ankle.png"
+  },
+  "Carcharodontosaurus": {
+    "fossil_filename": "Ultimate_Dinosaurs_Carcharodontosaurus.jpg"
+  },
+  "Cedarosaurus": {
+    "fossil_filename": "Cedarosaurus_parts.jpg"
+  },
+  "Centrosaurus": {
+    "art_filename": "Centrosaurus.png",
+    "fossil_filename": "Centrosaurus.JPG"
+  },
+  "Ceratonykus": {
+    "art_filename": "Ceratonykus_oculatus.jpg"
+  },
+  "Ceratops": {
+    "fossil_filename": "Ceratops.png"
+  },
+  "Ceratosaurus": {
+    "fossil_filename": "Ceratosaurus_nasicornis_reconstruction_gilmore_1920.png"
+  },
+  "Chasmosaurus": {
+    "art_filename": "Chasmosaurus_BW.jpg",
+    "fossil_filename": "Chasmosaurus_kaiseni.jpg"
+  },
+  "Chondrosteosaurus": {
+    "fossil_filename": "Chondrosteosaurus.jpg"
+  },
+  "Chuanqilong": {
+    "fossil_filename": "Chuanqilong_postcrania.png"
+  },
+  "Chungkingosaurus": {
+    "art_filename": "Chungkingosaurus_jiangbeiensis.png",
+    "fossil_filename": "Chungkingosaurus_jiangbeiensis.jpg"
+  },
+  "Citipes": {
+    "art_filename": "Citipes_skeletal.jpg",
+    "fossil_filename": "Citipes_Metatarsals.png"
+  },
+  "Coelophysis": {
+    "fossil_filename": "Coelophysis_bauri_mount.jpg"
+  },
+  "Coelurus": {
+    "art_filename": "Coelurus_BW.jpg",
+    "fossil_filename": "Coelurus.jpg"
+  },
+  "Corythoraptor": {
+    "art_filename": "Corythoraptor_Restoration.png",
+    "fossil_filename": "Corythoraptor_skeletal.png"
+  },
+  "Craterosaurus": {
+    "art_filename": "Craterosaurus_size_comparison.png",
+    "fossil_filename": "Craterosaurus.png"
+  },
+  "Crichtonsaurus": {
+    "fossil_filename": "Crichtonsaurus_skeleton.jpg"
+  },
+  "Cristatusaurus": {
+    "fossil_filename": "Cristatusaurus_lapparenti_fragments.JPG"
+  },
+  "Cumnoria": {
+    "art_filename": "Cumnoria_NT.jpg",
+    "fossil_filename": "Cumnoria_incomplete_skeleton.jpg"
+  },
+  "Dacentrurus": {
+    "art_filename": "Dacentrurus_armatus.png",
+    "fossil_filename": "Dacentrurus_armatus.jpg"
+  },
+  "Deinodon": {
+    "fossil_filename": "Deinodon_horridus_lectotype.png"
+  },
+  "Delapparentia": {
+    "fossil_filename": "Iguanodon_de_Bernissart_IRSNB_01.JPG"
+  },
+  "Deltadromeus": {
+    "fossil_filename": "Deltadromeus_agilis_(2).jpg"
+  },
+  "Denversaurus": {
+    "art_filename": "Denversaurus_schlessmani_scale.png",
+    "fossil_filename": "Denversaurus_in_Houston_Museum.jpg"
+  },
+  "Diamantinasaurus": {
+    "art_filename": "Diamantinasaurus.png",
+    "fossil_filename": "Diamantinasaurus_skeletals.png"
+  },
+  "Diluvicursor": {
+    "art_filename": "Diluvicursor_life_restoration.png",
+    "fossil_filename": "Diluvicursor_skeleton.png"
+  },
+  "Dinodocus": {
+    "fossil_filename": "Dinodocus_mackesoni_humerus.jpg"
+  },
+  "Diplodocus": {
+    "art_filename": "Diplodocus_carnegii.jpg",
+    "fossil_filename": "CM_Diplodocus.jpg"
+  },
+  "Dromaeosaurus": {
+    "art_filename": "Dromaeosaurus_Restoration.png",
+    "fossil_filename": "Dromaeosaurus_in_Canadian_Museum_of_Nature.jpg"
+  },
+  "Dromiceiomimus": {
+    "fossil_filename": "DromiceiomimusSkull.JPG"
+  },
+  "Dubreuillosaurus": {
+    "art_filename": "Dubreuillosaurus_NT.jpg",
+    "fossil_filename": "Dubreuillosaurus_reconstructed_skull.png"
+  },
+  "Dynamoterror": {
+    "fossil_filename": "Dynamoterror_frontals_in_rostral_view.png"
+  },
+  "Edmontonia": {
+    "art_filename": "Edmontonia_dinosaur.png",
+    "fossil_filename": "Edmontonia_half.jpg"
+  },
+  "Edmontosaurus": {
+    "fossil_filename": "Edmontosaurus_Family_Clean.png"
+  },
+  "Efraasia": {
+    "art_filename": "Efraasia.png",
+    "fossil_filename": "Efraasia_skull.jpg"
+  },
+  "Einiosaurus": {
+    "art_filename": "Einiosaurus_BW.jpg",
+    "fossil_filename": "Einiosaurus_LACM.jpg"
+  },
+  "Elaphrosaurus": {
+    "art_filename": "Elaphrosaurus_bambergi.jpg",
+    "fossil_filename": "Elaphrosaurus_bambergi.jpg"
+  },
+  "Elmisaurus": {
+    "art_filename": "Elmisaurus.jpg",
+    "fossil_filename": "Elmisaurus_skeletal.png"
+  },
+  "Elopteryx": {
+    "fossil_filename": "Elopteryx_nopcsai_femur.jpg"
+  },
+  "Enigmosaurus": {
+    "art_filename": "Enigmosaurus_Restoration.jpg",
+    "fossil_filename": "Enigmosaurus_Skeleton_Reconstruction.jpg"
+  },
+  "Eosinopteryx": {
+    "art_filename": "Eosinopteryx.jpg"
+  },
+  "Epidexipteryx": {
+    "art_filename": "Epidexipteryx_NT.jpg",
+    "fossil_filename": "Epidexipteryx_hui.jpg"
+  },
+  "Erlikosaurus": {
+    "art_filename": "Erlikosaurus_Restoration.png",
+    "fossil_filename": "Erlikosaurus_Skeleton_Reconstruction.jpg"
+  },
+  "Eucamerotus": {
+    "fossil_filename": "Eucamerotus_holotype_Hulke_1870.png"
+  },
+  "Euronychodon": {
+    "fossil_filename": "Euronychodon_tooth.png"
+  },
+  "Gallimimus": {
+    "art_filename": "Gallimimus_Restoration.png",
+    "fossil_filename": "Gallimimus_bullatus.001_-_Natural_History_Museum_of_London.JPG"
+  },
+  "Giraffatitan": {
+    "art_filename": "Giraffatitan_DB.jpg",
+    "fossil_filename": "Giraffatitan_brancai_Skeletal.png"
+  },
+  "Gobisaurus": {
+    "art_filename": "GobisaurusNV_(cropped).jpg",
+    "fossil_filename": "Gobisaurus_-_Baoding.jpg"
+  },
+  "Gorgosaurus": {
+    "fossil_filename": "Gorgosaurus_in_Japan.jpg"
+  },
+  "Gravitholus": {
+    "fossil_filename": "Gravitholus.png"
+  },
+  "Gryposaurus": {
+    "art_filename": "Gryposaurus_notabilis.png",
+    "fossil_filename": "Gryposaurus_incurvimanus.jpg"
+  },
+  "Guaibasaurus": {
+    "art_filename": "Guaibasaurus-mingau.png",
+    "fossil_filename": "Guaibasaurus_candelariensis.png"
+  },
+  "Gualicho": {
+    "art_filename": "Gualicho_shinyae_restoration.jpg",
+    "fossil_filename": "Gualicho.PNG"
+  },
+  "Hanssuesia": {
+    "art_filename": "Hanssuesia_sternbergi.jpg",
+    "fossil_filename": "Hanssuesia.png"
+  },
+  "Herrerasaurus": {
+    "art_filename": "Herrerasaurus_ischigualastensis_Illustration.jpg",
+    "fossil_filename": "Herrerasaurus_skeleton.jpg"
+  },
+  "Heterodontosaurus": {
+    "art_filename": "Human-heterodontosaurus_size_comparison.png",
+    "fossil_filename": "Heterodontosaurus_tucki.jpg"
+  },
+  "Homalocephale": {
+    "art_filename": "Homalocephale_body.jpg",
+    "fossil_filename": "Homalocephale_calathoceros.jpg"
+  },
+  "Huallasaurus": {
+    "art_filename": "Huallasaurus_australis.png"
+  },
+  "Huanghetitan": {
+    "fossil_filename": "Huanghetitan_ruyangensis.jpg"
+  },
+  "Huaxiagnathus": {
+    "fossil_filename": "Huaxiagnathus_skeletal.jpg"
+  },
+  "Hylaeosaurus": {
+    "art_filename": "Crystal_Palace_Hylaeosaurus.jpg",
+    "fossil_filename": "Hylaeosaurus_fossil_illustration.jpg"
+  },
+  "Hypsibema": {
+    "fossil_filename": "HypsibemaCrassicaudaVertNC.jpg"
+  },
+  "Hypsilophodon": {
+    "art_filename": "Hypsilophodon.jpg",
+    "fossil_filename": "Hypsilophodon_foxi.JPG"
+  },
+  "Hypsirophus": {
+    "art_filename": "Hypsirhophus_discurus.png",
+    "fossil_filename": "Hypsirhophus_holotype.png"
+  },
+  "Iberospinus": {
+    "art_filename": "Iberospinus_natarioi_by_PaleoGeek.png"
+  },
+  "Ichthyovenator": {
+    "fossil_filename": "Ichthyovenator_laosensis_skeletal_reconstruction_by_PaleoGeek.png"
+  },
+  "Ignavusaurus": {
+    "art_filename": "Ignavusaurus_Restoration.jpg"
+  },
+  "Iguanodon": {
+    "art_filename": "Maidstone_fossil_Iguanodon_1840.jpg"
+  },
+  "Irritator": {
+    "fossil_filename": "Irritator_skull.png"
+  },
+  "Iuticosaurus": {
+    "fossil_filename": "Iuticosaurus.jpg"
+  },
+  "Jainosaurus": {
+    "fossil_filename": "Jainosaurus_Skeletal_V3_updated.png"
+  },
+  "Jaxartosaurus": {
+    "art_filename": "Life_reconstruction_of_Jaxartosaurus_aralensis.png",
+    "fossil_filename": "Jaxartosaurus_skull.png"
+  },
+  "Jianchangosaurus": {
+    "fossil_filename": "Jianchangosaurus.png"
+  },
+  "Jingshanosaurus": {
+    "fossil_filename": "Jingshanosaurus_xinwaensis.jpg"
+  },
+  "Jubbulpuria": {
+    "fossil_filename": "Jubbulpuria.jpg"
+  },
+  "Kangnasaurus": {
+    "fossil_filename": "Iziko_Thigh_bone_kangnasaurus.JPG"
+  },
+  "Kayentavenator": {
+    "art_filename": "Kayentavenator.jpg"
+  },
+  "Kazaklambia": {
+    "art_filename": "Kazaklambia_convincens.jpg"
+  },
+  "Kritosaurus": {
+    "art_filename": "Kritosaurus_navajovius.png",
+    "fossil_filename": "Kritosaurus_Sabinosaurio.jpg"
+  },
+  "Kundurosaurus": {
+    "art_filename": "Kundurosaurus_nagornyi.png",
+    "fossil_filename": "lossy-page1-250px-Kundurosaurus.tif.jpg"
+  },
+  "Laevisuchus": {
+    "fossil_filename": "Laevisuchus_cervical_vertebra.png"
+  },
+  "Lambeosaurus": {
+    "fossil_filename": "Lambeosaurus_Pacific_Museum_of_Earth.jpg"
+  },
+  "Latenivenatrix": {
+    "fossil_filename": "Latenivenatrix_skull.jpg"
+  },
+  "Leptoceratops": {
+    "fossil_filename": "Leptoceratops_gracilis_skeletal.jpg"
+  },
+  "Linheraptor": {
+    "art_filename": "Linheraptor_exquisitus.jpg",
+    "fossil_filename": "Linheraptor_skeletal.jpg"
+  },
+  "Lufengosaurus": {
+    "fossil_filename": "Lufengosaurus_Holotype_IVPP.jpg"
+  },
+  "Lusotitan": {
+    "art_filename": "Lusotitan.jpg",
+    "fossil_filename": "Lusotitan_humerus.png"
+  },
+  "Majungasaurus": {
+    "art_filename": "Majungasaurus_DB.jpg",
+    "fossil_filename": "Majungasaurus_SBU_right.jpg"
+  },
+  "Mapusaurus": {
+    "art_filename": "Mapusaurus.jpg",
+    "fossil_filename": "Mapusaurus.jpg"
+  },
+  "Megalosaurus": {
+    "art_filename": "Megalosaurus_size_chart.png",
+    "fossil_filename": "Humped_Megalosaurus.jpg"
+  },
+  "Microraptor": {
+    "art_filename": "Microraptor_scale.png",
+    "fossil_filename": "Microraptor_Skeletons_by_Qilong.jpg"
+  },
+  "Minotaurasaurus": {
+    "art_filename": "Minotaurasaurus_BW.jpg",
+    "fossil_filename": "Minotaurasaurus_skull_cast.jpg"
+  },
+  "Monoclonius": {
+    "art_filename": "Monoclonius.jpg",
+    "fossil_filename": "Monoclonius_sphenocerus.png"
+  },
+  "Nanantius": {
+    "fossil_filename": "Nanantius_tibiotarsus.jpg"
+  },
+  "Nanosaurus": {
+    "fossil_filename": "Nanosaurus_skeleton_in_Copenhagen.jpg"
+  },
+  "Nanshiungosaurus": {
+    "art_filename": "Nanshiungosaurus_Restoration.png",
+    "fossil_filename": "Nanshiungosaurus.jpg"
+  },
+  "Nanuqsaurus": {
+    "art_filename": "Nanuqsaurus.png",
+    "fossil_filename": "NanuqsaurusSkeleton.jpg"
+  },
+  "Nebulasaurus": {
+    "fossil_filename": "Nebulasaurus.jpg"
+  },
+  "Nedcolbertia": {
+    "art_filename": "Nedclobertia.jpg",
+    "fossil_filename": "Justinhofmanni.jpg"
+  },
+  "Nedoceratops": {
+    "art_filename": "Nedoceratops_BW.jpg",
+    "fossil_filename": "Nedoceratops.png"
+  },
+  "Neimongosaurus": {
+    "art_filename": "Neimongosaurus.jpg",
+    "fossil_filename": "Neimongosaurus_yangi.jpg"
+  },
+  "Nemegtomaia": {
+    "art_filename": "Nemegtomaia_size.png",
+    "fossil_filename": "Nemegtomaia.png"
+  },
+  "Nemegtonykus": {
+    "fossil_filename": "Nemegtonykus_Skeletal.png"
+  },
+  "Nemegtosaurus": {
+    "art_filename": "Nemegtosaurus3.jpg",
+    "fossil_filename": "Nemegtosaurus_skull_reconstruction.png"
+  },
+  "Neosodon": {
+    "fossil_filename": "Neosodon_teeth.JPG"
+  },
+  "Neovenator": {
+    "art_filename": "Neovenator_Scale.png",
+    "fossil_filename": "Neovenator.jpg"
+  },
+  "Neuquenraptor": {
+    "fossil_filename": "Neuquenraptor_right_femur.jpg"
+  },
+  "Neuquensaurus": {
+    "art_filename": "Neuquensaurus_restoration.jpg",
+    "fossil_filename": "Neuquensaurus_skeleton_mount.jpg"
+  },
+  "Nevadadromeus": {
+    "art_filename": "Nevadadromeus_reconstruction.jpg"
+  },
+  "Newtonsaurus": {
+    "art_filename": "Newtonsaurus_cambrensis.png",
+    "fossil_filename": "Newtonsaurus.jpg"
+  },
+  "Yutyrannus": {
+    "art_filename": "Yutyrannus_TD.png",
+    "fossil_filename": "Yutyrannus_tail_feathers.jpg"
+  },
+  "Yi (dinosaur)": {
+    "art_filename": "Yiqi_NT.jpg",
+    "fossil_filename": "Yi_qi_Headden.png"
+  },
+  "Zuul": {
+    "art_filename": "Zuul.jpg",
+    "fossil_filename": "Zuul_at_NSM.jpg"
+  },
+  "Zupaysaurus": {
+    "art_filename": "Zupaysaurus.jpg",
+    "fossil_filename": "Zupaysaurus_skull.jpg"
+  },
+  "Zuolong": {
+    "art_filename": "Zuolong_salleei.jpg",
+    "fossil_filename": "Zuolong_skeletal.png"
+  },
+  "Zuniceratops": {
+    "art_filename": "Zuniceratops_christopheri.png",
+    "fossil_filename": "ZuniceratopsArizona.jpg"
+  },
+  "Ziapelta": {
+    "art_filename": "Ziapelta.png",
+    "fossil_filename": "Ziapelta_sanjuanensis.png"
+  },
+  "Zhuchengtyrannus": {
+    "art_filename": "Zhuchengtyrannus_magnus_reconstruction.jpg",
+    "fossil_filename": "Zhuchengtyrannus_magnus_ZCDM_V0031.png"
+  },
+  "Zhuchengceratops": {
+    "art_filename": "Zhuchengceratops_NT.jpg"
+  },
+  "Zhongyuansaurus": {
+    "art_filename": "Zhongyuansaurus_junchangi.png",
+    "fossil_filename": "Zhongyuansaurus_luoyangensis_skull.jpg"
+  },
+  "Zhongjianosaurus": {
+    "art_filename": "Zhongjianosaurus_yangi.png"
+  },
+  "Zhenyuanlong": {
+    "art_filename": "Zhenyuanlong_size_chart.png",
+    "fossil_filename": "Zhenyuanlong.jpg"
+  },
+  "Zhejiangosaurus": {
+    "fossil_filename": "Zhejiangosaurus_lishuiensis_(Nodosauridae)_(16411826393).jpg"
+  },
+  "Zhanghenglong": {
+    "art_filename": "lossless-page1-280px-Reconstruction_of_Zhanghenglong.tif.png",
+    "fossil_filename": "lossless-page1-280px-Reconstruction_of_Zhanghenglong.tif.png"
+  },
+  "Zephyrosaurus": {
+    "fossil_filename": "Zephyrosaurus_in_Berlin.jpg"
+  },
+  "Zby": {
+    "art_filename": "Zby_NT_small.jpg",
+    "fossil_filename": "Zby_holotype.png"
+  },
+  "Zavacephale": {
+    "art_filename": "Zavacephale_rinpoche.png",
+    "fossil_filename": "Zavacephale.jpg"
+  },
+  "Zalmoxes": {
+    "art_filename": "Zalmoxes_TD.png",
+    "fossil_filename": "Zalmoxes_vertebra.jpg"
+  },
+  "Yuzhoulong": {
+    "art_filename": "Yuzhoulong_qurenensis.jpg"
+  },
+  "Yuxisaurus": {
+    "art_filename": "Yuxisaurus_life_restoration.jpg",
+    "fossil_filename": "Yuxisaurus.jpg"
+  },
+  "Yurgovuchia": {
+    "art_filename": "Yurgovuchia.jpg",
+    "fossil_filename": "Yurgovuchia_Skeleton_Reconstruction.jpg"
+  },
+  "Yunnanosaurus": {
+    "fossil_filename": "Yunnanosaurus_skeleton.jpg"
+  },
+  "Yunganglong": {
+    "fossil_filename": "Yunganglong_vertebrae.png"
+  },
+  "Yueosaurus": {
+    "art_filename": "Yueosaurus_reconstruction.jpg"
+  },
+  "Yuanyanglong": {
+    "art_filename": "Yuanyanglong_bainian.png"
+  },
+  "Yuanmousaurus": {
+    "fossil_filename": "Toyohashi_Museum_of_Natural_History_20220717_45.jpg"
+  },
+  "Yuanmouraptor": {
+    "art_filename": "Yuanmouraptor_jinshajiangensis.png",
+    "fossil_filename": "Yuanmouraptor_(holotype_skull_reconstruction).png"
+  },
+  "Yongjinglong": {
+    "fossil_filename": "Yongjinglong.png"
+  },
+  "Yizhousaurus": {
+    "fossil_filename": "Yizhousaurus_sunae_holotype_in_situ.png"
+  },
+  "Yixianosaurus": {
+    "art_filename": "Yixianosaurus_longimanus.png",
+    "fossil_filename": "Yixianosaurus_slab_diagram_(png).png"
+  },
+  "Yinlong": {
+    "art_filename": "Yinlong_BW.jpg",
+    "fossil_filename": "Yinlong_skull.jpg"
+  },
+  "Yingshanosaurus": {
+    "art_filename": "Yingshanosaurus_TD.png"
+  },
+  "Yimenosaurus": {
+    "art_filename": "Yimenosaurus.png"
+  },
+  "Yeneen": {
+    "art_filename": "Yeneen_houssayi.png"
+  },
+  "Yehuecauhceratops": {
+    "art_filename": "Yehuecauhceratops.jpg",
+    "fossil_filename": "Yehuecauhceratops_skeleton.jpg"
+  },
+  "Yaverlandia": {
+    "fossil_filename": "Yaverlandia_skull_replica.png"
+  },
+  "Yantaloong": {
+    "art_filename": "Yantaloong_TD.png"
+  },
+  "Yangchuanosaurus": {
+    "art_filename": "Yangchuanosaurus_NT_small.jpg",
+    "fossil_filename": "Yangchuanosaurus_zigongensis.jpg"
+  },
+  "Yandusaurus": {
+    "art_filename": "Yandusaurus_reconstruction.png",
+    "fossil_filename": "Zigong_Dinosaur_Museum_Yandusaurus_Yangchuanosaurus.jpg"
+  },
+  "Yanbeilong": {
+    "art_filename": "Yanbeilong_ultimus.png"
+  },
+  "Yamatosaurus": {
+    "art_filename": "Yamatosaurus_izanagii_restoration.webp.png",
+    "fossil_filename": "Yamatosaurus_Dentary.webp.png"
+  },
+  "Yamanasaurus": {
+    "art_filename": "Yamanasaurus.jpg"
+  },
+  "Yamaceratops": {
+    "art_filename": "Skeletal_Yamaceratops_MPC-D_100_553_specimen.png",
+    "fossil_filename": "Yamaceratops_holotype_skull.png"
+  },
+  "Xuwulong": {
+    "art_filename": "Xuwulong_NT.jpg",
+    "fossil_filename": "Skeleton_of_Xuwulong_yueluni.JPG"
+  },
+  "Xunmenglong": {
+    "fossil_filename": "Xunmenglong.jpg"
+  },
+  "Xuanhuaceratops": {
+    "art_filename": "Xuanhuaceratops_niei_head.png"
+  },
+  "Xuanhanosaurus": {
+    "art_filename": "Xuanhanosaurus_qilixiaensis_size_comparison.png"
+  },
+  "Xiyunykus": {
+    "art_filename": "Xiyunykus.png"
+  },
+  "Xixiasaurus": {
+    "fossil_filename": "Xixiasaurus_skull.jpg"
+  },
+  "Xiongguanlong": {
+    "art_filename": "Xiongguanlong_baimoensis.png",
+    "fossil_filename": "Xiongguanlong_Skeletal.png"
+  },
+  "Xinjiangtitan": {
+    "art_filename": "Xinjiangtitan_(adjusted).jpg",
+    "fossil_filename": "Xinjiangtitan_shanshanesis_Skeletal.png"
+  },
+  "Xingxiulong": {
+    "art_filename": "Xingxiulong_yueorum.png",
+    "fossil_filename": "Skeleton_Xingxiulong.jpg"
+  },
+  "Xingtianosaurus": {
+    "fossil_filename": "Xingtianosaurus_holotype.png"
+  },
+  "Xiaotingia": {
+    "art_filename": "Xiaotingia_.jpg",
+    "fossil_filename": "Xiaotingia_by_Qilong.jpg"
+  },
+  "Xianshanosaurus": {
+    "fossil_filename": "Xianshanosaurus_skeleton.jpg"
+  },
+  "Xenovenator": {
+    "art_filename": "Xenovenator_espinosai.png"
+  },
+  "Xenotarsosaurus": {
+    "fossil_filename": "Xenotarsosaurus_lower_leg.jpg"
+  },
+  "Xenoposeidon": {
+    "fossil_filename": "Xenoposeidon_proneneukos.jpeg"
+  },
+  "Xenoceratops": {
+    "art_filename": "Xenoceratops_NT_small.jpg",
+    "fossil_filename": "Xenoceratops.jpg"
+  },
+  "Wulatelong": {
+    "fossil_filename": "Wulatelong_gobiensis_skeleton.png"
+  },
+  "Wulagasaurus": {
+    "art_filename": "Wulagasaurus_dongi.png",
+    "fossil_filename": "Wulagasaurus.jpg"
+  },
+  "Wuerhosaurus": {
+    "art_filename": "Wuerhosaurus_homheni.png",
+    "fossil_filename": "Wuerhosaurus-Paleozoological_Museum_of_China.jpg"
+  },
+  "Wudingloong": {
+    "art_filename": "Wudingloong_wui.png"
+  },
+  "Wintonotitan": {
+    "art_filename": "Wintonotitan.png",
+    "fossil_filename": "Wintonotitan_wattsi.png"
+  },
+  "Willinakaqe": {
+    "fossil_filename": "Willinakaqe.jpg"
+  },
+  "Wiehenvenator": {
+    "art_filename": "Wiehenvenator.png",
+    "fossil_filename": "Wiehenvenator_reconstructed_skull.png"
+  },
+  "Wendiceratops": {
+    "art_filename": "Wendiceratops_restoration.PNG",
+    "fossil_filename": "Wendiceratops_skeletal_recolored.png"
+  },
+  "Weewarrasaurus": {
+    "art_filename": "Weewarrasaurus_reconstruction.jpg",
+    "fossil_filename": "Weewarrasaurusholotype.jpg"
+  },
+  "Wannanosaurus": {
+    "fossil_filename": "Wannanosaurus-Paleozoological_Museum_of_China.jpg"
+  },
+  "Walgettosuchus": {
+    "fossil_filename": "Walgettosuchus_caudal_vertebra.jpg"
+  },
+  "Vulcanodon": {
+    "art_filename": "Vulcanodon.jpg",
+    "fossil_filename": "Vulcanodon_skeleton.png"
+  },
+  "Vouivria": {
+    "art_filename": "Vouivria_NT.jpg",
+    "fossil_filename": "Humerus_of_Vouivria.png"
+  },
+  "Vitosaura": {
+    "art_filename": "Vitosaura_colozacani.png"
+  },
+  "Viavenator": {
+    "art_filename": "Viavenator.jpg"
+  },
+  "Veterupristisaurus": {
+    "art_filename": "Veterupristisaurus_milneri_life_restoration.jpg"
+  },
+  "Vespersaurus": {
+    "art_filename": "Vespersaurus_paranaensis_recon.jpg",
+    "fossil_filename": "Vespersaurus_foot.png"
+  },
+  "Velocisaurus": {
+    "art_filename": "Velocisaurus.jpg"
+  },
+  "Velocipes": {
+    "fossil_filename": "Velocipes_guerichi_fibula.jpg"
+  },
+  "Velafrons": {
+    "art_filename": "Life_reconstruction_of_Velafrons_coahuilensis.png",
+    "fossil_filename": "Velafrons_Skeleton.jpg"
+  },
+  "Vectiraptor": {
+    "fossil_filename": "Vectiraptor_Camellae_by_Nick_Longrich.jpg"
+  },
+  "Vectipelta": {
+    "art_filename": "Vectipelta_TD.png",
+    "fossil_filename": "VectipeltaIOW.png"
+  },
+  "Vectidromeus": {
+    "art_filename": "Vectidromeus_insularis_2.png",
+    "fossil_filename": "Vectidromeus_type_by_Nick_Longrich.jpg"
+  },
+  "Vectaerovenator": {
+    "art_filename": "VectaerovenatorCameronSpahn.jpg"
+  },
+  "Vayuraptor": {
+    "fossil_filename": "Vayuraptor_tibia.png"
+  },
+  "Variraptor": {
+    "art_filename": "Variraptor_SIZE.png",
+    "fossil_filename": "Variraptor_mechinorum1.JPG"
+  },
+  "Vallibonavenatrix": {
+    "art_filename": "Vallibonavenatrix_cani_by_PaleoGeek.png"
+  },
+  "Valdosaurus": {
+    "art_filename": "Valdosaurus_size_diagram.png",
+    "fossil_filename": "Valdosaurus_sp.jpg"
+  },
+  "Valdoraptor": {
+    "fossil_filename": "Valdoraptor_oweni.jpg"
+  },
+  "Vagaceratops": {
+    "art_filename": "Vagaceratops_NT.jpg",
+    "fossil_filename": "VagaceratopsCMNSkull.jpg"
+  },
+  "Utetitan": {
+    "art_filename": "Utetitan_zellaguymondeweyae.png"
+  },
+  "Uteodon": {
+    "art_filename": "Uteodon_reconstruction_raingerr.png"
+  },
+  "Utahraptor": {
+    "art_filename": "Utahraptor_size.png",
+    "fossil_filename": "BYU_Utahraptor_skeletal_mount.jpg"
+  },
+  "Utahceratops": {
+    "art_filename": "Utahceratops_TD.png",
+    "fossil_filename": "Utahceratops_gettyi.png"
+  },
+  "Uriash": {
+    "art_filename": "Uriash_kadici.png",
+    "fossil_filename": "Uriash_kadici_holotype_femora.jpg"
+  },
+  "Urbacodon": {
+    "art_filename": "Urbacodon_norelli.png"
+  },
+  "Unenlagia": {
+    "art_filename": "Unenlagia_comahuensis_.jpg",
+    "fossil_filename": "Unenlagia.jpg"
+  },
+  "Unaysaurus": {
+    "art_filename": "Unaysaurus.jpg",
+    "fossil_filename": "Skeletal_reconstruction_of_Unaysaurus_tolentinoi.png"
+  },
+  "Ulughbegsaurus": {
+    "fossil_filename": "Ulughbegsaurus.webp.png"
+  },
+  "Udelartitan": {
+    "art_filename": "Udelartitan_TD.png"
+  },
+  "Udanoceratops": {
+    "art_filename": "Udanoceratops_Restoration.png",
+    "fossil_filename": "Udanoceratops_Skeleton_Reconstruction.png"
+  },
+  "Tyrannotitan": {
+    "art_filename": "Tyrannotitan.jpg",
+    "fossil_filename": "Tyrannotitan_in_Queensland_Museum.jpg"
+  },
+  "Tyrannosaurus": {
+    "fossil_filename": "Tyrannosaurus_Rex_Holotype.jpg"
+  },
+  "Tyrannomimus": {
+    "art_filename": "Tyrannomimus_TD.png",
+    "fossil_filename": "Tyrannomimus_Skeletal.jpg"
+  },
+  "Tylocephale": {
+    "art_filename": "Tylocephale_pair.jpg",
+    "fossil_filename": "Tylocephale_holotype_skull_line.png"
+  },
+  "Turiasaurus": {
+    "fossil_filename": "Turiasaurus_in_zientzia_astea.jpg"
+  },
+  "Turanoceratops": {
+    "art_filename": "Turanoceratops_tardabilis_life_restoration.jpg"
+  },
+  "Tuojiangosaurus": {
+    "art_filename": "Tuojiangosaurus_multispinus_life_restoration.jpg",
+    "fossil_filename": "Natural_History_Museum_Tuojiangosaurus.jpg"
+  },
+  "Tugulusaurus": {
+    "art_filename": "Hypothetical_skeletal_reconstruction_of_Tugulusaurus_with_known_material_in_white.jpg",
+    "fossil_filename": "Hypothetical_skeletal_reconstruction_of_Tugulusaurus_with_known_material_in_white.jpg"
+  },
+  "Tuebingosaurus": {
+    "art_filename": "Tuebingosaurus.jpg",
+    "fossil_filename": "Tuebingosaurus.jpg"
+  },
+  "Tsintaosaurus": {
+    "art_filename": "A_life_reconstruction_of_Tsintaosaurus_spinorhinus.png",
+    "fossil_filename": "Tsintaosaurus_nasal.png"
+  },
+  "Tsagantegia": {
+    "fossil_filename": "Tsagantegia_Skull.png"
+  },
+  "Tsaagan": {
+    "fossil_filename": "Tsaagan_mangas.jpg"
+  },
+  "Trinisaura": {
+    "art_filename": "Trinisaura2.jpg",
+    "fossil_filename": "Trinisaura_esqueletico.jpg"
+  },
+  "Trierarchuncus": {
+    "fossil_filename": "Griffe_de_Trierarchuncus_prairiensis.jpg"
+  },
+  "Triceratops": {
+    "fossil_filename": "Smithsonian_Museum_of_Natural_History_Triceratops.jpg"
+  },
+  "Tratayenia": {
+    "art_filename": "Tratayenia.jpg"
+  },
+  "Transylvanosaurus": {
+    "fossil_filename": "Holotype_of_Transylvanosaurus_platycephalus.jpg"
+  },
+  "Trachodon": {
+    "fossil_filename": "Trachodon_mirabilis.jpg"
+  },
+  "Torvosaurus": {
+    "art_filename": "Torvosaurus_tanneri_Reconstruction.png",
+    "fossil_filename": "Torvosaurus_Museum_of_Ancient_Life_2.jpg"
+  },
+  "Torosaurus": {
+    "art_filename": "Torosaurus_life_restoration.png",
+    "fossil_filename": "Tiny_the_Torosaurus.jpg"
+  },
+  "Tornieria": {
+    "fossil_filename": "Tornieria_caudal.png"
+  },
+  "Tongtianlong": {
+    "art_filename": "Tongtianlong-5.jpg",
+    "fossil_filename": "Tongtianlong-2.jpg"
+  },
+  "Tongnanlong": {
+    "art_filename": "Tongnanlong_zhimingi.png"
+  },
+  "Tochisaurus": {
+    "fossil_filename": "Tochisaurus.jpg"
+  },
+  "Tlatolophus": {
+    "art_filename": "Tlatolophus.png"
+  },
+  "Titanosaurus": {
+    "fossil_filename": "Titanosaurus.jpg"
+  },
+  "Titanomachya": {
+    "art_filename": "Titanomachya_gimenezi.png",
+    "fossil_filename": "Holotype_of_Titanomachya_gimenezi.jpg"
+  },
+  "Titanoceratops": {
+    "art_filename": "Titanoceratops_NT.jpg",
+    "fossil_filename": "Titanoceratops_ouranos_skull_by_Nick_Longrich.jpg"
+  },
+  "Timurlengia": {
+    "art_filename": "Timurlengia.jpg",
+    "fossil_filename": "Timurlengia_Skeletal.png"
+  },
+  "Timimus": {
+    "fossil_filename": "lossy-page1-250px-Timimus.tif.jpg"
+  },
+  "Tietasaura": {
+    "art_filename": "Tietasaura_derbyiana.png"
+  },
+  "Tienshanosaurus": {
+    "fossil_filename": "Tienshanosaurus-Paleozoological_Museum_of_China.jpg"
+  },
+  "Tichosteus": {
+    "fossil_filename": "Tichosteus_lucasanus.jpg"
+  },
+  "Tianzhenosaurus": {
+    "art_filename": "Tianzhenosaurus_chengi.png",
+    "fossil_filename": "Tianzhenosaurus_skeleton.jpg"
+  },
+  "Tianyuraptor": {
+    "art_filename": "Tianyuraptor_restoration.png",
+    "fossil_filename": "Tianyuraptor.jpg"
+  },
+  "Tianyulong": {
+    "art_filename": "Tianyulong_BW.jpg",
+    "fossil_filename": "Tianyulong.jpg"
+  },
+  "Thyreosaurus": {
+    "art_filename": "Thyreosaurus_atlasicus.png",
+    "fossil_filename": "Thyreosaurus_excavation_site.jpg"
+  },
+  "Thespesius": {
+    "fossil_filename": "Thespesius_occidentalis.jpg"
+  },
+  "Thescelosaurus": {
+    "fossil_filename": "Thescelosaurus_neglectus_holotype_in_1963.png"
+  },
+  "Therizinosaurus": {
+    "art_filename": "Therizinosaurus_size.png",
+    "fossil_filename": "Therizinosaurus_known_material.jpg"
+  },
+  "Theiophytalia": {
+    "fossil_filename": "Theiophytalia_skull.jpg"
+  },
+  "Thecospondylus": {
+    "fossil_filename": "Thecospondylus.jpg"
+  },
+  "Thecodontosaurus": {
+    "art_filename": "Thecodontosaurus_antiquus_limb_musculature.jpg",
+    "fossil_filename": "Thecodontosaurus_antiquus_skeleton.png"
+  },
+  "Thecocoelurus": {
+    "fossil_filename": "Thecocoelurus.png"
+  },
+  "Tharosaurus": {
+    "art_filename": "Tharosaurus_TD.png",
+    "fossil_filename": "Tharosaurus_(cervical_vertebrae).jpg"
+  },
+  "Thanatotheristes": {
+    "art_filename": "Thanatotheristes_degrootorum.jpg"
+  },
+  "Texasetes": {
+    "fossil_filename": "NMNH-USNM337987hand.jpg"
+  },
+  "Texacephale": {
+    "fossil_filename": "Texacephale_langstoni_skull_dome_by_Nick_Longrich.png"
+  },
+  "Tethyshadros": {
+    "art_filename": "Tethyshadros_NT.jpg",
+    "fossil_filename": "Tethyshadros_specimen_skeletals.png"
+  },
+  "Terminocavus": {
+    "art_filename": "Terminocavus.jpg",
+    "fossil_filename": "Terminocavus.png"
+  },
+  "Ngwevu": {
+    "fossil_filename": "Ngwevu_intloko.jpg"
+  },
+  "Nhandumirim": {
+    "fossil_filename": "Nhandumirim_sauropodomorpha.png"
+  },
+  "Nigersaurus": {
+    "art_filename": "Nigersaurus_TD.png",
+    "fossil_filename": "Nigersaurus_taqueti_skeleton.png"
+  },
+  "Niobrarasaurus": {
+    "fossil_filename": "Niobrarasaurus_skeleton.jpg"
+  },
+  "Nipponosaurus": {
+    "art_filename": "Life_reconstruction_of_Nipponosaurus_sachalinensis.png",
+    "fossil_filename": "Nipponosaurus.jpg"
+  },
+  "Noasaurus": {
+    "art_filename": "Noasaurus.png",
+    "fossil_filename": "Maxilla_of_Noasaurus.jpg"
+  },
+  "Nodocephalosaurus": {
+    "fossil_filename": "Akainacephalus_and_nodocephalosaurus_skulls.jpg"
+  },
+  "Nodosaurus": {
+    "fossil_filename": "Nodosaurus_textilis.jpg"
+  },
+  "Nomingia": {
+    "art_filename": "Nomingia_gobiensis.png",
+    "fossil_filename": "Nomingia_gobiensis.jpg"
+  },
+  "Nopcsaspondylus": {
+    "fossil_filename": "Nopcsaspondylus_holotype.jpg"
+  },
+  "Notatesseraeraptor": {
+    "art_filename": "Notatesseraeraptor.jpg"
+  },
+  "Nothronychus": {
+    "art_filename": "Nothronychus_mckinleyi_Restoration.png",
+    "fossil_filename": "Nothronychus_sp._skeletal_reconstruction.png"
+  },
+  "Notocolossus": {
+    "art_filename": "Notocolossus_NT_small.jpg",
+    "fossil_filename": "Notocolossus.jpg"
+  },
+  "Notohypsilophodon": {
+    "art_filename": "Notohypsilodon_reconstruction_raingerr.png"
+  },
+  "Nqwebasaurus": {
+    "art_filename": "Nqwebasaurus.png"
+  },
+  "Nullotitan": {
+    "fossil_filename": "Nullotitan_skeletal.png"
+  },
+  "Nuthetes": {
+    "fossil_filename": "Nuthetes.jpg"
+  },
+  "Obelignathus": {
+    "art_filename": "Obelignathus_(life_restoration).png"
+  },
+  "Oblitosaurus": {
+    "art_filename": "Oblitosaurus_TD.png"
+  },
+  "Oceanotitan": {
+    "art_filename": "Oceanotitan_dantasi.jpg",
+    "fossil_filename": "Oceanotitan_dantasi_Skeletal.png"
+  },
+  "Ohmdenosaurus": {
+    "art_filename": "Ohmdenosaurus_modified.jpg",
+    "fossil_filename": "Ohmdenosaurus_3D.png"
+  },
+  "Ojoceratops": {
+    "art_filename": "Ojoceratops_fowleri_profile_reconstruction.jpg"
+  },
+  "Ojoraptorsaurus": {
+    "art_filename": "Ojoraptorsaurus_boerei_profile_reconstruction.jpg",
+    "fossil_filename": "Ojoraptorsaurus_boerei.jpg"
+  },
+  "Olorotitan": {
+    "art_filename": "Olorotitan_DB.jpg",
+    "fossil_filename": "Olorotitan_skull_resonstruction.jpg"
+  },
+  "Omeisaurus": {
+    "fossil_filename": "Zigong_Dinosaur_Museum_Omeisaurus_tianfuensis_(cropped).jpg"
+  },
+  "Ondogurvel": {
+    "art_filename": "Ondogurvel_Restoration.png"
+  },
+  "Oohkotokia": {
+    "fossil_filename": "Oohkotokia.jpg"
+  },
+  "Opisthocoelicaudia": {
+    "art_filename": "Opisthocoelicaudia.jpg",
+    "fossil_filename": "Opisthocoelicaudia_Museum_of_Evolution_in_Warsaw_02.JPG"
+  },
+  "Oplosaurus": {
+    "fossil_filename": "Oplosaurus.png"
+  },
+  "Orkoraptor": {
+    "art_filename": "Orkoraptor_drawing.jpg"
+  },
+  "Ornatops": {
+    "art_filename": "Ornatops_incantatus.png",
+    "fossil_filename": "Ornatops_Braincase.jpg"
+  },
+  "Ornithodesmus": {
+    "fossil_filename": "Ornithodesmus_cluniculus.jpg"
+  },
+  "Ornitholestes": {
+    "fossil_filename": "Ornitholestes_Holotype_AMNH.jpg"
+  },
+  "Ornithomimoides": {
+    "fossil_filename": "Ornithomimoides_mobilis.jpg"
+  },
+  "Ornithomimus": {
+    "fossil_filename": "OrnithomimusROM.JPG"
+  },
+  "Ornithopsis": {
+    "fossil_filename": "Ornithopsis_hulkei_lectotype.jpeg"
+  },
+  "Ornithotarsus": {
+    "fossil_filename": "Ornithotarsus_immanis_tibia_and_fibula.jpg"
+  },
+  "Orodromeus": {
+    "fossil_filename": "Orodromeus_skeleton.jpg"
+  },
+  "Orthomerus": {
+    "fossil_filename": "OrthomerusModel.JPG"
+  },
+  "Oryctodromeus": {
+    "art_filename": "Oryctodromeus.jpg",
+    "fossil_filename": "Oryctodromeus_cubicularis_-_Museum_of_the_Rockies.jpg"
+  },
+  "Ostafrikasaurus": {
+    "art_filename": "Life_reconstruction_of_Ostafrikasaurus_crassiserratus.jpg",
+    "fossil_filename": "Ostafrikasaurus_holotype_tooth_by_PaleoGeek.png"
+  },
+  "Ostromia": {
+    "art_filename": "OSTROMIA_mario_lanzas_recomstruction.jpg",
+    "fossil_filename": "Ostromia_skeletal.jpg"
+  },
+  "Ouranosaurus": {
+    "art_filename": "Ouranosaurus_head.jpg",
+    "fossil_filename": "Ouranosaurus_-_skull.JPG"
+  },
+  "Overosaurus": {
+    "art_filename": "Overosaurus_life_restoration.jpg"
+  },
+  "Oviraptor": {
+    "fossil_filename": "Oviraptor_Skeletal.png"
+  },
+  "Owenodon": {
+    "fossil_filename": "lossy-page1-250px-Owenodon_hoggii_lateral.tif.jpg"
+  },
+  "Ozraptor": {
+    "art_filename": "Ozraptor_TD.png",
+    "fossil_filename": "Ozraptor_tibia.jpg"
+  },
+  "Pachycephalosaurus": {
+    "art_filename": "Pachycephalosaurus_Reconstruction.jpg",
+    "fossil_filename": "Pachycephalosaurus_wyomingensis_ROM.jpg"
+  },
+  "Pachyrhinosaurus": {
+    "art_filename": "Pachyrhinosaurus_BW.jpg",
+    "fossil_filename": "Pachyrhinosaurus_Royal_Tyrrell_1.jpg"
+  },
+  "Palaeopteryx": {
+    "art_filename": "Smallest_theropods_scale_mmartyniuk.png"
+  },
+  "Palaeoscincus": {
+    "fossil_filename": "Palaeoscincus_costatus.jpg"
+  },
+  "Paludititan": {
+    "art_filename": "Paludititan_nalatzsensis.jpg",
+    "fossil_filename": "Paludititan.jpg"
+  },
+  "Pampadromaeus": {
+    "fossil_filename": "Skeletal_reconstruction_of_Pampadromaeus_barberenai.png"
+  },
+  "Pamparaptor": {
+    "art_filename": "Pamparaptor_micros.png"
+  },
+  "Panguraptor": {
+    "fossil_filename": "Panguraptor_skull.png"
+  },
+  "Panoplosaurus": {
+    "art_filename": "Panoplosaurus_055.JPG",
+    "fossil_filename": "Panoplosaurus.jpg"
+  },
+  "Panphagia": {
+    "art_filename": "Panphagia_NT.jpg",
+    "fossil_filename": "Panphagia_fossil_DSC_6168.jpg"
+  },
+  "Pantydraco": {
+    "art_filename": "Pantydraco_BW.jpg"
+  },
+  "Papiliovenator": {
+    "fossil_filename": "Papiliovenator_skull.png"
+  },
+  "Paralitherizinosaurus": {
+    "art_filename": "Paralitherizinosaurus_Restoration.png",
+    "fossil_filename": "Paralitherizinosaurus_holotype_skeletal.png"
+  },
+  "Paralititan": {
+    "art_filename": "Paralititan_stromeri.jpg",
+    "fossil_filename": "Paralititan_stromeri_by_Hatem_Moushir_9.JPG"
+  },
+  "Pararhabdodon": {
+    "art_filename": "Life_reconstruction_of_Pararhabdodon_isonensis.png",
+    "fossil_filename": "Pararhabdodon.png"
+  },
+  "Parasaurolophus": {
+    "art_filename": "Parasaurolophus_walkeri.png",
+    "fossil_filename": "FMNH_Parasaurolophus_fossil.jpg"
+  },
+  "Paraxenisaurus": {
+    "art_filename": "Paraxenisaurus_normalensis_as_Deinocheirid.jpg",
+    "fossil_filename": "Paraxenisaurus_skeleton.jpg"
+  },
+  "Pareisactus": {
+    "fossil_filename": "Pareisactus_scapula.png"
+  },
+  "Parksosaurus": {
+    "art_filename": "Parksosaurus_Steveoc86.jpg",
+    "fossil_filename": "ParksosaurusSkull.JPG"
+  },
+  "Parvicursor": {
+    "art_filename": "Parvicursor.jpg"
+  },
+  "Patagonykus": {
+    "art_filename": "Patagonykuspuertai.jpg",
+    "fossil_filename": "Patagonykus.jpg"
+  },
+  "Patagopelta": {
+    "art_filename": "Patagopelta_into_the_water.png"
+  },
+  "Patagosaurus": {
+    "art_filename": "Patagosaurus_scale.png",
+    "fossil_filename": "Patagosaurus_(1).jpg"
+  },
+  "Patagotitan": {
+    "art_filename": "Patagotitan_TD.png",
+    "fossil_filename": "FMNH_Patagotitan.jpg"
+  },
+  "Pawpawsaurus": {
+    "fossil_filename": "PawpawsaurusMM1.jpg"
+  },
+  "Pectinodon": {
+    "art_filename": "Pectinodon_TD.png",
+    "fossil_filename": "Pectinodon.png"
+  },
+  "Pedopenna": {
+    "art_filename": "Pedopenna_(scansoriopterygid).png",
+    "fossil_filename": "Pedopenna_daohugouensis_Skeletal.png"
+  },
+  "Pegomastax": {
+    "art_filename": "Pegomastax_africana_lower_jaws_reconstruction.jpg",
+    "fossil_filename": "Pegomastax_holotype_with_diagram.jpg"
+  },
+  "Pelecanimimus": {
+    "art_filename": "Pelecanimimus_restoration.jpeg",
+    "fossil_filename": "Pelecanimimus_047.JPG"
+  },
+  "Pellegrinisaurus": {
+    "fossil_filename": "Pellegrinisaurus_Skeleton_reconstruction.jpg"
+  },
+  "Peloroplites": {
+    "fossil_filename": "Peloroplites_price_1.jpg"
+  },
+  "Pelorosaurus": {
+    "art_filename": "Pelorosaurus2.jpg",
+    "fossil_filename": "Pelorosaurus_conybeari.jpg"
+  },
+  "Pendraig": {
+    "art_filename": "Life_reconstruction_of_Pendraig_milnerae.jpg"
+  },
+  "Pentaceratops": {
+    "art_filename": "Pentaceratops_BW.jpg",
+    "fossil_filename": "Pentaceratops_sternbergii_holotype_AMNH6325.jpg"
+  },
+  "Perijasaurus": {
+    "art_filename": "Perijasaurus_lapaz.jpg"
+  },
+  "Petrobrasaurus": {
+    "art_filename": "Petrobrasaurus_puestohernandezi.jpg"
+  },
+  "Petrustitan": {
+    "art_filename": "Petrustitan_hungaricus.png",
+    "fossil_filename": "Paralectotype_and_lectotype_of_Petrustitan_hungaricus.jpg"
+  },
+  "Philovenator": {
+    "art_filename": "Philovenator_curriei_life_restoration..png"
+  },
+  "Phuwiangosaurus": {
+    "fossil_filename": "Phuwiangosaurus_sirindhornae_femur.JPG"
+  },
+  "Phuwiangvenator": {
+    "fossil_filename": "Phuwiangvenator_Hands.png"
+  },
+  "Piatnitzkysaurus": {
+    "art_filename": "Piatnitzkysaurus_floresi_by_Paleocolour.jpg",
+    "fossil_filename": "Piatnitzkysaurus_floresi_skeletal_reconstruction.jpg"
+  },
+  "Pilmatueia": {
+    "fossil_filename": "Pilmatueia_skeletal.jpg"
+  },
+  "Pinacosaurus": {
+    "fossil_filename": "Pinacosaurus.jpg"
+  },
+  "Pisanosaurus": {
+    "art_filename": "Pisanosaurus.jpg",
+    "fossil_filename": "PisanosaurusROM1.JPG"
+  },
+  "Piveteausaurus": {
+    "fossil_filename": "Piveteausaurus_divesensis_skull_5.jpg"
+  },
+  "Planicoxa": {
+    "art_filename": "Planicoxa_TD.png"
+  },
+  "Plateosauravus": {
+    "fossil_filename": "Plateosauravus_cullingworthi_humerus.jpg"
+  },
+  "Plateosaurus": {
+    "art_filename": "Plateosaurus_engelhardti.png",
+    "fossil_filename": "Plateosaurus_Skelett_2.jpg"
+  },
+  "Platypelta": {
+    "fossil_filename": "lossy-page1-250px-Platypelta_AMNH_5337.tiff.jpg"
+  },
+  "Platytholus": {
+    "art_filename": "Platytholus_clemensi.png"
+  },
+  "Pneumatoraptor": {
+    "art_filename": "Pneumatoraptor_fodori.jpg",
+    "fossil_filename": "Pneumatoraptor.jpg"
+  },
+  "Podokesaurus": {
+    "art_filename": "Podokesaurus_model.jpg",
+    "fossil_filename": "Podokesaurus_skeletal_reconstruction.jpg"
+  },
+  "Poekilopleuron": {
+    "art_filename": "Poekilopleuron_life_restoration.png",
+    "fossil_filename": "Poekilopleuron_neural_spine.jpg"
+  },
+  "Polacanthus": {
+    "art_filename": "Polacanthus_foxii.jpg",
+    "fossil_filename": "Polacanthus_skeleton.jpg"
+  },
+  "Portellsaurus": {
+    "fossil_filename": "Portellsaurus_Holotype_Dentary.png"
+  },
+  "Pradhania": {
+    "art_filename": "Pradhania.png"
+  },
+  "Prenocephale": {
+    "fossil_filename": "Prenocephale_1.jpg"
+  },
+  "Prenoceratops": {
+    "art_filename": "Prenoceratops_BW.jpg",
+    "fossil_filename": "The_Childrens_Museum_of_Indianapolis_-_Prenoceratops_pieganensis_-1.jpg"
+  },
+  "Priconodon": {
+    "fossil_filename": "Priconodon.jpg"
+  },
+  "Probactrosaurus": {
+    "art_filename": "Probactrosaurus_v3.jpg",
+    "fossil_filename": "Probactrosaurus_at_Giga_Dinosaur_Exhibition_2017.jpg"
+  },
+  "Probrachylophosaurus": {
+    "art_filename": "Probrachylophosaurus_bergei.png",
+    "fossil_filename": "Probrachylophosaurus.PNG"
+  },
+  "Proceratosaurus": {
+    "art_filename": "Proceratosaurus_restoration.jpg",
+    "fossil_filename": "Proceratosaurus_holotype_skull.jpg"
+  },
+  "Procompsognathus": {
+    "art_filename": "Procompsognathus.jpg",
+    "fossil_filename": "Procompsognathus_triassicus.JPG"
+  },
+  "Prosaurolophus": {
+    "art_filename": "Prosaurolophus_maximus.png",
+    "fossil_filename": "Prosaurolophus_panel_mount.jpg"
+  },
+  "Protarchaeopteryx": {
+    "art_filename": "Protarchaeopteryx-swamp.png",
+    "fossil_filename": "Protarchaeopteryx.jpg"
+  },
+  "Protathlitis": {
+    "fossil_filename": "Skeletal_reconstruction_of_Protathlitis_cinctorrensis.webp.png"
+  },
+  "Protoceratops": {
+    "art_filename": "Nesting_Protoceratops.jpg",
+    "fossil_filename": "Protoceratops-skeleton.jpg"
+  },
+  "Psittacosaurus": {
+    "fossil_filename": "The_Childrens_Museum_of_Indianapolis_-_Psittacosaurus_skeleton_cast.jpg"
+  },
+  "Pterospondylus": {
+    "fossil_filename": "Pterospondylus_trielbae.jpg"
+  },
+  "Puertasaurus": {
+    "fossil_filename": "Saurischia_-_Puertasaurus_reuili.JPG"
+  },
+  "Pukyongosaurus": {
+    "fossil_filename": "Pukyongosaurus.jpg"
+  },
+  "Pulanesaura": {
+    "fossil_filename": "Pulanesaura_eocollum.jpg"
+  },
+  "Pulaosaurus": {
+    "art_filename": "Pulaosaurus_qinglong.png",
+    "fossil_filename": "Pulaosaurus.jpg"
+  },
+  "Pycnonemosaurus": {
+    "art_filename": "Pycnonemosaurus_restoration_2020.jpg",
+    "fossil_filename": "Pycnonemosaurus_nevesi_skeletal_simple.jpg"
+  },
+  "Pyroraptor": {
+    "fossil_filename": "Pyroraptor_olympius_reconstruction.png"
+  },
+  "Qantassaurus": {
+    "art_filename": "Qantassaurus_model.jpg",
+    "fossil_filename": "Qantassaurus_skel_aus.jpg"
+  },
+  "Qianjiangsaurus": {
+    "art_filename": "Qianjiangsaurus_changshengi.png"
+  },
+  "Qianzhousaurus": {
+    "fossil_filename": "Qianzhousaurus_holotype_skull.jpg"
+  },
+  "Qiaowanlong": {
+    "fossil_filename": "Skeleton_of_Qiaowanlong_kangxii.JPG"
+  },
+  "Qiupalong": {
+    "art_filename": "Qiupalong_Restoration.png",
+    "fossil_filename": "Qiupalong_holotype_Henan_Geological_Museum.jpg"
+  },
+  "Qiupanykus": {
+    "art_filename": "Tarbosaurus_attacking_Saurolophus.jpg",
+    "fossil_filename": "Linhenykus.jpg"
+  },
+  "Quaesitosaurus": {
+    "art_filename": "Quaesitosaurus.jpg",
+    "fossil_filename": "Quaesitosaurus_skull_reconstruction.png"
+  },
+  "Quetecsaurus": {
+    "art_filename": "Quetecsaurus.jpg",
+    "fossil_filename": "Quetecsaurus_rusconii_Skeletal_Me.jpg"
+  },
+  "Quilmesaurus": {
+    "art_filename": "Quilmesaurus_curriei.jpg",
+    "fossil_filename": "Quilmesaurus_and_Carnotaurus_distal_femora.png"
+  },
+  "Qunkasaura": {
+    "art_filename": "Qunkasaura_TD.png",
+    "fossil_filename": "Qunkasaura_(HUE-02957_-_excavation).png"
+  },
+  "Rahiolisaurus": {
+    "art_filename": "Rahiolisaurus_size.jpg"
+  },
+  "Rahonavis": {
+    "art_filename": "Rahonavis_NT.jpg",
+    "fossil_filename": "Rahonavis.jpg"
+  },
+  "Rajasaurus": {
+    "art_filename": "Rajasaurus_scale_diagram.jpg"
+  },
+  "Rapator": {
+    "art_filename": "RapatorCameronSpahn.jpg",
+    "fossil_filename": "Rapator.png"
+  },
+  "Rapetosaurus": {
+    "art_filename": "Rapetosaurus_BW.jpg",
+    "fossil_filename": "Rapetosaurus_krausei_Skeletal.png"
+  },
+  "Ratchasimasaurus": {
+    "fossil_filename": "Ratchasimasaurus_suranareae_02.jpg"
+  },
+  "Rativates": {
+    "art_filename": "Rativates.png",
+    "fossil_filename": "Rativates_skull.png"
+  },
+  "Rebbachisaurus": {
+    "art_filename": "Rebbachisaurus_BW.jpg",
+    "fossil_filename": "Holotype_material_of_Rebbachisaurus_garasbae.jpg"
+  },
+  "Regaliceratops": {
+    "art_filename": "Regaliceratops_peterhewsi_abelov.jpg",
+    "fossil_filename": "Regaliceratops_skull_at_Royal_Tyrrell_Museum.jpg"
+  },
+  "Regnosaurus": {
+    "fossil_filename": "Regnosaurus.jpg"
+  },
+  "Rhabdodon": {
+    "art_filename": "Rhabdodon_by_Tom_Parker.png",
+    "fossil_filename": "Rhabdodon_priscus.JPG"
+  },
+  "Rhoetosaurus": {
+    "fossil_filename": "Rhoetosaurus_Leg.jpg"
+  },
+  "Riabininohadros": {
+    "art_filename": "Riabininohardos_NT.png"
+  },
+  "Richardoestesia": {
+    "fossil_filename": "Richardoestesia.png"
+  },
+  "Rinchenia": {
+    "fossil_filename": "Rinchenia_holotype_skull.jpg"
+  },
+  "Rinconsaurus": {
+    "art_filename": "Rinconsaurus_test_2.jpg"
+  },
+  "Riojasaurus": {
+    "art_filename": "Riojasaurus_NT.jpg",
+    "fossil_filename": "Riojasaurus_skull.jpg"
+  },
+  "Riojavenatrix": {
+    "art_filename": "Riojavenatrix_UDL.png"
+  },
+  "Riparovenator": {
+    "art_filename": "Riparovenator_milnerae_by_PaleoGeek_v2.png",
+    "fossil_filename": "RiparovenatorCeratosuchops.webp.png"
+  },
+  "Rocasaurus": {
+    "art_filename": "Rocasaurus_muniozi.jpg",
+    "fossil_filename": "Rocasaurus.jpg"
+  },
+  "Ruehleia": {
+    "fossil_filename": "Ruehleia.jpg"
+  },
+  "Rugops": {
+    "art_filename": "Rugops_primus_scale_diagram.jpg",
+    "fossil_filename": "Rugops_primus.jpeg"
+  },
+  "Rukwatitan": {
+    "fossil_filename": "Rukwatitan_humerus.jpg"
+  },
+  "Ruyangosaurus": {
+    "art_filename": "Ruyangosaurus.png",
+    "fossil_filename": "Ruyangosaurus.png"
+  },
+  "Saichania": {
+    "art_filename": "Saichania_in_Nemegt_Formation.jpg",
+    "fossil_filename": "Saichania_skeleton.jpg"
+  },
+  "Saltasaurus": {
+    "art_filename": "Saltasaurus_dinosaur.png",
+    "fossil_filename": "Saltasaurus.jpg"
+  },
+  "Saltriovenator": {
+    "art_filename": "Saltriovenator_size.png",
+    "fossil_filename": "Saltriovenator_Skeletal_Diagram.png"
+  },
+  "Sanjuansaurus": {
+    "art_filename": "Sanjuansaurus_NT.jpg",
+    "fossil_filename": "Sanjuansaurus_skeleton.png"
+  },
+  "Sanpasaurus": {
+    "fossil_filename": "Sanpasaurus_dorsal_vertebra.png"
+  },
+  "Santanaraptor": {
+    "art_filename": "Santanaraptor_placidus.jpg",
+    "fossil_filename": "Esqueleto_de_Santanaraptor_MN_01.jpg"
+  },
+  "Sanxiasaurus": {
+    "art_filename": "Sanxiasaurus_reconstruction.png"
+  },
+  "Sarahsaurus": {
+    "art_filename": "Sarahsaurus_restoration.PNG",
+    "fossil_filename": "Sarahsaurus_holotype.jpg"
+  },
+  "Sarcolestes": {
+    "fossil_filename": "Sarcolestes.jpg"
+  },
+  "Sarcosaurus": {
+    "art_filename": "Sarcosaurus_life_restoration.jpg",
+    "fossil_filename": "Sarcosaurus_known_material.png"
+  },
+  "Sarmientosaurus": {
+    "fossil_filename": "Right_mandibular_ramus_of_Sarmientosaurus.PNG"
+  },
+  "Sasayamagnomus": {
+    "art_filename": "Sasayamagnomus_saegusai.png",
+    "fossil_filename": "Sasayamagnomus_HolotypeJH.jpg"
+  },
+  "Saurolophus": {
+    "fossil_filename": "Saurolophus_mount.jpg"
+  },
+  "Sauroniops": {
+    "fossil_filename": "Sauroniops_holotype.png"
+  },
+  "Sauropelta": {
+    "art_filename": "Sauropelta_reconstruction.png",
+    "fossil_filename": "Sauropelta.jpg"
+  },
+  "Sauroposeidon": {
+    "art_filename": "Sauroposeidon_proteles.jpg",
+    "fossil_filename": "Sauroposeidon_proteles_Skeletal.png"
+  },
+  "Saurornithoides": {
+    "art_filename": "Saurornithoides_restoration.png",
+    "fossil_filename": "Saurornithoides.jpg"
+  },
+  "Saurornitholestes": {
+    "art_filename": "Saurornitholestes_SIZE.png",
+    "fossil_filename": "Saurornitholestes_langstoni_skeletal.png"
+  },
+  "Savannasaurus": {
+    "art_filename": "Savannasaurus_elliottorum.jpg",
+    "fossil_filename": "Savannasaurus_skeleton.jpg"
+  },
+  "Scansoriopteryx": {
+    "fossil_filename": "Scansoriopteryx_heilmanni.jpg"
+  },
+  "Scelidosaurus": {
+    "fossil_filename": "Scelidosaurus_harrisonii_(1).jpg"
+  },
+  "Scipionyx": {
+    "art_filename": "Scipionyx_samniticus_-_MUSE.jpg",
+    "fossil_filename": "Scipionyx_speculative_anatomy.jpg"
+  },
+  "Sciurumimus": {
+    "art_filename": "Sciurumimus_on_beach.jpg"
+  },
+  "Scolosaurus": {
+    "art_filename": "Scolosaurus.png",
+    "fossil_filename": "lossy-page1-250px-Scolosaurus_cutleri.tif.jpg"
+  },
+  "Scutellosaurus": {
+    "art_filename": "Scutellosaurus_lawleri_NT.png",
+    "fossil_filename": "Scutellosaurus_lawleri.jpg"
+  },
+  "Secernosaurus": {
+    "art_filename": "Secernosaurus_koerneri.png"
+  },
+  "Segisaurus": {
+    "art_filename": "Segisaurus.jpg",
+    "fossil_filename": "Segisaurus_halli.jpg"
+  },
+  "Segnosaurus": {
+    "art_filename": "Stamp_of_Azerbaijan_-_1994_-_Colnect_287813_-_Segnosaurus_Oviraptor.jpeg",
+    "fossil_filename": "Segnosaurus_skeletal.png"
+  },
+  "Seitaad": {
+    "art_filename": "Seitaad_NT.jpg",
+    "fossil_filename": "Skeletal_reconstruction_of_Seitaad_ruessi.jpg"
+  },
+  "Serikornis": {
+    "art_filename": "Serikornis.jpg",
+    "fossil_filename": "Serikornis_snout_tip.jpg"
+  },
+  "Shanag": {
+    "art_filename": "Shanag.jpg",
+    "fossil_filename": "Shanag_skull.png"
+  },
+  "Shantungosaurus": {
+    "art_filename": "Shantungosaurus_giganteus.png"
+  },
+  "Shaochilong": {
+    "art_filename": "Shaochilong.jpg",
+    "fossil_filename": "Braincase_of_Shaochilong.PNG"
+  },
+  "Shenzhousaurus": {
+    "art_filename": "Shenzhousaurus.jpg",
+    "fossil_filename": "Shenzhousaurus-Geological_Museum_of_China.jpg"
+  },
+  "Shishugounykus": {
+    "fossil_filename": "Shishugounykus_inexpectus_skeletal_reconstruction.png"
+  },
+  "Shri (genus)": {
+    "art_filename": "Shri_devi.jpg",
+    "fossil_filename": "Shri_specimens_skeletal.png"
+  },
+  "Shunosaurus": {
+    "art_filename": "Shunosaurus_life_restoration.jpg",
+    "fossil_filename": "Shunosaurus_-_Finnish_Museum_of_Natural_History.jpg"
+  },
+  "Shuvuuia": {
+    "art_filename": "Shuvuuia.jpg",
+    "fossil_filename": "Shuvuuia_skeletal_Headden.jpg"
+  },
+  "Siamodon": {
+    "fossil_filename": "Siamodon_tooth1.JPG"
+  },
+  "Siamosaurus": {
+    "art_filename": "Siamosaurus_suteethorni_by_PaleoGeek.png",
+    "fossil_filename": "Siamosaurus_tooth_by_PaleoGeek.png"
+  },
+  "Siamotyrannus": {
+    "fossil_filename": "Siamotyrannus_pelvis_01.JPG"
+  },
+  "Siamraptor": {
+    "art_filename": "Siamraptor_reconstruction_2019_(Mario_Lanzas).jpg",
+    "fossil_filename": "Siamraptor-human_size_comparison.png"
+  },
+  "Siats": {
+    "art_filename": "Siats_reconstruction.png",
+    "fossil_filename": "Siats_meekerorum_skeletal_diagram.jpg"
+  },
+  "Sibirotitan": {
+    "art_filename": "Sibirotitan_model.jpg",
+    "fossil_filename": "Sibirotitan_astrosacralis.jpg"
+  },
+  "Sidersaura": {
+    "art_filename": "Sidersaura_UDL.png"
+  },
+  "Sierraceratops": {
+    "art_filename": "Sierraceratops.jpg",
+    "fossil_filename": "Sierraceratops_turneri_dorsal_vertebra_by_Nick_Longrich.jpg"
+  },
+  "Sigilmassasaurus": {
+    "art_filename": "Life_reconstruction_of_Sigilmassasaurus_brevicollis.png",
+    "fossil_filename": "Neck_reconstructions_of_Sigilmassasaurus_and_Baryonyx.png"
+  },
+  "Silutitan": {
+    "fossil_filename": "Silutitan_skeletal_reconstruction.png"
+  },
+  "Silvisaurus": {
+    "art_filename": "Silvisaurus.jpg",
+    "fossil_filename": "Silvisaurus_skull_fossil.jpg"
+  },
+  "Similicaudipteryx": {
+    "fossil_filename": "Similicaudipteryx.jpg"
+  },
+  "Sinocalliopteryx": {
+    "art_filename": "Sinocalliopteryx_gigas.jpg",
+    "fossil_filename": "Holotype_of_Sinocalliopteryx_gigas.png"
+  },
+  "Sinocephale": {
+    "fossil_filename": "Royal_Tyrrell_Museum_Stegoceras.jpg"
+  },
+  "Sinoceratops": {
+    "art_filename": "Sinoceratops_NT.jpg",
+    "fossil_filename": "Sinoceratops_skeleton.jpg"
+  },
+  "Sinocoelurus": {
+    "fossil_filename": "Sinocoelurus_tooth.jpg"
+  },
+  "Sinornithoides": {
+    "art_filename": "Sinornithoides-youngi_jconway.png",
+    "fossil_filename": "Sinornithoides_youngi.jpg"
+  },
+  "Sinornithomimus": {
+    "art_filename": "Sinornithomimus.jpg",
+    "fossil_filename": "Sinornithomimus_skull.jpg"
+  },
+  "Sinornithosaurus": {
+    "art_filename": "Sinornithosaurus.jpg",
+    "fossil_filename": "Sinornithosaurus_millenii.jpg"
+  },
+  "Sinosauropteryx": {
+    "fossil_filename": "Sinosauropteryx.jpg"
+  },
+  "Sinosaurus": {
+    "art_filename": "Sinosaurus.jpg",
+    "fossil_filename": "Sinosaurus_triassicus_2.JPG"
+  },
+  "Sinotyrannus": {
+    "art_filename": "Sinotyrannus_kazuoensis.png",
+    "fossil_filename": "Sinotyrannus_kazuoensis_skeletal.png"
+  },
+  "Sinovenator": {
+    "art_filename": "Sinovenator_(update).png",
+    "fossil_filename": "Sinovenator-Tianjin_Natural_History_Museum.jpg"
+  },
+  "Sinraptor": {
+    "art_filename": "Sinraptor_NT.jpg",
+    "fossil_filename": "Sinraptor_dongi.jpg"
+  },
+  "Sinusonasus": {
+    "art_filename": "Sinusonasus.png"
+  },
+  "Sirindhorna": {
+    "art_filename": "Sirindhorna_skull_and_head.PNG",
+    "fossil_filename": "Sirindhorna_khoratensis_FukuiJH.jpg"
+  },
+  "Skorpiovenator": {
+    "art_filename": "Skorpiovenator_bustingorryi.jpg",
+    "fossil_filename": "Skorpiovenator_skull.jpg"
+  },
+  "Smitanosaurus": {
+    "fossil_filename": "Smitanosaurus_agilis_skull_and_neck.jpg"
+  },
+  "Sonidosaurus": {
+    "fossil_filename": "Sonidosaurus.jpg"
+  },
+  "Sonorasaurus": {
+    "art_filename": "Sonorasaurus_thompsoni.jpg"
+  },
+  "Soriatitan": {
+    "art_filename": "Soriatitan_golmayensis.jpg"
+  },
+  "Spectrovenator": {
+    "art_filename": "Spectrovenator_life_reconstrution.png",
+    "fossil_filename": "Spectrovenator_ragei_skeletal_reconstruction_by_Felipe_Elias.jpg"
+  },
+  "Sphaerotholus": {
+    "art_filename": "Sphaerotholus.jpg",
+    "fossil_filename": "Sphaerotholus.png"
+  },
+  "Spiclypeus": {
+    "art_filename": "Spiclypeus_NT_small.jpg",
+    "fossil_filename": "Spiclypeus.PNG"
+  },
+  "Spicomellus": {
+    "art_filename": "Spicomellus_afer.png",
+    "fossil_filename": "Spicomellus_afer_holotype_illustration.png"
+  },
+  "Spinophorosaurus": {
+    "art_filename": "Spinophorosaurus_size_diagram.PNG",
+    "fossil_filename": "Spinophorosaurus_skull_elements.png"
+  },
+  "Spinops": {
+    "art_filename": "Spinops_TD.png",
+    "fossil_filename": "Spinops.jpg"
+  },
+  "Spinosaurus": {
+    "fossil_filename": "Digital_skeletal_reconstruction_of_Spinosaurus.png"
+  },
+  "Spinostropheus": {
+    "art_filename": "Spinostropheus.png"
+  },
+  "Staurikosaurus": {
+    "art_filename": "Staurikosaurus-mingau-colour.png",
+    "fossil_filename": "Staurikosaurus_reconstruction.jpg"
+  },
+  "Stegoceras": {
+    "fossil_filename": "1924_Gilmore_Stegoceras.jpg"
+  },
+  "Stegopelta": {
+    "fossil_filename": "Stegopelta_pelvic_armor.jpg"
+  },
+  "Stegosaurus": {
+    "art_filename": "Stegosaurus_stenops_Life_Reconstruction.png",
+    "fossil_filename": "Stegosaurus_ungulatus_skeleton_peabody_museum_1910.png"
+  },
+  "Stegouros": {
+    "art_filename": "Stegouros_elengassen.png",
+    "fossil_filename": "Stegouros_elengassen_holotype_and_skeletal.png"
+  },
+  "Stellasaurus": {
+    "art_filename": "Stellasaurus_TD.png",
+    "fossil_filename": "Nasal_horncore_of_Stellasaurus.jpg"
+  },
+  "Stenonychosaurus": {
+    "art_filename": "Stenonychosaurus_head_neck_NHM.jpg",
+    "fossil_filename": "Stenonychosaurus_skeleton.jpg"
+  },
+  "Stenopelix": {
+    "art_filename": "Stenopelix_restoration.jpg",
+    "fossil_filename": "Stenopelix_pelvis.jpg"
+  },
+  "Stephanosaurus": {
+    "fossil_filename": "Trachodon_(Pteropelyx)_marginatus_humerus_and_skin.png"
+  },
+  "Stokesosaurus": {
+    "art_filename": "Stokesosaurus_SIZE.png",
+    "fossil_filename": "Stokesosaurus.jpg"
+  },
+  "Streptospondylus": {
+    "art_filename": "StreptospondylusNV.jpg",
+    "fossil_filename": "Streptospondylus_altdorfensis.JPG"
+  },
+  "Struthiomimus": {
+    "art_filename": "Struthiomimus_BW.jpg",
+    "fossil_filename": "Struthiomimus_altus_skeletal.png"
+  },
+  "Struthiosaurus": {
+    "art_filename": "1871_-_Struthiosaurus.png",
+    "fossil_filename": "Struthiosaurus_Nopsca_1915.png"
+  },
+  "Stygivenator": {
+    "fossil_filename": "Juvenile_Tyrannosaurus_(formerly_Stygivenator).jpg"
+  },
+  "Styracosaurus": {
+    "art_filename": "Styracosaurus_dinosaur.png",
+    "fossil_filename": "Styracosaurus_albertensis_skull_02.jpg"
+  },
+  "Suchomimus": {
+    "fossil_filename": "Digital_skeletal_reconstructions_of_Suchomimus.png"
+  },
+  "Suchosaurus": {
+    "art_filename": "Life_reconstruction_of_Suchosaurus_cultridens.png",
+    "fossil_filename": "Suchosaurus_cultridens_holotype_tooth.jpg"
+  },
+  "Supersaurus": {
+    "fossil_filename": "Supersaurus_moal.jpg"
+  },
+  "Suskityrannus": {
+    "art_filename": "Suskityrannus_life_reconstruction.png",
+    "fossil_filename": "Suskityrannus_mount_at_Dino_Kingdom_2012.jpg"
+  },
+  "Suuwassea": {
+    "fossil_filename": "Suuwassea_emiliae3.JPG"
+  },
+  "Suzhousaurus": {
+    "art_filename": "Suzhousaurus.JPG",
+    "fossil_filename": "Suzhousaurus_Skeletal.png"
+  },
+  "Szechuanosaurus": {
+    "fossil_filename": "Szechuanosaurus_(9964979326).jpg"
+  },
+  "Tachiraptor": {
+    "art_filename": "Illustration_of_Tachiraptor_admirabilis.jpg",
+    "fossil_filename": "Tachiraptor_admirabilis.jpg"
+  },
+  "Talarurus": {
+    "art_filename": "Talarurus.png",
+    "fossil_filename": "Talarurus_plicatospineus.JPG"
+  },
+  "Talenkauen": {
+    "art_filename": "Talenkauen_TD.png",
+    "fossil_filename": "Talenkauen.jpg"
+  },
+  "Taleta": {
+    "art_filename": "Taleta_taleta.png",
+    "fossil_filename": "Taleta_jaw_lateral_by_Nick_Longrich.jpg"
+  },
+  "Tamarro": {
+    "art_filename": "Tamarro_restoration.jpg",
+    "fossil_filename": "Tamarro_holotype.png"
+  },
+  "Tambatitanis": {
+    "fossil_filename": "Tambatitanis_TDM1JH.jpg"
+  },
+  "Tameryraptor": {
+    "art_filename": "Tameryraptor_markgrafi.png",
+    "fossil_filename": "Tameryraptor_(skeletal_reconstruction).png"
+  },
+  "Tangvayosaurus": {
+    "fossil_filename": "Femur_Tangvayosaurus_hoffeti.jpg"
+  },
+  "Tanius": {
+    "art_filename": "Tanius.jpg"
+  },
+  "Tanycolagreus": {
+    "art_filename": "Tanycolagreus_topwilsoni_skull_cast_-_Natural_History_Museum_of_Utah_-_DSC07224.JPG",
+    "fossil_filename": "Tanycolagreus_Museum_of_Ancient_Life_1.jpg"
+  },
+  "Tapuiasaurus": {
+    "art_filename": "Tapuiasaurus_NT.jpg",
+    "fossil_filename": "Tapuiasaurus.png"
+  },
+  "Tarbosaurus": {
+    "fossil_filename": "Tarbosaurus_bataar_mount_-_Dinosaur_Mysteries_exhibit.jpg"
+  },
+  "Tarchia": {
+    "fossil_filename": "Tarchia_tumanovae_holotype_skeletal.png"
+  },
+  "Tastavinsaurus": {
+    "art_filename": "Tastavinsaurus_BW.jpg"
+  },
+  "Tatankaceratops": {
+    "art_filename": "Tatankaceratops_NT.jpg"
+  },
+  "Tataouinea": {
+    "fossil_filename": "Tataouinea_skeleton.png"
+  },
+  "Tatisaurus": {
+    "fossil_filename": "Tatisaurus_oehleri.jpg"
+  },
+  "Taurovenator": {
+    "art_filename": "Taurovenator_violantei.png"
+  },
+  "Tazoudasaurus": {
+    "fossil_filename": "Tazoudasaurus.jpg"
+  },
+  "Tehuelchesaurus": {
+    "art_filename": "Tehuelchesaurus_benetezii.jpg"
+  },
+  "Teinurosaurus": {
+    "fossil_filename": "Teinurosaurus.jpg"
+  },
+  "Telmatosaurus": {
+    "art_filename": "Telmatosaurus_sketch_v2.jpg",
+    "fossil_filename": "Telmatosaurus.jpg"
+  },
+  "Tendaguria": {
+    "fossil_filename": "Tendaguria_anterior_dorsal_vertebra.png"
+  },
+  "Tenontosaurus": {
+    "art_filename": "Tenontosaurus_BW.jpg",
+    "fossil_filename": "Perot_Museum_Tenontosaurus.jpg"
+  },
+  "Teratophoneus": {
+    "art_filename": "Teratophoneus2_NT.jpg",
+    "fossil_filename": "Teratophoneus_curriei_adult_and_juvenile_2_salt_lake_city.jpg"
+  }
+}
