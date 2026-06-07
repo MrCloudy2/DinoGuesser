@@ -1,46 +1,86 @@
 'use strict';
 
-// ── Config ───────────────────────────────────────────────────────────────────
-const MAX_TRIES  = 5;
-const DB_URL     = 'dinosaurs.json';
-const LS_PREFIX  = 'dinoguess_daily_';
+// ── Config ────────────────────────────────────────────────────────────────────
+const DB_URL    = 'dinosaurs.json';
+const LS_PREFIX = 'dinoguess_daily_';
 
-// ── State ────────────────────────────────────────────────────────────────────
-let db    = [];   // all dinosaur entries from JSON
-let names = [];   // lowercase names for autocomplete (normal modes)
+// ── State ─────────────────────────────────────────────────────────────────────
+let db    = [];
+let names = [];
+let commonAliases = {};
 
-// common-name → genus name map  (e.g. "t. rex" → "Tyrannosaurus")
-let commonAliases = {};   // lower(alias) → canonical name
+// Pool sizes per difficulty level (index 0 = easiest)
+const DIFF_POOLS = [15, 30, 50, 100, 300, 500, 700, 1000, Infinity];
+const DIFF_LABELS = [
+  'Top 15 most famous dinosaurs',
+  'Top 30 most famous dinosaurs',
+  'Top 50 most famous dinosaurs',
+  'Top 100 most famous dinosaurs',
+  'Top 300 dinosaurs',
+  'Top 500 dinosaurs',
+  'Top 700 dinosaurs',
+  'Top 1000 dinosaurs',
+  'All dinosaurs',
+];
+
+let settings = {
+  mode:       'daily',
+  difficulty: 0,      // index into DIFF_POOLS
+  imagesOnly: true,
+  maxGuesses: 5,
+  startHints: 0,
+};
+
+// modes: 'daily' | 'expert' | 'choice'
+
+let lobbyMode = 'daily';
 
 let g = {
-  dino:    null,   // { name, validity, image, image_art, image_fossil, hints[], casual, clade, common_name? }
-  mode:    'daily',
-  hard:    false,
+  dino:    null,
   guesses: [],
   wrong:   0,
   done:    false,
   won:     false,
-  choices: [],    // casual mode: [{name, correct}]
+  choices: [],
 };
 
 let ddItems = [];
 let ddIdx   = -1;
 let imgView  = 'art';
-let rareMode = false;
 
-// ── Filtered database ─────────────────────────────────────────────────────────
+// ── Database filters ──────────────────────────────────────────────────────────
+// Sort db once by fame: fame_score desc, n_occs as tiebreaker
+let dbByFame = [];
+
+function buildFameOrder() {
+  dbByFame = [...db].sort((a, b) => {
+    const fa = a.fame_score || 0, fb = b.fame_score || 0;
+    if (fb !== fa) return fb - fa;
+    return (b.n_occs || 0) - (a.n_occs || 0);
+  });
+}
+
 function filteredDb() {
-  let pool = db;
-  if (!rareMode) pool = pool.filter(d => !d.validity || d.validity === 'valid');
+  const limit = DIFF_POOLS[settings.difficulty] ?? Infinity;
+  // Take top-N by fame across ALL valid genera (including disputed at high diff)
+  const includeAll = limit >= 700;
+  let pool = includeAll
+    ? dbByFame
+    : dbByFame.filter(d => !d.validity || d.validity === 'valid');
+
+  if (settings.imagesOnly) pool = pool.filter(d => d.image_art || d.image_fossil || d.image);
+
+  // Apply pool size cap — but always include at least 'limit' entries
+  if (isFinite(limit)) pool = pool.slice(0, limit);
   return pool;
 }
 
-function casualDb() {
+function choiceDb() {
   return filteredDb().filter(d => d.casual);
 }
 
 function activePool() {
-  return g.mode === 'casual' ? casualDb() : filteredDb();
+  return settings.mode === 'choice' ? choiceDb() : filteredDb();
 }
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
@@ -49,27 +89,26 @@ async function boot() {
     const r = await fetch(DB_URL);
     if (!r.ok) throw new Error(`HTTP ${r.status} — make sure you ran 5_build_db.py first`);
     db = await r.json();
-
     if (!db.length) throw new Error('dinosaurs.json is empty — run the pipeline scripts first');
 
-    // Build common-name alias map
     db.forEach(d => {
-      if (d.common_name) {
-        commonAliases[d.common_name.toLowerCase()] = d.name;
-      }
+      if (d.common_name) commonAliases[d.common_name.toLowerCase()] = d.name;
     });
 
-    rebuildNames();
-    applyStoredMode();
-    startGame();
+    buildFameOrder();
+    loadSettings();
+    syncLobby();
+    showLobby();
 
   } catch (err) {
-    document.getElementById('app').innerHTML = `
-      <div class="loading-screen">
-        <h2>⚠ Could not load dinosaurs.json</h2>
-        <p style="margin:10px 0 6px">Run the pipeline scripts first, then serve the site:</p>
-        <code>cd www &amp;&amp; python -m http.server 8000</code>
-        <p style="margin-top:12px;font-size:12px;color:#5a5248">${err.message}</p>
+    document.body.innerHTML = `
+      <div style="text-align:center;padding:60px 20px;color:#736b5e">
+        <h2 style="color:#c9943a;margin-bottom:12px">⚠ Could not load dinosaurs.json</h2>
+        <p style="margin-bottom:8px">Run the pipeline scripts first, then serve the site:</p>
+        <code style="background:#181714;border:1px solid #2b2820;border-radius:6px;padding:2px 8px;color:#e8b96a">
+          cd www &amp;&amp; python -m http.server 8000
+        </code>
+        <p style="margin-top:16px;font-size:12px">${err.message}</p>
       </div>`;
   }
 }
@@ -78,32 +117,102 @@ function rebuildNames() {
   names = filteredDb().map(d => d.name);
 }
 
-// ── Mode persistence ──────────────────────────────────────────────────────────
-function applyStoredMode() {
+// ── Settings persistence ──────────────────────────────────────────────────────
+function loadSettings() {
   try {
     const saved = JSON.parse(localStorage.getItem('dinoguess_prefs') || '{}');
-    g.mode   = saved.mode  || 'daily';
-    g.hard   = saved.hard  || false;
-    rareMode = saved.rare  || false;
+    settings = { ...settings, ...saved };
   } catch { /* ignore */ }
-  syncModeBtns();
+  lobbyMode = settings.mode;
 }
 
-function savePrefs() {
+function saveSettings() {
   try {
-    localStorage.setItem('dinoguess_prefs',
-      JSON.stringify({ mode: g.mode, hard: g.hard, rare: rareMode }));
+    localStorage.setItem('dinoguess_prefs', JSON.stringify(settings));
   } catch { /* ignore */ }
+}
+
+// ── Lobby ─────────────────────────────────────────────────────────────────────
+function showLobby() {
+  closeOverlay();
+  el('lobby').style.display = 'flex';
+  el('app').style.display   = 'none';
+  lobbyMode = settings.mode;
+  syncLobby();
+}
+
+function hideLobby() {
+  el('lobby').style.display = 'none';
+  el('app').style.display   = 'block';
+}
+
+function lobbySelectMode(mode) {
+  lobbyMode = mode;
+  ['daily', 'expert', 'choice'].forEach(m => {
+    el(`lm-${m}`).classList.toggle('active', m === mode);
+  });
+}
+
+function lobbyToggle(key) {
+  settings[key] = !settings[key];
+  const ids = { imagesOnly: 'tog-images' };
+  const btn = el(ids[key]);
+  if (btn) {
+    btn.classList.toggle('on', settings[key]);
+    btn.setAttribute('aria-checked', String(settings[key]));
+  }
+}
+
+function lobbySetDifficulty(val) {
+  settings.difficulty = val;
+  const desc = el('diff-desc');
+  if (desc) desc.textContent = DIFF_LABELS[val] ?? DIFF_LABELS[DIFF_LABELS.length - 1];
+}
+
+function lobbyChoose(key, value) {
+  settings[key] = value;
+  const ids = { maxGuesses: 'cho-guesses', startHints: 'cho-hints' };
+  el(ids[key]).querySelectorAll('.ls-choice').forEach(btn => {
+    btn.classList.toggle('active', Number(btn.textContent) === value);
+  });
+}
+
+function lobbyPlay() {
+  settings.mode = lobbyMode;
+  saveSettings();
+  rebuildNames();
+  hideLobby();
+  startGame();
+}
+
+function syncLobby() {
+  lobbySelectMode(lobbyMode);
+
+  const imgBtn = el('tog-images');
+  if (imgBtn) {
+    imgBtn.classList.toggle('on', settings.imagesOnly);
+    imgBtn.setAttribute('aria-checked', String(settings.imagesOnly));
+  }
+
+  const slider = el('diff-slider');
+  if (slider) slider.value = settings.difficulty;
+  const desc = el('diff-desc');
+  if (desc) desc.textContent = DIFF_LABELS[settings.difficulty] ?? DIFF_LABELS[DIFF_LABELS.length - 1];
+
+  el('cho-guesses').querySelectorAll('.ls-choice').forEach(btn => {
+    btn.classList.toggle('active', Number(btn.textContent) === settings.maxGuesses);
+  });
+  el('cho-hints').querySelectorAll('.ls-choice').forEach(btn => {
+    btn.classList.toggle('active', Number(btn.textContent) === settings.startHints);
+  });
 }
 
 // ── Game start ────────────────────────────────────────────────────────────────
 function startGame() {
-  const dino = pickDino(g.mode);
+  const dino = pickDino(settings.mode);
 
   g = {
     dino,
-    mode:    g.mode,
-    hard:    g.hard,
     guesses: [],
     wrong:   0,
     done:    false,
@@ -111,7 +220,7 @@ function startGame() {
     choices: [],
   };
 
-  if (g.mode === 'daily') {
+  if (settings.mode === 'daily') {
     const saved = loadDailyProgress(dino.name);
     if (saved) {
       g.guesses = saved.guesses;
@@ -121,7 +230,7 @@ function startGame() {
     }
   }
 
-  if (g.mode === 'casual') {
+  if (settings.mode === 'choice') {
     g.choices = buildChoices(dino);
   }
 
@@ -137,7 +246,6 @@ function startGame() {
 function pickDino(mode) {
   const pool = activePool();
   if (!pool.length) {
-    // Fallback: casual pool empty → use full filtered db
     const fallback = filteredDb();
     return fallback[Math.floor(Math.random() * fallback.length)];
   }
@@ -158,19 +266,14 @@ function dailyKey() {
   return `${LS_PREFIX}${now.getUTCFullYear()}-${String(now.getUTCMonth()+1).padStart(2,'0')}-${String(now.getUTCDate()).padStart(2,'0')}`;
 }
 
-// ── Casual mode: build 4 multiple-choice options ──────────────────────────────
+// ── Choice mode: build 4 options ─────────────────────────────────────────────
 function buildChoices(correct) {
-  const pool = casualDb().length ? casualDb() : filteredDb();
-
-  // Pick 3 decoys from same clade; fall back to random pool
+  const pool      = choiceDb().length ? choiceDb() : filteredDb();
   const sameClade = pool.filter(d => d.name !== correct.name && d.clade === correct.clade);
   const other     = pool.filter(d => d.name !== correct.name && d.clade !== correct.clade);
-
   const decoyPool = sameClade.length >= 3 ? sameClade : [...sameClade, ...other];
   const decoys    = shuffle(decoyPool).slice(0, 3);
-
-  const all = shuffle([{ name: correct.name, correct: true }, ...decoys.map(d => ({ name: d.name, correct: false }))]);
-  return all;
+  return shuffle([{ name: correct.name, correct: true }, ...decoys.map(d => ({ name: d.name, correct: false }))]);
 }
 
 function shuffle(arr) {
@@ -184,7 +287,7 @@ function shuffle(arr) {
 
 // ── Daily progress ────────────────────────────────────────────────────────────
 function saveDailyProgress() {
-  if (g.mode !== 'daily') return;
+  if (settings.mode !== 'daily') return;
   try {
     localStorage.setItem(dailyKey(), JSON.stringify({
       dinoName: g.dino.name,
@@ -206,49 +309,7 @@ function loadDailyProgress(dinoName) {
   } catch { return null; }
 }
 
-// ── Mode controls ─────────────────────────────────────────────────────────────
-function setMode(mode) {
-  g.mode = mode;
-  closeOverlay();
-  syncModeBtns();
-  savePrefs();
-  rebuildNames();
-  startGame();
-}
-
-function toggleHard() {
-  g.hard = !g.hard;
-  syncModeBtns();
-  savePrefs();
-  startGame();
-}
-
-function toggleRare() {
-  rareMode = !rareMode;
-  syncModeBtns();
-  savePrefs();
-  rebuildNames();
-  startGame();
-}
-
-function syncModeBtns() {
-  el('btn-daily') .classList.toggle('active', g.mode === 'daily');
-  el('btn-random').classList.toggle('active', g.mode === 'random');
-  el('btn-casual').classList.toggle('active', g.mode === 'casual');
-  el('btn-hard')  .classList.toggle('active', g.hard);
-  const rareBtn = el('btn-rare');
-  if (rareBtn) rareBtn.classList.toggle('active', rareMode);
-}
-
-function newGame() {
-  if (g.mode === 'random' || g.mode === 'casual') {
-    startGame();
-  } else {
-    closeOverlay();
-  }
-}
-
-// ── Render ─────────────────────────────────────────────────────────────────────
+// ── Render ────────────────────────────────────────────────────────────────────
 function render() {
   renderSubtitle();
   renderImage();
@@ -256,11 +317,11 @@ function render() {
   renderDots();
   renderGuesses();
 
-  const isCasual = g.mode === 'casual';
-  el('input-area')     .style.display = isCasual ? 'none'  : 'block';
-  el('casual-choices') .style.display = isCasual ? 'block' : 'none';
+  const isChoice = settings.mode === 'choice';
+  el('input-area')    .style.display = isChoice ? 'none'  : 'block';
+  el('casual-choices').style.display = isChoice ? 'block' : 'none';
 
-  if (!isCasual) {
+  if (!isChoice) {
     el('submit-btn') .disabled = g.done;
     el('guess-input').disabled = g.done;
   } else {
@@ -269,14 +330,18 @@ function render() {
 }
 
 function renderSubtitle() {
-  const label = g.mode === 'casual' ? 'Casual 🌿'
-              : g.mode === 'daily'  ? `Day #${(dailyIndex() + 1)}`
-              : 'Random';
-  el('day-label').textContent = label + (g.hard ? ' · Hard Mode 💀' : '');
+  const modeLabel = { daily: '📅 Daily', expert: '🎲 Expert', choice: '🌿 Choice' }[settings.mode] || '';
+  const poolSize  = DIFF_POOLS[settings.difficulty];
+  const diffLabel = isFinite(poolSize) ? `Top ${poolSize}` : 'All';
+  const parts = [
+    settings.mode === 'daily' ? `Day #${dailyIndex() + 1}` : modeLabel,
+    diffLabel,
+  ].filter(Boolean);
+  el('day-label').textContent = parts.join(' · ');
 }
 
 function renderImage() {
-  const showImg   = !g.hard || g.done;
+  const showImg   = true;
   const dino      = g.dino;
   const imgArt    = dino?.image_art    || dino?.image || null;
   const imgFossil = dino?.image_fossil || null;
@@ -284,9 +349,9 @@ function renderImage() {
 
   const src = imgView === 'fossil' ? (imgFossil || imgArt) : (imgArt || imgFossil);
 
-  el('dino-img')    .style.display = (showImg && !!src)  ? 'block' : 'none';
-  el('ph-no-image') .style.display = (showImg && !src)   ? 'flex'  : 'none';
-  el('ph-hidden')   .style.display = (!showImg)          ? 'flex'  : 'none';
+  el('dino-img')   .style.display = (showImg && !!src) ? 'block' : 'none';
+  el('ph-no-image').style.display = (showImg && !src)  ? 'flex'  : 'none';
+  el('ph-hidden')  .style.display = (!showImg)         ? 'flex'  : 'none';
 
   const toggle = el('img-toggle');
   toggle.style.display = (showImg && hasBoth) ? 'flex' : 'none';
@@ -310,21 +375,22 @@ function setImgView(view) {
 }
 
 function renderHints() {
-  // Normal: 0 hints at start; Hard: 1 hint at start; Casual: always show 2 hints
   let count;
-  if (g.mode === 'casual') {
-    count = Math.min(2 + g.wrong, g.dino.hints.length);
+  if (settings.mode === 'choice') {
+    // Show all hints upfront in choice mode
+    count = g.dino.hints.length;
   } else {
-    count = Math.min(g.hard ? g.wrong + 1 : g.wrong, g.dino.hints.length);
+    count = Math.min(settings.startHints + g.wrong, g.dino.hints.length);
   }
 
   const section = el('hints-section');
   const list    = el('hints-list');
-
   section.style.display = count > 0 ? 'block' : 'none';
 
+  // Clear if dino changed or count shrank (new game)
   const existing = list.querySelectorAll('.hint-card').length;
-  if (existing === count) return;
+  if (list.dataset.dino !== g.dino.name) { list.innerHTML = ''; list.dataset.dino = g.dino.name; }
+  if (list.querySelectorAll('.hint-card').length === count) return;
 
   list.innerHTML = '';
   for (let i = 0; i < count; i++) {
@@ -338,7 +404,8 @@ function renderHints() {
 function renderDots() {
   const container = el('tries-dots');
   container.innerHTML = '';
-  for (let i = 0; i < MAX_TRIES; i++) {
+  const limit = settings.mode === 'choice' ? 1 : settings.maxGuesses;
+  for (let i = 0; i < limit; i++) {
     const d = document.createElement('span');
     d.className = 'dot';
     if (i < g.wrong)                   d.classList.add('used');
@@ -349,6 +416,7 @@ function renderDots() {
 
 function renderGuesses() {
   const list = el('guesses-list');
+  if (list.dataset.dino !== g.dino.name) { list.innerHTML = ''; list.dataset.dino = g.dino.name; }
   const existing = list.querySelectorAll('.guess-item').length;
   for (let i = existing; i < g.guesses.length; i++) {
     const gu = g.guesses[i];
@@ -363,7 +431,6 @@ function renderCasualChoices() {
   const container = el('choice-btns');
   container.innerHTML = '';
   if (g.done) return;
-
   g.choices.forEach(({ name }) => {
     const btn = document.createElement('button');
     btn.className = 'choice-btn';
@@ -377,28 +444,21 @@ function renderCasualChoices() {
 function resolveGuess(raw) {
   const q = raw.trim().toLowerCase();
   if (!q) return null;
-
-  // 1. Exact match against genus names
   const exact = names.find(n => n.toLowerCase() === q);
   if (exact) return exact;
-
-  // 2. Common-name alias  (e.g. "t. rex" → "Tyrannosaurus")
   if (commonAliases[q]) return commonAliases[q];
-
   return null;
 }
 
 function submitGuess(name) {
   if (g.done || !name.trim()) return;
 
-  // In casual mode bypass validation — buttons only contain valid names
-  const match = g.mode === 'casual'
+  const match = settings.mode === 'choice'
     ? name.trim()
     : resolveGuess(name);
 
   if (!match) { shakeInput(); return; }
 
-  // Prevent duplicate guesses
   if (g.guesses.some(gu => gu.name.toLowerCase() === match.toLowerCase())) {
     shakeInput();
     return;
@@ -412,7 +472,8 @@ function submitGuess(name) {
     g.won  = true;
   } else {
     g.wrong++;
-    if (g.wrong >= MAX_TRIES) {
+    const limit = settings.mode === 'choice' ? 1 : settings.maxGuesses;
+    if (g.wrong >= limit) {
       g.done = true;
       g.won  = false;
     }
@@ -420,7 +481,6 @@ function submitGuess(name) {
 
   saveDailyProgress();
   render();
-
   if (g.done) setTimeout(showOverlay, 700);
 }
 
@@ -444,19 +504,13 @@ function onInput(value) {
 
 function filterNames(query) {
   const q = query.toLowerCase().trim();
-
-  // Check if it matches a common alias — prepend the resolved genus
   const aliasMatch = commonAliases[q];
-
   const starts   = names.filter(n => n.toLowerCase().startsWith(q));
   const contains = names.filter(n => !n.toLowerCase().startsWith(q) && n.toLowerCase().includes(q));
   let results    = [...starts, ...contains];
-
-  // If alias resolves to a genus not already in results, prepend it
   if (aliasMatch && !results.find(n => n.toLowerCase() === aliasMatch.toLowerCase())) {
     results = [aliasMatch, ...results];
   }
-
   return results.slice(0, 8);
 }
 
@@ -470,7 +524,6 @@ function renderDropdown() {
     item.className = 'dd-item';
     item.role = 'option';
     item.setAttribute('data-i', i);
-    // Show common name hint in dropdown if applicable
     const dino = db.find(d => d.name === name);
     const label = dino?.common_name ? `${name} <span class="dd-alias">(${dino.common_name})</span>` : name;
     item.innerHTML = label;
@@ -504,7 +557,6 @@ function highlightDd() {
 function onKeyDown(e) {
   const dd   = el('dropdown');
   const open = dd.classList.contains('open');
-
   if (e.key === 'ArrowDown') {
     e.preventDefault();
     if (!open) return;
@@ -521,7 +573,7 @@ function onKeyDown(e) {
     if (ddIdx >= 0) el('guess-input').value = ddItems[ddIdx];
     return;
   }
-  if (e.key === 'Enter') { e.preventDefault(); submitFromInput(); return; }
+  if (e.key === 'Enter')  { e.preventDefault(); submitFromInput(); return; }
   if (e.key === 'Escape') { closeDropdown(); return; }
 }
 
@@ -538,21 +590,17 @@ function showOverlay() {
   const badgeEl = el('overlay-validity');
   if (badgeEl) { badgeEl.textContent = badge; badgeEl.style.display = badge ? 'block' : 'none'; }
 
+  const limit = settings.mode === 'choice' ? 1 : settings.maxGuesses;
   el('overlay-result').textContent = g.won
-    ? (g.wrong === 0 ? '🏆 Perfect score!' : `🎉 Got it in ${g.wrong + 1}/${MAX_TRIES}${g.hard ? ' · Hard' : ''}`)
+    ? (g.wrong === 0 ? '🏆 Perfect score!' : `🎉 Got it in ${g.wrong + 1}/${limit}`)
     : '😔 Game over — it was…';
 
   el('overlay-name').textContent = dino.name;
 
-  // Common name below genus
   const commonEl = el('overlay-common');
   if (commonEl) {
-    if (dino.common_name) {
-      commonEl.textContent = `"${dino.common_name}"`;
-      commonEl.style.display = 'block';
-    } else {
-      commonEl.style.display = 'none';
-    }
+    if (dino.common_name) { commonEl.textContent = `"${dino.common_name}"`; commonEl.style.display = 'block'; }
+    else commonEl.style.display = 'none';
   }
 
   const img     = el('overlay-img');
@@ -576,7 +624,6 @@ function showOverlay() {
 
   el('share-msg').style.display = 'none';
   el('overlay').classList.add('open');
-
   renderImage();
 }
 
@@ -584,18 +631,21 @@ function closeOverlay() {
   el('overlay').classList.remove('open');
 }
 
+function newGame() {
+  closeOverlay();
+  if (settings.mode === 'expert' || settings.mode === 'choice') {
+    startGame();
+  }
+}
+
 // ── Share ─────────────────────────────────────────────────────────────────────
 function shareResult() {
-  const grid  = g.guesses.map(gu => gu.correct ? '🟩' : '🟥').join('');
-  const score = g.won ? `${g.wrong + 1}/${MAX_TRIES}` : `X/${MAX_TRIES}`;
-  const mode  = [
-    g.mode === 'daily'  ? '📅' : g.mode === 'casual' ? '🌿' : '🎲',
-    g.hard ? '💀' : '',
-  ].filter(Boolean).join('');
-
+  const grid      = g.guesses.map(gu => gu.correct ? '🟩' : '🟥').join('');
+  const score     = g.won ? `${g.wrong + 1}/${settings.maxGuesses}` : `X/${settings.maxGuesses}`;
+  const modeEmoji = { daily: '📅', expert: '🎲', choice: '🌿' }[settings.mode] || '🎲';
   const text = [
-    `🦕 DinoGuess ${mode}`,
-    g.mode === 'daily' ? `Day #${dailyIndex() + 1}` : g.mode === 'casual' ? 'Casual' : 'Random',
+    `🦕 DinoGuess ${modeEmoji}${settings.hard ? '💀' : ''}`,
+    settings.mode === 'daily' ? `Day #${dailyIndex() + 1}` : settings.mode === 'choice' ? 'Choice' : 'Expert',
     `${grid} ${score}`,
     window.location.href,
   ].join('\n');
@@ -626,5 +676,4 @@ function resetInput() {
   closeDropdown();
 }
 
-// ── Start ─────────────────────────────────────────────────────────────────────
 boot();
