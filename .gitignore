@@ -1,8 +1,13 @@
 # Pipeline — local only, not published
 pipeline/
-data/
 picker.html
 requirements.txt
+
+# Data — images excluded, everything else tracked
+data/images/
+data/raw_pages/
+data/hints_cache/
+data/image_lists/
 
 # Images — served separately from the production server
 www/images/
