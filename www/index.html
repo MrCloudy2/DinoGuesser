@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DinoGuess</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <header>
+    <div class="logo">🦕 DinoGuess</div>
+    <div class="subtitle" id="day-label">Loading...</div>
+    <div class="mode-bar">
+      <button class="mode-btn active" id="btn-daily"  onclick="setMode('daily')">📅 Daily</button>
+      <button class="mode-btn"        id="btn-random" onclick="setMode('random')">🎲 Random</button>
+      <button class="mode-btn"        id="btn-casual" onclick="setMode('casual')">🌿 Casual</button>
+      <button class="mode-btn"        id="btn-hard"   onclick="toggleHard()">💀 Hard</button>
+      <button class="mode-btn"        id="btn-rare"   onclick="toggleRare()">🔬 Rare</button>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Dinosaur image -->
+    <div class="image-card" id="image-card">
+      <img id="dino-img" src="" alt="Dinosaur to identify" loading="lazy">
+      <div class="placeholder" id="ph-no-image">
+        <span class="ph-icon">🦴</span>
+        <span>No image available</span>
+      </div>
+      <div class="img-toggle" id="img-toggle">
+        <button id="btn-view-art"    class="itog-btn active" onclick="setImgView('art')">🎨 Art</button>
+        <button id="btn-view-fossil" class="itog-btn"        onclick="setImgView('fossil')">🦴 Fossil</button>
+      </div>
+      <div class="placeholder" id="ph-hidden">
+        <span class="ph-icon">🔒</span>
+        <span>Image hidden in Hard Mode</span>
+        <span class="ph-sub">Revealed after game ends</span>
+      </div>
+    </div>
+
+    <!-- Hints -->
+    <section class="hints-section" id="hints-section" aria-label="Hints">
+      <div class="section-label">Hints</div>
+      <div id="hints-list"></div>
+    </section>
+
+    <!-- Tries remaining -->
+    <div class="tries-row">
+      <span class="tries-label">Tries left</span>
+      <div id="tries-dots" aria-label="Tries remaining"></div>
+    </div>
+
+    <!-- Text input (Normal / Hard / Rare modes) -->
+    <div class="input-area" id="input-area">
+      <div class="input-row">
+        <div class="input-wrap">
+          <input
+            type="text"
+            id="guess-input"
+            placeholder="Type a dinosaur name…"
+            autocomplete="off"
+            spellcheck="false"
+            aria-label="Dinosaur name guess"
+            oninput="onInput(this.value)"
+            onkeydown="onKeyDown(event)"
+          >
+          <div class="dropdown" id="dropdown" role="listbox"></div>
+        </div>
+        <button id="submit-btn" onclick="submitFromInput()" aria-label="Submit guess">Guess</button>
+      </div>
+    </div>
+
+    <!-- Multiple-choice buttons (Casual mode) -->
+    <div class="casual-choices" id="casual-choices" style="display:none">
+      <div id="choice-btns"></div>
+    </div>
+
+    <!-- Previous guesses -->
+    <section class="guesses-section" aria-label="Previous guesses">
+      <div id="guesses-list"></div>
+    </section>
+
+  </main>
+
+</div><!-- #app -->
+
+<!-- Game-over overlay -->
+<div class="overlay" id="overlay" role="dialog" aria-modal="true" aria-label="Game result">
+  <div class="overlay-card">
+    <div class="overlay-result"  id="overlay-result"></div>
+    <div id="overlay-validity" style="display:none;font-size:12px;color:var(--text-muted);margin-bottom:4px"></div>
+    <div class="overlay-name"   id="overlay-name"></div>
+    <div id="overlay-common"    style="display:none;font-size:13px;color:var(--text-muted);margin-top:-6px;margin-bottom:8px"></div>
+    <img id="overlay-img"       src="" alt="Correct dinosaur" loading="lazy">
+    <img id="overlay-fossil-img" src="" alt="Fossil" loading="lazy" style="display:none;margin-top:8px">
+    <div class="overlay-hints"  id="overlay-hints"></div>
+    <div class="overlay-btns">
+      <button class="btn-primary"   onclick="shareResult()">Share 📋</button>
+      <button class="btn-secondary" onclick="newGame()">Play Again</button>
+    </div>
+    <div id="share-msg" aria-live="polite">Copied!</div>
+  </div>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
