@@ -1,7 +1,7 @@
 'use strict';
 
 // ── Config ────────────────────────────────────────────────────────────────────
-const VERSION   = '20260608b';
+const VERSION   = '20260608c';
 const DB_URL    = 'dinosaurs.json';
 const LS_PREFIX = 'dinoguess_daily_';
 // Day 1 = June 8 2026 (launch date). This never changes.
@@ -183,9 +183,9 @@ function lobbySelectMode(mode) {
   ['daily', 'expert', 'choice'].forEach(m => {
     el(`lm-${m}`).classList.toggle('active', m === mode);
   });
-  // Dim Max Guesses + Starting Hints rows and show note when daily is selected
+  // Dim all settings that don't apply to daily
   const isDaily = mode === 'daily';
-  ['row-guesses', 'row-hints'].forEach(id => {
+  ['row-difficulty', 'row-images', 'row-guesses', 'row-hints'].forEach(id => {
     const row = el(id);
     if (row) row.classList.toggle('ls-row-disabled', isDaily);
   });
