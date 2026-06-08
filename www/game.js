@@ -1,7 +1,7 @@
 'use strict';
 
 // ── Config ────────────────────────────────────────────────────────────────────
-const VERSION   = '20260608';
+const VERSION   = '20260608b';
 const DB_URL    = 'dinosaurs.json';
 const LS_PREFIX = 'dinoguess_daily_';
 // Day 1 = June 8 2026 (launch date). This never changes.
@@ -174,11 +174,23 @@ function hideLobby() {
   el('app').style.display   = 'block';
 }
 
+// Effective settings — daily is always standard rules regardless of user picks
+function effectiveMaxGuesses() { return settings.mode === 'daily' ? 5 : settings.maxGuesses; }
+function effectiveStartHints()  { return settings.mode === 'daily' ? 0 : settings.startHints;  }
+
 function lobbySelectMode(mode) {
   lobbyMode = mode;
   ['daily', 'expert', 'choice'].forEach(m => {
     el(`lm-${m}`).classList.toggle('active', m === mode);
   });
+  // Dim Max Guesses + Starting Hints rows and show note when daily is selected
+  const isDaily = mode === 'daily';
+  ['row-guesses', 'row-hints'].forEach(id => {
+    const row = el(id);
+    if (row) row.classList.toggle('ls-row-disabled', isDaily);
+  });
+  const note = el('daily-settings-note');
+  if (note) note.style.display = isDaily ? 'block' : 'none';
 }
 
 function lobbyToggle(key) {
@@ -408,7 +420,7 @@ function renderHints() {
     // Show all hints upfront in choice mode
     count = g.dino.hints.length;
   } else {
-    count = Math.min(settings.startHints + g.wrong, g.dino.hints.length);
+    count = Math.min(effectiveStartHints() + g.wrong, g.dino.hints.length);
   }
 
   const section = el('hints-section');
@@ -432,7 +444,7 @@ function renderHints() {
 function renderDots() {
   const container = el('tries-dots');
   container.innerHTML = '';
-  const limit = settings.mode === 'choice' ? 1 : settings.maxGuesses;
+  const limit = settings.mode === "choice" ? 1 : effectiveMaxGuesses();
   for (let i = 0; i < limit; i++) {
     const d = document.createElement('span');
     d.className = 'dot';
@@ -500,7 +512,7 @@ function submitGuess(name) {
     g.won  = true;
   } else {
     g.wrong++;
-    const limit = settings.mode === 'choice' ? 1 : settings.maxGuesses;
+    const limit = settings.mode === "choice" ? 1 : effectiveMaxGuesses();
     if (g.wrong >= limit) {
       g.done = true;
       g.won  = false;
@@ -618,7 +630,7 @@ function showOverlay() {
   const badgeEl = el('overlay-validity');
   if (badgeEl) { badgeEl.textContent = badge; badgeEl.style.display = badge ? 'block' : 'none'; }
 
-  const limit = settings.mode === 'choice' ? 1 : settings.maxGuesses;
+  const limit = settings.mode === "choice" ? 1 : effectiveMaxGuesses();
   el('overlay-result').textContent = g.won
     ? (g.wrong === 0 ? '🏆 Perfect score!' : `🎉 Got it in ${g.wrong + 1}/${limit}`)
     : '😔 Game over — it was…';
@@ -669,7 +681,7 @@ function newGame() {
 // ── Share ─────────────────────────────────────────────────────────────────────
 function shareResult() {
   const grid      = g.guesses.map(gu => gu.correct ? '🟩' : '🟥').join('');
-  const score     = g.won ? `${g.wrong + 1}/${settings.maxGuesses}` : `X/${settings.maxGuesses}`;
+  const score     = g.won ? `${g.wrong + 1}/${effectiveMaxGuesses()}` : `X/${effectiveMaxGuesses()}`;
   const modeEmoji = { daily: '📅', expert: '🎲', choice: '🌿' }[settings.mode] || '🎲';
   const text = [
     `🦕 DinoGuess ${modeEmoji}${settings.hard ? '💀' : ''}`,

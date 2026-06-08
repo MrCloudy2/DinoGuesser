@@ -65,7 +65,7 @@
         <button class="ls-toggle on" id="tog-images" onclick="lobbyToggle('imagesOnly')" role="switch" aria-checked="true"></button>
       </div>
 
-      <div class="ls-row">
+      <div class="ls-row" id="row-guesses">
         <div class="ls-info">
           <span class="ls-label">🎯 Max Guesses</span>
           <span class="ls-desc">How many wrong guesses before game over</span>
@@ -77,7 +77,7 @@
         </div>
       </div>
 
-      <div class="ls-row">
+      <div class="ls-row" id="row-hints">
         <div class="ls-info">
           <span class="ls-label">💡 Starting Hints</span>
           <span class="ls-desc">Hints shown before your first guess</span>
@@ -87,6 +87,10 @@
           <button class="ls-choice" onclick="lobbyChoose('startHints',1)">1</button>
           <button class="ls-choice" onclick="lobbyChoose('startHints',2)">2</button>
         </div>
+      </div>
+
+      <div id="daily-settings-note" class="daily-note" style="display:none">
+        📅 Daily uses standard rules — top 100 dinos, 5 guesses, 0 starting hints
       </div>
 
     </div>

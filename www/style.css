@@ -272,6 +272,22 @@ body {
 .btn-play:hover  { opacity: .9; transform: translateY(-1px); }
 .btn-play:active { transform: translateY(0); opacity: 1; }
 
+.ls-row-disabled {
+  opacity: .35;
+  pointer-events: none;
+}
+
+.daily-note {
+  font-size: .72rem;
+  color: var(--text-muted);
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  padding: .5rem .75rem;
+  text-align: center;
+  margin-top: .25rem;
+}
+
 .lobby-github {
   display: inline-flex;
   align-items: center;
