@@ -3,6 +3,8 @@
 // ── Config ────────────────────────────────────────────────────────────────────
 const DB_URL    = 'dinosaurs.json';
 const LS_PREFIX = 'dinoguess_daily_';
+// Day 1 = June 8 2026 (launch date). This never changes.
+const EPOCH_DAY = Math.floor(Date.UTC(2026, 5, 8) / 86400000);
 
 // ── State ─────────────────────────────────────────────────────────────────────
 let db    = [];
@@ -253,12 +255,13 @@ function pickDino(mode) {
   return pool[Math.floor(Math.random() * pool.length)];
 }
 
-function dailyIndex(total) {
+function daysSinceEpoch() {
   const now = new Date();
-  const dayNum = Math.floor(
-    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) / 86400000
-  );
-  return dayNum % (total || activePool().length);
+  return Math.floor(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) / 86400000) - EPOCH_DAY;
+}
+
+function dailyIndex(total) {
+  return daysSinceEpoch() % (total || activePool().length);
 }
 
 function dailyKey() {
@@ -334,7 +337,7 @@ function renderSubtitle() {
   const poolSize  = DIFF_POOLS[settings.difficulty];
   const diffLabel = isFinite(poolSize) ? `Top ${poolSize}` : 'All';
   const parts = [
-    settings.mode === 'daily' ? `Day #${dailyIndex() + 1}` : modeLabel,
+    settings.mode === 'daily' ? `Day #${daysSinceEpoch() + 1}` : modeLabel,
     diffLabel,
   ].filter(Boolean);
   el('day-label').textContent = parts.join(' · ');
@@ -644,7 +647,7 @@ function shareResult() {
   const modeEmoji = { daily: '📅', expert: '🎲', choice: '🌿' }[settings.mode] || '🎲';
   const text = [
     `🦕 DinoGuess ${modeEmoji}${settings.hard ? '💀' : ''}`,
-    settings.mode === 'daily' ? `Day #${dailyIndex() + 1}` : settings.mode === 'choice' ? 'Choice' : 'Expert',
+    settings.mode === 'daily' ? `Day #${daysSinceEpoch() + 1}` : settings.mode === 'choice' ? 'Choice' : 'Expert',
     `${grid} ${score}`,
     window.location.href,
   ].join('\n');
