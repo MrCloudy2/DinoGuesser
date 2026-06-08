@@ -1,7 +1,7 @@
 'use strict';
 
 // ── Config ────────────────────────────────────────────────────────────────────
-const VERSION   = '20260608c';
+const VERSION   = '20260608d';
 const DB_URL    = 'dinosaurs.json';
 const LS_PREFIX = 'dinoguess_daily_';
 // Day 1 = June 8 2026 (launch date). This never changes.
@@ -649,14 +649,7 @@ function showOverlay() {
   else         { img.style.display = 'none'; }
 
   const overlayFossil = el('overlay-fossil-img');
-  if (overlayFossil) {
-    if (dino.image_fossil && dino.image_art) {
-      overlayFossil.src = dino.image_fossil;
-      overlayFossil.style.display = 'block';
-    } else {
-      overlayFossil.style.display = 'none';
-    }
-  }
+  if (overlayFossil) overlayFossil.style.display = 'none';
 
   el('overlay-hints').innerHTML = dino.hints
     .map((h, i) => `<div class="overlay-hint"><strong>${i+1}/5</strong>&nbsp; ${esc(h)}</div>`)
