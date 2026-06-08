@@ -1,10 +1,25 @@
 'use strict';
 
 // ── Config ────────────────────────────────────────────────────────────────────
+const VERSION   = '20260608';
 const DB_URL    = 'dinosaurs.json';
 const LS_PREFIX = 'dinoguess_daily_';
 // Day 1 = June 8 2026 (launch date). This never changes.
 const EPOCH_DAY = Math.floor(Date.UTC(2026, 5, 8) / 86400000);
+
+// ── Force-refresh on new deploy ───────────────────────────────────────────────
+(function () {
+  const key = 'dg_version';
+  const stored = localStorage.getItem(key);
+  if (stored && stored !== VERSION) {
+    localStorage.setItem(key, VERSION);
+    // Reload with a cache-busting param so the browser fetches fresh HTML + JS
+    const base = location.href.replace(/[?#].*/, '');
+    location.replace(base + '?v=' + VERSION);
+  } else {
+    localStorage.setItem(key, VERSION);
+  }
+})();
 
 // ── State ─────────────────────────────────────────────────────────────────────
 let db    = [];
@@ -81,8 +96,19 @@ function choiceDb() {
   return filteredDb().filter(d => d.casual);
 }
 
+function dailyPool() {
+  // Daily is always top-100 famous, images only, valid only — never affected by user settings.
+  const pool = dbByFame
+    .filter(d => !d.validity || d.validity === 'valid')
+    .filter(d => d.image_art || d.image_fossil || d.image)
+    .slice(0, 100);
+  return pool.length ? pool : filteredDb();
+}
+
 function activePool() {
-  return settings.mode === 'choice' ? choiceDb() : filteredDb();
+  if (settings.mode === 'daily')  return dailyPool();
+  if (settings.mode === 'choice') return choiceDb();
+  return filteredDb();
 }
 
 // ── Boot ──────────────────────────────────────────────────────────────────────
