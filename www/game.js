@@ -1,7 +1,7 @@
 'use strict';
 
 // ── Config ────────────────────────────────────────────────────────────────────
-const VERSION   = '20260608d';
+const VERSION   = '20260608e';
 const DB_URL    = 'dinosaurs.json';
 const LS_PREFIX = 'dinoguess_daily_';
 // Day 1 = June 8 2026 (launch date). This never changes.
@@ -65,6 +65,45 @@ let ddItems = [];
 let ddIdx   = -1;
 let imgView  = 'art';
 
+// ── Shuffle bag ───────────────────────────────────────────────────────────────
+const LS_QUEUE = 'dinoguess_queue';
+let shuffleQueue = [];
+let queuePoolKey = '';
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function poolKey(mode) {
+  return `${mode}|${settings.difficulty}|${settings.imagesOnly}`;
+}
+
+function saveQueue() {
+  try {
+    localStorage.setItem(LS_QUEUE, JSON.stringify({
+      key: queuePoolKey,
+      q:   shuffleQueue.map(d => d.name),
+    }));
+  } catch {}
+}
+
+function loadQueue() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(LS_QUEUE) || 'null');
+    if (!raw || raw.key !== poolKey(settings.mode)) return;
+    const byName = Object.fromEntries(activePool().map(d => [d.name, d]));
+    const restored = raw.q.map(n => byName[n]).filter(Boolean);
+    if (restored.length) {
+      shuffleQueue = restored;
+      queuePoolKey = raw.key;
+    }
+  } catch {}
+}
+
 // ── Database filters ──────────────────────────────────────────────────────────
 // Sort db once by fame: fame_score desc, n_occs as tiebreaker
 let dbByFame = [];
@@ -125,6 +164,7 @@ async function boot() {
 
     buildFameOrder();
     loadSettings();
+    loadQueue();
     syncLobby();
     showLobby();
 
@@ -284,13 +324,28 @@ function startGame() {
 
 // ── Dino selection ────────────────────────────────────────────────────────────
 function pickDino(mode) {
+  // Daily is always deterministic — no queue
+  if (mode === 'daily') {
+    const pool = dailyPool();
+    return pool[dailyIndex(pool.length)];
+  }
+
   const pool = activePool();
   if (!pool.length) {
-    const fallback = filteredDb();
-    return fallback[Math.floor(Math.random() * fallback.length)];
+    const fb = filteredDb();
+    return fb[Math.floor(Math.random() * fb.length)];
   }
-  if (mode === 'daily') return pool[dailyIndex(pool.length)];
-  return pool[Math.floor(Math.random() * pool.length)];
+
+  const key = poolKey(mode);
+  // Refill queue when exhausted or pool changed (difficulty / imagesOnly toggled)
+  if (shuffleQueue.length === 0 || queuePoolKey !== key) {
+    shuffleQueue = shuffle([...pool]);
+    queuePoolKey = key;
+  }
+
+  const picked = shuffleQueue.pop();
+  saveQueue();
+  return picked;
 }
 
 function daysSinceEpoch() {
